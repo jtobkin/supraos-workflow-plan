@@ -1,6 +1,6 @@
 # Ship Verified SupraOS Agent Workflows
 
-Working checkpoint: 2026-10-02 17:18 UTC. Execution is active. The owner requested an implementation pause at **2026-10-02 19:36:59 UTC / 2026-10-03 03:36:59 Hong Kong**, followed by an updated handoff and checklist. This checkpoint will be refreshed at that stop. The project is not complete.
+Working checkpoint: 2026-10-02 17:44 UTC. Execution is active. The owner requested an implementation pause at **2026-10-02 19:36:59 UTC / 2026-10-03 03:36:59 Hong Kong**, followed by an updated handoff and checklist. This checkpoint will be refreshed at that stop. The project is not complete.
 
 This public document is intended to let a new session on a new computer understand the work. It contains no credentials. Public access to this document does **not** grant access to the private application repository, databases, providers, deployment accounts or original workstation. Use the owner's normal authorized access for those resources.
 
@@ -51,7 +51,8 @@ Repository: [jtobkin/suprafx-platform](https://github.com/jtobkin/suprafx-platfo
 | [PR6129](https://github.com/jtobkin/suprafx-platform/pull/6129) | `9c3c7bd4e6c4c6ba58d2fa69424424fa84c79365` | Actual API/bot/child authority and approved selected pure continuation. Draft stacked on6123. |
 | [PR6132](https://github.com/jtobkin/suprafx-platform/pull/6132) | `2b68ff4d0dbeb15032cb7b03fa1cabd4ef406350` | Owner-private workflow storage, exact operation permissions and uncertain upload recovery. Draft stacked on6129. |
 | [PR6138](https://github.com/jtobkin/suprafx-platform/pull/6138) | `227de4f57e35cf111788f8bfca4e50a7d75342f5` | Ordinary email recipient authority, owner-only output destination and approval recovery. Draft stacked on6132; source qualified, required CI enqueued once. |
-| [PR6118](https://github.com/jtobkin/suprafx-platform/pull/6118) | `d82464efd0` (resolve full object through Git before use) | Separate project dispatch/schema candidate. Not part of the workflow stack above. Seven project packets and operator/client rollout remain prerequisites. |
+| [PR6141](https://github.com/jtobkin/suprafx-platform/pull/6141) | `c8d5bbaaffb59115d78bf2ca5a29ea1c3e6a0b40` | Eligible project recipient selection; qualified draft successor to6118. Required CI queued; inherited rollout prerequisites open. |
+| [PR6118](https://github.com/jtobkin/suprafx-platform/pull/6118) | `d82464efd076c707760e0809f4aa3dccd0150bba` | Separate project dispatch/schema candidate. Not part of the workflow stack above. Seven project packets and operator/client rollout remain prerequisites. |
 
 Other ready candidates6053/6066/6107/6121 remain in the canonical checklist. Re-read live GitHub state before any release action: the table is a timestamped checkpoint, not permission to assume a check passed.
 
@@ -69,18 +70,24 @@ The socket-loss browser case observed multiple raw POST attempts from transport 
 
 ## 5. Immediate parallel lanes
 
-Three Sol6 agents are organized around one delivery dependency, with root coordinating release and evidence:
+The recipient-selection repair is now frozen and published as PR6141, exact `c8d5bbaaffb59115d78bf2ca5a29ea1c3e6a0b40`, on project predecessor6118. It filters connected project-capable relays before ordering and excludes null heartbeat/empty token entries. Ordinary dispatch remains unchanged; SQL retains final server-clock freshness and authorization. Runtime bytes are unchanged since2c40; the final commits add complete producer tests and a narrow test-only typing repair.
 
-- Implementation: a separate project-dispatch successor, preserving frozen email source.
-- Native qualification: reproduce the existing recipient-selection defect against captured PostgreSQL/PostgREST and verify the actual repair.
-- Independent review: verify owner scope, unchanged ordinary dispatch, after-selection revocation, null heartbeat/token masking and original payload retention.
+The final source has13/13 captured PostgreSQL/PostgREST controls,20/20 canonical tickPlan tests,52 affected types and a75-commit publication secret scan. The actual extracted deliverDispatch producer seals the original reviewed payload and recipient through real SQL before a synthetic Realtime acknowledgment. Denial and post-selection revocation cause no broadcast. These tests do not establish mounted Realtime or live project delivery. Source, schema, operator, client rollout and live acceptance are tracked separately.
 
-The project producer initially chose the newest owner relay without considering capability/status. A newer legacy relay could hide an older capable one; the final SQL bind correctly refused, leaving useful work undelivered. Baseline d824 reproduced two failures with seven prior controls passing. Source5a61 fixed capability/status selection, but independent tests demonstrated null heartbeat and empty token could still mask an eligible relay. Narrow successor `2c40d2ef556ea2173440609beceedf3a8fc6eca6` excludes those in the project-only query before ordering/limit. It is still under qualification at this checkpoint. Ordinary dispatch remains unchanged; the existing SQL bind retains final server-clock freshness and authorization. No new schema, TTL increase or production control mutation is part of this repair.
+The three Sol6 agents are now working on the existing W7 workflow-tool retry dependency:
+
+- Implementation owns a separate composition worktree based on frozen email candidate227de. Existing frozen release branches remain unchanged.
+- Native verification owns preserved retry failures, real database admission and changed-target/concurrent retry tests.
+- Independent review owns the production caller/identity/provenance map, authority boundaries and final source audit.
+
+Exact227de tests reproduced two effects for one repeated execute_workflow request, including a lost provider acknowledgment. The update_node extension similarly repeated a save after success or an uncertain save reply. Those tests inject a server coordinate: they expose the admission gap but do not prove that real callers already propagate that coordinate.
+
+Code review found the historical W7 source depends on a trusted ToolContext and durable input-provenance chain absent from227de. A wrapper-only port would cause existing production calls to refuse. The successor must carry the complete supported caller chain and preserve the original input/target; the target-keyed W6 receipt alone may not prevent changing targets under one call coordinate. Independent PostgreSQL/PostgREST tests on an explicitly recorded historical source overlay confirmed that changed-target and concurrent A/B requests can both save. This is diagnosis of the existing helper/SQL contract, not full historical-source or trusted-caller qualification. No W7 successor is release-ready at this checkpoint.
 
 ## 6. Production blockers and exact next actions
 
-1. Finish exact-source qualification of the project recipient repair. Keep baseline failures and source hashes. Confirm actual producer integration, not only an extracted helper.
-2. Monitor existing required CI without cancelling it for unrelated source advances. At the last census two jobs were running and90 queued; a queued check is not a pass. Do not change budgets, queue priority or release controls.
+1. Keep PR6141 frozen while required CI runs. Finish W7 trusted caller/provenance composition and independent positive, denial, changed-target and uncertain-outcome qualification. Preserve failure evidence; do not ship wrappers without usable production callers.
+2. Monitor existing required CI without cancelling it for unrelated source advances. At the last census two jobs were running and92 queued; a queued check is not a pass. Do not change budgets, queue priority or release controls.
 3. Release ready no-new-SQL candidates through `scripts/ci/box-ci/merge-if-green.sh`, observe the actual deployed commit, then independently verify relevant deployed behavior.
 4. Build/qualify the actual workflow operation in the release operator. The current Money-specific operator does not install these workflow packets. An unused descriptor or a wrapper that merely reaches a refusal is not completion.
 5. Establish verified target/CA, one continuous REST/direct-PostgreSQL/Docker/effect exclusion window, old web/cron/external invocation drainage and faithful backup/restore. Wrapper locks alone do not close direct privileged connections or raw Docker writers.
@@ -111,6 +118,7 @@ If an exact object is absent, fetch its recorded branch or PR head first and ver
 | Workflow runtime and original authority | `lib/vms/workflows/execution-engine.ts`; adjacent checkpoint, grants, scheduling and continuation modules |
 | Exact ordinary email | `lib/vms/workflows/notification-recipients.ts`, `notification-grant-requests.ts`, `outcome-delivery.ts` |
 | Permission API and mounted owner UI | `app/api/approvals/route.ts`; `app/vms/settings/grants/PendingRequestsSection.tsx`; page metadata in `lib/vms/page-registry.ts` |
+| Workflow tool callers and pending identity integration | `core-extensions/workflows/src/tools/{execute_workflow,update_node}.ts`; `lib/vms/workflows/workspace-tools.ts`; pending trusted `ToolContext.toolExecution` and `lib/harness/tool-execution-identity.ts`/tool provenance producers |
 | Project dispatch producer | `lib/supraos-build/plan-coordinator.ts`, especially `deliverDispatch`, recipient selection and broadcast |
 | Database authority | `supabase/migrations/`; use exact candidate forward/VERIFY packets and the reviewed operator contract |
 | Required release guard/CI | `scripts/ci/box-ci/merge-if-green.sh`, `box-ci.mjs` and adjacent library/runner code |
@@ -128,6 +136,7 @@ These original workstation paths are **locations, not portable dependencies**:
 - Workflow release proof: `/Users/joshuatobkin/qa-evidence/pr6034-release-20261002/`.
 - Email source publication and scan: `qa-evidence/w2-qualified-release-20261003/`; transport receipt `qa-evidence/w2-email-native-20261003/independent-receipt.md`; final browser receipt `qa-evidence/w2-independent-approval-20261003/final-227/receipt.md`.
 - Storage proof: `qa-evidence/w3-selective-composition-20261003/` and `qa-evidence/w3-independent-acceptance-20261003/`.
+- W7 baseline and composition: `qa-evidence/w7-tool-identity-red-20261003/receipt.md`, `qa-evidence/w7-source-audit-20261003.md`, and unpublished worktree `qa-lanes/w7-tool-original-admission-20261003/`. Its state must be frozen and inventoried at pause; do not infer a published branch.
 - Project recipient proof: `qa-evidence/c2-recipient-native-20261003/`; implementation worktree `qa-lanes/c2-recipient-eligible-20261003/`.
 - Interactive plan source: `qa-evidence/supraos-execution-plan-20261001/index.html` and `plan.json`. Publication package: `qa-evidence/handoff-20261002/docs-package/`.
 - Timed stop receipt: `qa-evidence/pr6034-release-20261002/scheduled-pause.json`; ongoing coordination: `ROOT-CONTINUATION.md` beside it.

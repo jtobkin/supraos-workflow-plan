@@ -1,6 +1,6 @@
 # SupraOS Release Plan Checklist
 
-Working checkpoint2026-10-02 17:20UTC. Active until the owner-requested pause at19:36:59UTC. Read the accompanying detailed handoff for scope, code locations, source hashes, evidence limits and new-computer setup.
+Working checkpoint: 2026-10-02 17:44 UTC. Active until the owner-requested pause at19:36:59UTC. Read the accompanying detailed handoff for scope, code locations, source hashes, evidence limits and new-computer setup.
 
 | Delivery item | Implemented/integrated | Tested/audited | Merged | Deployed | Verified live |
 | --- | --- | --- | --- | --- | --- |
@@ -11,13 +11,14 @@ Working checkpoint2026-10-02 17:20UTC. Active until the owner-requested pause at
 | PR6129 action/selected-pure authority | Yes | Qualified frozen source; required CI pending | No | No | No |
 | PR6132 owner-private workflow storage | Yes | Qualified source incl actual mounted browser; required CI pending | No | No | No |
 | PR6138 exact email authority and recovery | Yes |152 mixed checks with final changed suite replay;114types;106-commit secret scan | No | No | No |
-| Project recipient repair2c40 | Yes |12 isolated native controls + independent review; full producer integration evidence in progress | No | No | No |
+| PR6141 project recipient repair c8d5 | Yes |13 captured native +20 canonical caller;52 types; independent audit; required CI pending | No | No | No |
+| W7 workflow tool original identity | Historical source; current stack integration in progress | Current227de retry RED; caller/provenance closure and successor proof pending | No | No | No |
 | Workflow/project schema operator and activation | Partial existing components | Continuous exclusion, faithful restore and actual operation remain open | No release claim | No | No |
 | All supported execution paths and16 behaviors | Partial | Integrated live matrix open | Partial components only | Partial components only | Unfinished |
 
 ## Immediate dependency order
 
-1. Freeze complete project producer tests and qualify actual selection→seal→broadcast behavior without changing runtime for unrelated work.
+1. Keep qualified PR6141 frozen. Complete W7 retained caller identity and original input/target provenance; verify actual production caller positives and retry/unknown/changed-target refusal.
 2. Finish required CI on existing immutable candidates. Release no-new-SQL6124 when the unchanged guard allows it, independently observe deployment and test actual behavior;6127 follows its base.
 3. Qualify target/CA, continuous writer/effect exclusion, drainage and faithful backup/restore for the actual workflow/project operator.
 4. Install only reviewed uninstalled packets with same-target VERIFY/catalog/ACL/cache proof, then compatible web/cron/client rollout and controlled activation.
@@ -35,3 +36,31 @@ Working checkpoint2026-10-02 17:20UTC. Active until the owner-requested pause at
 ## Scope and completion
 
 Personal chat, Telegram, voice, delegation, background agents, projects/workspaces, scheduled research, Rooms, Routines and System Workflows remain in scope. iMessage is deferred; WhatsApp excluded. Each task tracks implementation, integration, tests, independent audit, merge, deployment and live verification separately. No percentage is inferred from task or test counts. A pause or partial release does not mean the project is finished.
+
+## Dependency graph
+
+```mermaid
+flowchart TD
+  A[6124 exact required CI] --> B[Guarded merge and deployment]
+  B --> C[Independent deployed outcome checks]
+  C --> D[Retarget 6127 and qualify pause receipts]
+  E[6123 approval continuation] --> F[6129 action and selected-pure authority]
+  F --> G[6132 private file operations]
+  G --> H[6138 exact email authority]
+  H --> I[W7 trusted callers and original input provenance]
+  J[Verified target and project CA] --> K[Continuous writer and effect exclusion]
+  K --> L[Drain and faithful restore proof]
+  L --> M[Ordered schema installation and verification]
+  H --> N[Exact required CI and compatible release]
+  M --> N
+  O[6118 project predecessor] --> P[6141 eligible recipient]
+  P --> Q[Project schema and compatible relay rollout]
+  L --> Q
+  N --> R[Normal QA admission and live acceptance]
+  Q --> R
+  I --> R
+  R --> S[All supported paths and sixteen behaviors]
+  S --> T[Owner confirmation and final handoff]
+```
+
+Edges show prerequisites, not automatic permission to activate. Every release requires its exact source gates and relevant independent live checks. External prerequisites remain open until evidenced.
