@@ -1,30 +1,36 @@
 # SupraOS Release Plan Checklist
 
-Working checkpoint: 2026-10-02 18:25 UTC. Active until the owner-requested pause at19:36:59UTC. Read the accompanying detailed handoff for scope, code locations, source hashes, evidence limits and new-computer setup.
+Implementation paused at the owner-requested cutoff, **2026-10-02 19:36:59 UTC / 2026-10-03 03:36:59 Hong Kong**. Final documentation checkpoint: 2026-10-02T19:37:18.311500+00:00. The project is not complete. Resume only on a new owner instruction.
 
-| Delivery item | Implemented/integrated | Tested/audited | Merged | Deployed | Verified live |
-| --- | --- | --- | --- | --- | --- |
-| PR6034 dispatch identity/checkpoint concurrency | Yes | Required gates and scoped independent checks passed | Yes | Yes | Public/unsigned only; authenticated acceptance open |
-| PR6124 original outcome holds | Yes | Scoped source evidence; required CI pending | No | No | No |
-| PR6127 pause receipts | Yes | Scoped evidence, predecessor release pending | No | No | No |
-| PR6123 original scheduled approval | Yes | Qualified repaired source; required CI pending | No | No | No |
-| PR6129 action/selected-pure authority | Yes | Qualified frozen source; required CI pending | No | No | No |
-| PR6132 owner-private workflow storage | Yes | Qualified source incl actual mounted browser; required CI pending | No | No | No |
-| PR6138 exact email authority and recovery | Yes |152 mixed checks with final changed suite replay;114types;106-commit secret scan | No | No | No |
-| PR6141 project recipient repair c8d5 | Yes |13 captured native +20 canonical caller;52 types; independent audit; required CI pending | No | No | No |
-| W7 workflow tool original identity |9070 integrated;678d partial pre-dispatch repair; post-dispatch settlement blocker remains |30 native,128 compatibility, Chat117 and Chromium390/1440; partial5 and651types; post-dispatch2RED | No | No | No |
-| Workflow/project schema operator and activation | Partial existing components | Continuous exclusion, faithful restore and actual operation remain open | No release claim | No | No |
-| All supported execution paths and16 behaviors | Partial | Integrated live matrix open | Partial components only | Partial components only | Unfinished |
+| Delivery item | Implemented | Integrated | Tested | Independently audited | Merged | Deployed | Verified live |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| PR6034 dispatch identity/checkpoint concurrency | Yes | Actual engine/checkpoint writers | Required gates and scoped checks passed | Yes | Yes | Yes | Public/unsigned only; authenticated acceptance open |
+| PR6124 original outcome holds | Yes | Actual System Workflow callers | Scoped evidence; required CI queued | Yes | No | No | No |
+| PR6127 pause receipts | Yes | Actual pause/receipt callers | Scoped evidence; predecessor release pending | Yes | No | No | No |
+| PR6123 original scheduled approval | Yes | Actual scheduler/owner decisions | Repaired source qualified; required CI pending | Yes | No | No | No |
+| PR6129 action/selected-pure authority | Yes | Actual API/bot/child/continuation paths | Frozen source qualified; required CI pending | Yes | No | No | No |
+| PR6132 owner-private workflow storage | Yes | Engine/Storage SDK/owner Settings | Native and mounted browser pass; required CI pending | Yes | No | No | No |
+| PR6138 exact email authority and recovery | Yes | Gmail/approval Settings/owner output | 152 mixed checks; final changed suite replay; 114 types | Yes; overlapping independent cases are not additive | No | No | No |
+| PR6141 project recipient repair c8d5 | Yes | Actual deliverDispatch selection | 13 captured native +20 canonical; 52 types; required CI pending | Yes | No | No | No |
+| W7 workflow tool original identity | Partial; settlement unresolved | 9070 caller chain and 678d pre-dispatch guard | 30 native,128 compatibility, Chat117; held Chat and82ad owner Chromium; post-dispatch2RED | Yes; release HOLD remains | No | No | No |
+| PR6143 CI disk admission | Yes | Actual poller source; installed service unchanged | 73 tests,10 types; read-only real-host low-disk refusal; required gates open | Yes | No | No | No |
+| Workflow/project schema operator and activation | Partial components | Actual operation still missing | Continuous exclusion and faithful restore open | Incomplete | No release claim | No | No |
+| All supported execution paths and16 behaviors | Partial | Incomplete | Full acceptance matrix open | Incomplete | Partial components only | Partial components only | Unfinished |
 
 ## Immediate dependency order
 
 1. Keep qualified PR6141 frozen. W7 now has original identity/provenance qualification; next is claim-bound durable task settlement and recovery. Preserve the2-case stale-result RED; a route reread does not close it.
-2. Resolve the verified CI ENOSPC failure using only safe owned-artifact cleanup, then finish required CI on existing immutable candidates. Release no-new-SQL6124 when the unchanged guard allows it, independently observe deployment and test actual behavior;6127 follows its base.
+2. Recover CI disk capacity safely and finish required CI on immutable product candidates. Qualify and install the reviewed PR6143 disk-admission repair in parallel; its installation is not a new product release gate. PR6143 is source-qualified, not installed; it does not free or reserve storage. Release no-new-SQL6124 when the unchanged guard allows it, independently observe deployment and test actual behavior;6127 follows its base.
 3. Qualify target/CA, continuous writer/effect exclusion, drainage and faithful backup/restore for the actual workflow/project operator.
 4. Install only reviewed uninstalled packets with same-target VERIFY/catalog/ACL/cache proof, then compatible web/cron/client rollout and controlled activation.
 5. Use normal QA admission and actual provider configuration to independently verify positive, denied, revoked, failure and recovery paths.
-6. Complete all16 behaviors across every supported surface; then provide precise owner confirmation tests.
-7. At the requested deadline, pause implementation, update this public checklist and the detailed handoff, verify anonymous links, record unfinished originals/processes and preserve evidence.
+6. Complete all 16 behaviors across every supported surface; then provide precise owner confirmation tests.
+
+The timed implementation run is paused. The source and outstanding tasks above are preserved for the next session; this handoff is not the final project acceptance gate.
+
+Latest release watch (19:20–19:22 UTC):6053 build failedENOSPC;6107 both required checks failed;6066/6121/6124 were genuinely queued.6066 has one architecture-document conflict; independent review found no directly overlapping runtime/test paths. Preserve both paragraphs, correct stale browser evidence wording, and qualify a narrow successor. No watched candidate was guard-ready. Preserve the failed evidence, resolve the demonstrated blocker, and require the normal exact-head checks; an infrastructure diagnosis is not a passing test.
+
+Final19:32 update:6053 security passed but build remains failed;6066 both checks report the diagnosed atlas conflict;6107 remains failed;6121/6124/6141 remain queued;draft6143 has no required contexts yet. No watched head is merged or guard-ready. Deployment remains e74e3a. All source lanes are preserved; only the two ownership-confirmed abandoned inspection processes were stopped.
 
 ## External dependencies
 
@@ -42,7 +48,11 @@ Personal chat, Telegram, voice, delegation, background agents, projects/workspac
 
 ```mermaid
 flowchart TD
-  A[6124 exact required CI] --> B[Guarded merge and deployment]
+  CI[Safe disk capacity recovery] --> A[6124 exact required CI]
+  CI --> CG[6143 exact required gates]
+  CG --> CH[Reviewed CI host installation]
+  CH --> CV[Verify actual disk admission and recovery]
+  A --> B[Guarded merge and deployment]
   B --> C[Independent deployed outcome checks]
   C --> D[Retarget 6127 and qualify pause receipts]
   E[6123 approval continuation] --> F[6129 action and selected-pure authority]
@@ -60,7 +70,10 @@ flowchart TD
   L --> Q
   N --> R[Normal QA admission and live acceptance]
   Q --> R
-  I2 --> R
+  I2 --> I3[Final actual-caller native and browser qualification]
+  I3 --> I4[Exact W7 gates and schema-safe guarded release]
+  M --> I4
+  I4 --> R
   R --> S[All supported paths and sixteen behaviors]
   S --> T[Owner confirmation and final handoff]
 ```
@@ -87,7 +100,7 @@ This index preserves all33 dependency nodes. These are acceptance targets, not a
 | W4 | Named OAuth and raw API authority: Actual method/action/destination/current credentials and owner authoring; definite setup refusal vs attempted unknown; no retry after uncertain effect. Test real adapter boundaries with private local transports. | P0 |
 | W5 | Child workflow and bot creation authority: Define creation/child graph/template/pipeline targets; preserve immutable owner and original graph on resume; deny before creation and prove allowed behavior with usable grant UI. | P0 |
 | X1 | Qualify every supported context entry: Entry-by-entry current preferences, relevant bounded recall/skills/lessons, identity/audience, captured+consumed receipt, cancellation/recovery and actual entry positive/negative; no owner-equality shortcut. Include workspace execute, MC cron, org tasks and both workflow engines. | P0, X2, X3 |
-| A1 | Finish global attention and baseline source gaps: Map all16 behaviors to actual implementation; close each source gap using existing scheduler/store. Quiet hours/cadence/urgency, suppression, consent, truthful marks and task/calendar/support context; test before live provider acceptance. | P0 |
+| A1 | Finish global attention and baseline source gaps: Map all 16 behaviors to actual implementation; close each source gap using existing scheduler/store. Quiet hours/cadence/urgency, suppression, consent, truthful marks and task/calendar/support context; test before live provider acceptance. | P0 |
 | R1 | Reconcile main, CI and exact release stack: Exact-head security/build and fresh main; diagnose full-suite failure without dismissing isolated pass; preserve dependent PR order; auto-merge only unchanged guard success. | P0 |
 | R2 | Installed schema, profile and release packet: Read actual installed profile/ledger and dependencies; never replay installed migrations; reconcile source/schema/graph hashes and safe forward/rollback/reapply packet before activation. | P0 |
 | R3 | Writer/effect drain and faithful restore rehearsal: Continuous REST+directPG admission closure, in-flight/unknown effect accounting and mixed-client/broadcaster drain; authorized production-copy role/grant-faithful restore/rehearsal. Never manufacture acceptance with production effects. | R2, R3B |
