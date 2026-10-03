@@ -2,6 +2,23 @@
 
 Resumed 2026-10-03 UTC. This is a partial release milestone within the existing full SupraOS agent-workflow project. All 33 project nodes, 16 behaviors, and supported execution surfaces remain in scope.
 
+## CURRENT EXECUTION CHECKPOINT — resumed at owner request
+
+The owner resumed end-to-end delivery. The older paused sections below preserve history and do not represent current execution state. Three existing lanes are running with exclusive ownership; no new implementation workstreams are opened.
+
+| Step | Dependency | Owner | Production path and evidence required | Current state |
+|---|---|---|---|---|
+| S1 | None | Integration | PR6124 triggerSystemWorkflow callers; fresh-main composition and final source review | Fresh main47b has strategy-only changes; clean merge tree92b27f8b, no direct overlap; head4db remains frozen |
+| S2 | None | Prerequisites | Normal box-ci security/build on exact4db; actual job and tested merge SHA | Pending, FIFO31/32 of32; actual two jobs running; no queue changes |
+| S3 | None | Verifier | Compatible installed446 and normal QA owner/foreign-owner access | Fresh schema compatible; normal QA invitation unresolved |
+| S4 | S1,S2 | Root | Unchanged merge-if-green guard with exact-head match | Not eligible until required gates pass |
+| S5 | S4 | Root + verifier | Canonical deployment, web/cron image identity, actual signed routes and browser | Current healthy image ca162c/source47b does not contain PR6124 |
+| S6 | S3,S5 | Verifier | Original positive/denied/uncertain/failure/recovery outcomes, real UI and image-bound faults | Pending; no public smoke substituted for owner acceptance |
+
+Shortest delivery chain: S1/S2 → S4 → S5 → S6, with S3 joining at live acceptance. Parallel existing W7 work is limited to finishing target-assignment receipts and their actual cron/owner/workspace consumers; SQL69486 is frozen unless a reproduced blocker requires a narrow repair. Integration owns production code/atlas, verification owns native/caller evidence, prerequisites owns final schema companions and operation-bound deployment proof. Root57ef mode repair is independently reviewed and awaiting successor composition. Assignment chain/queue/anchor delivery remains pending, not hidden by execution-log success.
+
+Blockers: required CI is missing evidence/infrastructure; QA invitation is missing access; W7 chain destinations are missing code/integration; continuous admission/drain/faithful restore are missing operational qualification. Full33/16/supported-surface scope remains intact. No completion or effort percentage is inferred from this plan.
+
 ## Frozen capability
 
 PR6124, current frozen commit `4db4788a2a410d826f3df280033c681973f99cdd` (original candidate `2e7d34c79b77ddbeb4fc74e14681de37c37d096a`): retain the original System Workflow when terminal persistence or a trigger response is uncertain; require durable completion evidence and avoid replacement execution. Existing voice, memory-promotion, Telegram, collaboration, coordinator-loop and checkpoint callers are the integration targets. No new SQL is introduced; fresh read-only installed migration446 compatibility has passed.
