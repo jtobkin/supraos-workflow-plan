@@ -2,9 +2,9 @@
 
 Resumed 2026-10-03 UTC. This is a partial release milestone within the existing full SupraOS agent-workflow project. All 33 project nodes, 16 behaviors, and supported execution surfaces remain in scope.
 
-## CURRENT EXECUTION CHECKPOINT — 10:38 UTC
+## CURRENT EXECUTION CHECKPOINT — 11:10 UTC
 
-Active six-hour focus ends10:49:35 UTC. Root and three lanes finish the existing delivery paths; full33-node/16-behavior/supported-surface scope remains intact. Historical checkpoints below retain their original evidence limits. The step IDs in this current release table and graph are local to this release plan; they are not the canonical33-node IDs in SupraOS-Workflow-Plan.json. In particular, the Competitor Watch C1 row does not close canonical C1 client context isolation, and the W1/W2 rows here do not rename the broader behavior tasks.
+Six-hour focus ended10:49:35 UTC; work continues under the active full-project goal. Root and three lanes finish the existing delivery paths; full33-node/16-behavior/supported-surface scope remains intact. Historical checkpoints below retain their original evidence limits. The step IDs in this current release table and graph are local to this release plan; they are not the canonical33-node IDs in SupraOS-Workflow-Plan.json. In particular, the Competitor Watch C1 row does not close canonical C1 client context isolation, and the W1/W2 rows here do not rename the broader behavior tasks.
 
 | Step | Dependencies | Owner | Production caller / acceptance | Current state |
 |---|---|---|---|---|
@@ -17,8 +17,8 @@ Active six-hour focus ends10:49:35 UTC. Root and three lanes finish the existing
 | H2 | H1, required CI | Root + verifier | Guarded release then repeat deployed320 failure reproduction | Closed for public canvas: a8cf deployed; independent320 live replay on descendant21ea PASS, continued drawing and no pageerrors |
 | C1 | None | Root + verifier | Existing Competitor Watch cron to durable card receipt | PR6066 7f18 security failed native-test child env types; build7 passed. Narrow reviewed test-only successor a5a91f07fc published; types16/G11 pass, production/assertions unchanged; required CI pending |
 | C2 | C1, required CI | Root + verifier | Guarded release and active-worker attribution, natural recovery acceptance | Pending |
-| MP | None; separate demonstrated follow-up | Root + verifier | Actual Memory Promotion POST/page only report confirmed completed workflows; failed/held original identity preserved | Frozen/published PR6149 at4cce838; baseline RED/repaired8PASS/types13/source reviewPASS; actual mounted390/1440 browser18PASS with2baselineRED; exact required CI pending |
-| P1 | None; separate frozen follow-up | Root + verifier | Exact original pause/checkpoint durable readback in engine/logger/trigger | PR6127 frozen6f; scoped25/types21/source reviewPASS; final native pending (Mac user lookup/CI disk), exact required CI queued |
+| MP | None; separate demonstrated follow-up | Root + verifier | Actual Memory Promotion POST/page only report confirmed completed workflows; failed/held original identity preserved | Parent4c P3C gate failed raw backend error copy. Narrow published8a42dbc fixed safe guidance, original ID/no-retry unchanged; root+verifier review, route8/types13/plain gate PASS. Prior browser18PASS+2baselineRED retains4c source; exact repaired browser and CI pending |
+| P1 | None; separate frozen follow-up | Root + verifier | Exact original pause/checkpoint durable readback in engine/logger/trigger | PR6127 frozen6f; scoped25/types21/source reviewPASS; final native pending (Mac user lookup/CI disk); colocated unchanged14-test fixture being reviewed; security51PASS, build running |
 | P2 | P1, required CI, normal QA access | Root + verifier | Guarded merge/deploy then signed pause/original recovery | Pending; copied historical14PASS is not final6f native proof |
 | W1 | None | Integration + verifier | Operation-bound claim/manual SQL and five admission callers | e937 actual receiver transport/ACK recovery passes; c736 touch20 project-summary source/native passes; final coherent qualification pending |
 | W2 | None | Integration + verifier | Rerun paused-created response must not auto-execute | Paused rerun and Handoffs repairs mounted390/1440 pass; actual project-filter PostgREST proof passes; source identity SQLb87 native replay and actual e937 receiver transport pass |
@@ -53,7 +53,7 @@ flowchart LR
  L1[Contract compatibility and upgrade] --> W5
 ```
 
-At10:36:53, PR6127 production-build is running; its security context and6149/6066 pairs remain queued at positions1–5 on unchanged heads. CI free space is9.95GiB, below the unchanged25GiB native floor; final6127 native cannot proceed there. No unrelated work is cancelled or deleted.
+At11:05, PR6127 security51 passed and production build is running; PR6066 security/build remain pending. PR6149 parent4c P3C failed; narrow independently reviewed8a successor is published for new CI and exact-page browser replay. Shared CI free13.2GiB remains below unchanged25GiB native floor. Current web/cron359c imageaf924 was observed healthy/running10:56. Reviewed full-schema diagnostic ended before receiver assertions: both root/table probes timeout, PG TCP passes, REST2processes/PG11activebackends; receiptcb53a73e and cleanup retained. Host is now handed to the repaired6149 browser replay, then reviewed colocated6f native qualification. Source implementation, review and required CI continue concurrently. No unrelated work is cancelled or deleted.
 
 Shortest usable workflow release remains S1/S2 → S4 → S5, with S3 access joining at acceptance. Required CI and guarded merge are closed. Public browser load and canvas regressions pass; normal authenticated access and actual signed journeys block full milestone acceptance; unrelated W7 schema work does not. W7 blockers are final coherent/c736 captured qualification, signed/live Memory Flow owner acceptance, remaining destinations, old-image barrier and production operator qualification, and contract compatibility. Owner and proof are explicit above. No task count is presented as a code-completion or effort percentage.
 
