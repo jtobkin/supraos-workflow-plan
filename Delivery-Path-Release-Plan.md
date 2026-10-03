@@ -2,7 +2,7 @@
 
 Resumed 2026-10-03 UTC. This is a partial release milestone within the existing full SupraOS agent-workflow project. All 33 project nodes, 16 behaviors, and supported execution surfaces remain in scope.
 
-## CURRENT EXECUTION CHECKPOINT — 06:05 UTC
+## CURRENT EXECUTION CHECKPOINT — 06:32 UTC
 
 Active six-hour focus ends10:49:35 UTC. Root and three lanes finish the existing delivery paths; full33-node/16-behavior/supported-surface scope remains intact. Historical checkpoints below retain their original evidence limits.
 
@@ -15,10 +15,10 @@ Active six-hour focus ends10:49:35 UTC. Root and three lanes finish the existing
 | S5 | S3,S4 | Verifier | Deployed original-run, permission, uncertainty and recovery journeys | Pending; public smoke does not substitute |
 | H1 | None | Root + verifier | Homepage Collective actual canvas continues drawing at320/390/768/1200 | PR6146 dabbdaf9 frozen; final scoped types and independent browser pass |
 | H2 | H1, required CI | Root + verifier | Guarded release then repeat deployed320 failure reproduction | Pending |
-| C1 | None | Root + verifier | Existing Competitor Watch cron to durable card receipt | PR6066 conflict repair; seven runtime/test blobs unchanged; independent review next |
+| C1 | None | Root + verifier | Existing Competitor Watch cron to durable card receipt | PR6066 successor7f18e0 published; seven runtime/test blobs unchanged; independent review/G11 pass; CI pending |
 | C2 | C1, required CI | Root + verifier | Guarded release and active-worker attribution, natural recovery acceptance | Pending |
-| W1 | None | Integration + verifier | Operation-bound claim/manual SQL and five admission callers | SQL333 frozen; fixture startup blocks native evidence |
-| W2 | None | Integration + verifier | Rerun paused-created response must not auto-execute | Real mounted RED preserved; narrow timer repair and replay underway |
+| W1 | None | Integration + verifier | Operation-bound claim/manual SQL and five admission callers | SQL333 native delayed-close repair passes; SQLcc39 allowlist successor native replay pending |
+| W2 | None | Integration + verifier | Rerun paused-created response must not auto-execute | Paused rerun repair mounted390/1440 passes; Handoffs mobile clipping RED under narrow repair |
 | W3 | None | Prerequisites + verifier | External preinstall hold, old-handler/direct-writer drain and faithful restore | Private proxy double30 passes; actual old-image isolated rehearsal and production controls unqualified |
 | W4 | W1,W2,W3 | All lanes | Final coherent SQL/runtime/caller candidate, companions and recovery qualification | Not frozen for release yet |
 | W5 | W4, required CI | Root + verifier | Controlled install/deploy/activation and authenticated live recovery | No production SQL installed |
@@ -37,7 +37,7 @@ flowchart LR
  L1[Contract compatibility and upgrade] --> W5
 ```
 
-Shortest usable workflow release remains S1/S2 → S4 → S5, with S3 access joining at acceptance. CI evidence and normal access block that release; unrelated W7 schema work does not. W7 blockers are actual paused-run integration, native gate evidence, old-image operational qualification and contract compatibility. Owner and proof are explicit above. No task count is presented as a code-completion or effort percentage.
+Shortest usable workflow release remains S1/S2 → S4 → S5, with S3 access joining at acceptance. CI evidence and normal access block that release; unrelated W7 schema work does not. W7 blockers are final18-kind native qualification, Handoffs mobile repair/native consumer proof, remaining manual/aggregate destinations, final schema companions, old-image operational qualification and contract compatibility. Owner and proof are explicit above. No task count is presented as a code-completion or effort percentage.
 
 ## Frozen capability
 
