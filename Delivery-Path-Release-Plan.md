@@ -256,3 +256,19 @@ Fresh read-only deployment audit shows live start-supraos SHA9310ffaf differs bo
 
 - Subsequent independent native result: SQL364cb709 passed focused5/5 and full85/85 on private PG17.11/PostgREST14.18. Log `verification/w7-assignment-364-native85.log` SHA256 `1ab874537c4d3637eb14f74bbbbe04d62c30bb17b9ba24a1940e5ec47f5a54f3`. Reassignment/stale-drift/caller verification is still running; this supersedes the pending initial native replay above, not live acceptance.
 - Root fresh-mode guard committed `57ef3d4c24`, three focused tests and changed-file types16 pass; independent review pending.
+
+- Independent fresh-mode guard review completed: verifier reran exact commit57ef3d4c24, 3/3 PASS, approved narrow source semantics; integration authorized successor cherry-pick.
+- Additional SQL364 stale-state case FAILED: deleting the delivered started-log row then replay returned delivered from historical effect state. Evidence `verification/w7-assignment-364-readback-red.log` SHA prefix262c216c. Integration owns narrow current-readback repair, preserving historical receipt and never recreating deleted history. Prior85/85 does not cover this newly demonstrated blocker.
+- Read-only target catalog confirms random queue UUID PK is its only uniqueness, no owner/position or attestation-intent uniqueness. Hash-chain position is bigint versus queue integer; validate range. Receipt `prerequisites/w7-assignment-chain-target-readonly-v1.json`, file SHA prefix24a00444, catalog prefixe4113ebf; no row payloads inspected.
+
+## PAUSED at owner request — 2026-10-03T04:32:02.575449+00:00
+
+All three agents report stopped with no owned process active. No new merge/deployment occurred. Checklist task-count closure is 4/33 (12.1%), leaving29/33 (87.9%). This is not effort, implementation, or end-to-end completion; all16 integrated live behavior gates remain open.
+
+Latest assignment SQL69489f65a216775b49b10f00fc2fe03bb6c2aae5b9a7244e939f721f843cceb6 passes86/86 native tests, including missing delivered-row replay holding without recreation; log SHA ec0dab3de6808a889e00ba3cc6044ed69f27b6504e92c6739755c315bfe44ef8. Integration HEAD remainsb734 on feat/w7-assignment-receipt-20261003 with uncommitted source, types913 PASS and unit1 PASS. Remaining: distinct reassignment/stale drift/caller tests, atlas stale364/85 update, root57ef guard composition, companion repin, chain queue/anchor receipt, full release qualification.
+
+Private GitHub handoff attachments Paused-W7-Assignment-Successor.patch and Paused-Consensus-Mode-Guard.patch preserve source changes. On a new computer fetch b734 branch, create an isolated branch at exactb734, inspect patches and use git apply --check before applying. These preserve unqualified source, not merge/deployment approval. Host rebase a3835f6005 remains in clean prereq lane; private preimage must stay private.
+
+- Paused-W7-Assignment-Successor.patch SHA256 `a895e4e584bf20f1a4698a759a47346346909da6f989d07c314e184505f08e10`
+
+- Paused-Consensus-Mode-Guard.patch SHA256 `d2166fef863cde4d933f304fedfde9417501aff7a96e38d0325f94cbebe3326a`
