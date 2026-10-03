@@ -2,22 +2,42 @@
 
 Resumed 2026-10-03 UTC. This is a partial release milestone within the existing full SupraOS agent-workflow project. All 33 project nodes, 16 behaviors, and supported execution surfaces remain in scope.
 
-## CURRENT EXECUTION CHECKPOINT — resumed at owner request
+## CURRENT EXECUTION CHECKPOINT — 06:05 UTC
 
-The owner resumed end-to-end delivery. The older paused sections below preserve history and do not represent current execution state. Three existing lanes are running with exclusive ownership; no new implementation workstreams are opened.
+Active six-hour focus ends10:49:35 UTC. Root and three lanes finish the existing delivery paths; full33-node/16-behavior/supported-surface scope remains intact. Historical checkpoints below retain their original evidence limits.
 
-| Step | Dependency | Owner | Production path and evidence required | Current state |
+| Step | Dependencies | Owner | Production caller / acceptance | Current state |
 |---|---|---|---|---|
-| S1 | None | Integration | PR6124 triggerSystemWorkflow callers; fresh-main composition and final source review | Fresh main47b has strategy-only changes; clean merge tree92b27f8b, no direct overlap; head4db remains frozen |
-| S2 | None | Prerequisites | Normal box-ci security/build on exact4db; actual job and tested merge SHA | Pending, FIFO31/32 of32; actual two jobs running; no queue changes |
-| S3 | None | Verifier | Compatible installed446 and normal QA owner/foreign-owner access | Fresh schema compatible; normal QA invitation unresolved |
-| S4 | S1,S2 | Root | Unchanged merge-if-green guard with exact-head match | Not eligible until required gates pass |
-| S5 | S4 | Root + verifier | Canonical deployment, web/cron image identity, actual signed routes and browser | Current healthy image ca162c/source47b does not contain PR6124 |
-| S6 | S3,S5 | Verifier | Original positive/denied/uncertain/failure/recovery outcomes, real UI and image-bound faults | Pending; no public smoke substituted for owner acceptance |
+| S1 | None | Root + verifier | PR6124 triggerSystemWorkflow consumers; immutable source/composition review | Frozen4db478; scoped source/native/browser evidence retained |
+| S2 | None | Prerequisites | Normal box-ci required security and build gates on4db478 | Both queued since01:27; actual worker progress under inspection |
+| S3 | None | Verifier | Normal QA owner and foreign-owner access; installed446 compatibility | Schema compatible; normal invitation unresolved |
+| S4 | S1,S2 | Root | Unchanged guarded merge and canonical deployment | Pending required gates |
+| S5 | S3,S4 | Verifier | Deployed original-run, permission, uncertainty and recovery journeys | Pending; public smoke does not substitute |
+| H1 | None | Root + verifier | Homepage Collective actual canvas continues drawing at320/390/768/1200 | PR6146 dabbdaf9 frozen; final scoped types and independent browser pass |
+| H2 | H1, required CI | Root + verifier | Guarded release then repeat deployed320 failure reproduction | Pending |
+| C1 | None | Root + verifier | Existing Competitor Watch cron to durable card receipt | PR6066 conflict repair; seven runtime/test blobs unchanged; independent review next |
+| C2 | C1, required CI | Root + verifier | Guarded release and active-worker attribution, natural recovery acceptance | Pending |
+| W1 | None | Integration + verifier | Operation-bound claim/manual SQL and five admission callers | SQL333 frozen; fixture startup blocks native evidence |
+| W2 | None | Integration + verifier | Rerun paused-created response must not auto-execute | Real mounted RED preserved; narrow timer repair and replay underway |
+| W3 | None | Prerequisites + verifier | External preinstall hold, old-handler/direct-writer drain and faithful restore | Private proxy double30 passes; actual old-image isolated rehearsal and production controls unqualified |
+| W4 | W1,W2,W3 | All lanes | Final coherent SQL/runtime/caller candidate, companions and recovery qualification | Not frozen for release yet |
+| W5 | W4, required CI | Root + verifier | Controlled install/deploy/activation and authenticated live recovery | No production SQL installed |
+| L1 | None | Root + verifier | submitEventAnchor reason3 through configured core_multi | PR6148 native23/86 and token audit pass; package VM compatibility/authorized upgrade/live proof pending; receiver held |
 
-Shortest delivery chain: S1/S2 → S4 → S5 → S6, with S3 joining at live acceptance. Parallel existing W7 work is limited to finishing target-assignment receipts and their actual cron/owner/workspace consumers; SQL69486 is frozen unless a reproduced blocker requires a narrow repair. Integration owns production code/atlas, verification owns native/caller evidence, prerequisites owns final schema companions and operation-bound deployment proof. Root57ef mode repair is independently reviewed and awaiting successor composition. Assignment chain/queue/anchor delivery remains pending, not hidden by execution-log success.
+```mermaid
+flowchart LR
+ S1[Review frozen6124] --> S4[Guarded merge and deploy]
+ S2[Required CI] --> S4
+ S4 --> S5[Authenticated live recovery]
+ S3[Normal QA access] --> S5
+ W1[Native operation gate] --> W4[Coherent W7 qualification]
+ W2[Mounted paused-run repair] --> W4
+ W3[Preinstall hold and old-worker drain] --> W4
+ W4 --> W5[Controlled install and live checks]
+ L1[Contract compatibility and upgrade] --> W5
+```
 
-Blockers: required CI is missing evidence/infrastructure; QA invitation is missing access; W7 chain destinations are missing code/integration; continuous admission/drain/faithful restore are missing operational qualification. Full33/16/supported-surface scope remains intact. No completion or effort percentage is inferred from this plan.
+Shortest usable workflow release remains S1/S2 → S4 → S5, with S3 access joining at acceptance. CI evidence and normal access block that release; unrelated W7 schema work does not. W7 blockers are actual paused-run integration, native gate evidence, old-image operational qualification and contract compatibility. Owner and proof are explicit above. No task count is presented as a code-completion or effort percentage.
 
 ## Frozen capability
 
