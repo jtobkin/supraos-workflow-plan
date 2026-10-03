@@ -15,9 +15,11 @@ Active six-hour focus ends10:49:35 UTC. Root and three lanes finish the existing
 | S5 | S3,S4 | Verifier | Deployed original-run, permission, uncertainty and recovery journeys | Pending; public smoke does not substitute |
 | H1 | None | Root + verifier | Homepage Collective actual canvas continues drawing at320/390/768/1200 | PR6146 dabbdaf9 frozen; final scoped types and independent browser pass |
 | H2 | H1, required CI | Root + verifier | Guarded release then repeat deployed320 failure reproduction | Closed for public canvas: a8cf deployed; independent320 live replay on descendant21ea PASS, continued drawing and no pageerrors |
-| C1 | None | Root + verifier | Existing Competitor Watch cron to durable card receipt | PR6066 successor7f18e0 published; seven runtime/test blobs unchanged; independent review/G11 pass; CI pending |
+| C1 | None | Root + verifier | Existing Competitor Watch cron to durable card receipt | PR6066 7f18 security failed native-test child env types; build7 passed. Narrow reviewed test-only successor a5a91f07fc published; types16/G11 pass, production/assertions unchanged; required CI pending |
 | C2 | C1, required CI | Root + verifier | Guarded release and active-worker attribution, natural recovery acceptance | Pending |
-| MP | None; separate demonstrated follow-up | Root + verifier | Actual Memory Promotion POST/page only report confirmed completed workflows; failed/held original identity preserved | Frozen/published PR6149 at4cce838; baseline RED/repaired8PASS/types13/source reviewPASS; actual mounted browser and exact required CI pending |
+| MP | None; separate demonstrated follow-up | Root + verifier | Actual Memory Promotion POST/page only report confirmed completed workflows; failed/held original identity preserved | Frozen/published PR6149 at4cce838; baseline RED/repaired8PASS/types13/source reviewPASS; actual mounted390/1440 browser18PASS with2baselineRED; exact required CI pending |
+| P1 | None; separate frozen follow-up | Root + verifier | Exact original pause/checkpoint durable readback in engine/logger/trigger | PR6127 frozen6f; scoped25/types21/source reviewPASS; final native pending (Mac user lookup/CI disk), exact required CI queued |
+| P2 | P1, required CI, normal QA access | Root + verifier | Guarded merge/deploy then signed pause/original recovery | Pending; copied historical14PASS is not final6f native proof |
 | W1 | None | Integration + verifier | Operation-bound claim/manual SQL and five admission callers | e937 actual receiver transport/ACK recovery passes; c736 touch20 project-summary source/native passes; final coherent qualification pending |
 | W2 | None | Integration + verifier | Rerun paused-created response must not auto-execute | Paused rerun and Handoffs repairs mounted390/1440 pass; actual project-filter PostgREST proof passes; source identity SQLb87 native replay and actual e937 receiver transport pass |
 | W3 | None | Prerequisites + verifier | External preinstall hold, old-handler/direct-writer drain and faithful restore | Private proxy double30 passes; actual old-image isolated rehearsal and production controls unqualified |
@@ -26,7 +28,7 @@ Active six-hour focus ends10:49:35 UTC. Root and three lanes finish the existing
 | WB | Frozen f6 source available; native transport proof for acceptance | Integration + verifier | Existing plan_broadcast_global intent → original-run global project-summary memory, automated/manual callers and cron recovery | Published frozen4ae; prior b634 expected native RED and repaired native PASS, source review and actual-caller30 pass. Full captured companion and actual reader pending; other destinations remain pending |
 | W4 | W1,W2,W3,WP,WM,WB | All lanes | Final coherent SQL/runtime/caller candidate, companions and recovery qualification | Not frozen for release yet |
 | W5 | W4, required CI | Root + verifier | Controlled install/deploy/activation and authenticated live recovery | No production SQL installed |
-| L1 | None | Root + verifier | submitEventAnchor reason3 through configured core_multi | PR6148 required CI and native23/86 pass; source/artifacts merged e948 and deployed; public bytes check pending. Actual package VM compatibility/authorized upgrade/live proof pending; receiver held |
+| L1 | None | Root + verifier | submitEventAnchor reason3 through configured core_multi | PR6148 required CI and native23/86 pass; source/artifacts merged e948 and deployed; public version and all five served bytes PASS. Actual package VM compatibility/authorized upgrade/live proof pending; receiver held |
 
 ```mermaid
 flowchart LR
@@ -34,6 +36,13 @@ flowchart LR
  S2[Required CI] --> S4
  S4 --> S5[Authenticated live recovery]
  S3[Normal QA access] --> S5
+ H1[Qualified homepage canvas] --> H2[Deployed320 canvas verified]
+ MP1[Frozen Memory Promotion source] --> MP2[Mounted browser and exact CI]
+ MP2 --> MP3[Guarded release and live outcome checks]
+ S3 --> MP3
+ P1[Frozen pause durability source] --> P2[Final native and exact CI]
+ P2 --> P3[Guarded release and signed recovery]
+ S3 --> P3
  W1[Native operation gate] --> W4[Coherent W7 qualification]
  W2[Mounted paused-run repair] --> W4
  W3[Preinstall hold and old-worker drain] --> W4
