@@ -1,5 +1,121 @@
 # Ship Verified System Workflow Outcomes
 
+Implementation is paused at the owner-requested cutoff, recorded 2026-10-03T19:43:25.337791+00:00. The final 90-minute window began at 18:13:12 UTC and ended at 19:43:12 UTC on 2026-10-03. All owned host runs are terminal with verified cleanup; no uncertain remote command remains. Only documentation publication and access verification followed the pause. This is the current checkpoint; dated material below is retained history.
+
+This is the authoritative current dependency plan. The detailed [handoff](https://github.com/jtobkin/supraos-workflow-plan/blob/main/Ship-Verified-SupraOS-Agent-Workflows.md) contains exact code/evidence locations and new-computer reconstruction commands. The public [checklist](https://github.com/jtobkin/supraos-workflow-plan/blob/main/SupraOS-Workflow-Plan-Checklist.md) records the same current status. All 33 project nodes, 16 behaviors and 12 surfaces remain in scope; no task count is a code/effort percentage.
+
+## Current release and blocker summary
+
+The nearest useful milestone is reliable original workspace-plan completion through manual, automated and MC cron callers, with durable journal/reviewer/memory outcomes and no duplicate effect or charge after lost acknowledgements. PR6160 remains frozen at `817061098742daec71dbb4198a5fd0d65d738d17`, remote branch `fix/w7-reviewer-release-20261003`; it is open, unmerged, undeployed and unactivated with auto-merge disabled. Required security51/build7 passed. It contains the inherited workflow stack; do not extract an incomplete reviewer-only release.
+
+| Delivery dependency | Current proof | Remaining work |
+|---|---|---|
+| Earlier bounded privacy/pause/memory-promotion releases | PR6158/6127/6149 merged/deployed with stated native/public/browser checks | Normal signed owner/foreign-owner and recovery acceptance |
+| W7 reviewer/memory/reader/packet qualification | Native reviewer52b3, five-memory97db, real saved-row reader browsera224 and exact817 packet26b9 PASS | Installed-target, full UI/authenticated behavior and remaining recovery cases |
+| Reviewer aggregate/race and admission day | Budget01a01 and historical-admission52cd PASS | Historical timestamp is synthetic; elapsed midnight/hourly-window acceptance remains open |
+| Actual cron recovery | Three preserved fixture failures; v4 source reviewed and local saved-output regression PASS | v4 nativeUNRUN; actual two GET ticks/no-resend proof still required |
+| Restore fidelity | Dump/restore reached strict state equality and FAILED30ced9fa; cause unknown | Run reviewed diagnostic3c32/2e93 after fresh admission; inspect differing hashes and fix only demonstrated cause; strict fidelity requirement remains |
+| Operator hold/stop/recovery | a0a/f121 source reviewed; f121 disabled until effective hold proof. Alternate readonly template1 connectivity passed | Continuous all-writer exclusion, accepted work reconciliation, qualified recovery and operation-bound controlled cutover |
+| Observed sha7e image operator rehearsal | cb5/d7d8 source reviewed, UNRUN; image was observed this session | Fresh image/capacity/readback time budget in next session; not a live stop/drain proof |
+| Signed live acceptance | Normal QA invitation/session still missing | Existing-member admission; real deployed owner/foreign-owner journeys, never an auth bypass |
+| Full client/project/all-path scope | Canonical C1/C2 and X4/X5 preserved source/limited evidence | Supported clients, project schema/transport, broader effectful graphs, activation and full16-behavior acceptance |
+
+The synthetic restore mismatch is an open recovery blocker. Private fixture success cannot establish production writer exclusion or a faithful backup under a live hold. No W7 SQL installation, production fence, writer stop, activation or signed live acceptance occurred in this final window.
+
+## First resume round
+
+1. Root verifies fresh branch/commit, required-gate observations, private evidence access and host capacity/ownership. Read the v4/diagnostic READMEs and preserved failures before dispatch.
+2. Verification runs the already-reviewed cron v4 once. Required proof is the real two-tick GET path retaining the original lost-ACK claim with no extra provider attempt; local selector tests alone do not close it.
+3. On explicit terminal host handoff, run the restore diagnostic once. Identify the actual differing components before proposing a repair. Preserve strict row/catalog/ACL/role equality and original receipt recovery.
+4. In parallel, integration advances the effective hold/continuous writer-exclusion and recovery design through actual operator callers; prerequisites resolves normal access and platform authority. Do not treat readonly template1 connectivity or the local credential census as an exclusion mechanism.
+5. Queue the reviewed current-image operator rehearsal only after fresh image/capacity admission and enough time for its existing complete command/readback bounds. Keep any uncertainty attached to the original invocation.
+
+These steps close delivery dependencies; none by itself permits schema installation or closes the full project.
+
+## Parallel lanes and execution limits
+
+Root owns composition, the immutable release, host scheduling, final evidence and plan. Three helpers own (1) implementation and actual callers, (2) prerequisites/access/blockers and (3) independent review/native/browser/live verification. Assign non-overlapping files and a production caller/integration owner/acceptance test to each work item. Source preparation and review can proceed concurrently; only one private fixture owns the host at a time.
+
+At pause, no host run or uncertain command remains active. The latest test queue closed at19:10 UTC to preserve terminal readback time. The next session must re-read code, current PR/CI/deploy state, source pins and host inventory before continuing. Do not resend an unknown original command or effect. A resuming root may schedule the already-authorized private checks after safe admission; normal platform authority and release controls still govern production actions.
+
+Finish existing work along this path before opening another feature lane. Keep failed evidence; only demonstrated blockers change the release candidate. Preflight archive members, every inner expected hash, compiled/source manifests and nonroot bind-mount readability before transfer. Do not weaken assertions, budgets, permissions or cleanup. Report implemented, integrated, tested, reviewed, merged, deployed and verified-live states separately.
+
+### Canonical project task inventory
+
+These are the canonical node IDs from the machine-readable plan. After the pause, task states such as “active” mean unfinished work, not a running agent or command. A node marked complete closes only that named prerequisite, not its downstream deployed/live behavior. The release-specific dependency table uses separate local labels. Per-capability release stages and evidence remain controlling.
+
+| ID | Task | Depends on | Current task state |
+|---|---|---|---|
+| P0 | Scope reconciliation and dependency plan | None | complete |
+| B1 | Freeze trusted internal project execution | P0 | complete |
+| C1 | Finish client context and history isolation | P0 | active |
+| M1 | Complete member dashboard and read projections | P0 | complete |
+| W1 | Bound shared DataPackage fallback waits | P0 | complete |
+| B2 | Remove remaining private background producer inputs | B1 | review |
+| M2 | Join member result and internal message readers | B1, M1 | review |
+| M3 | Qualify owner-only Realtime transport | M1 | active |
+| J1 | Join server, clients and actual native authority | B1, C1, M2, B2, C2 | review |
+| W2 | Notification recipient authority and usable authoring | P0 | review |
+| W3 | File operation namespace and destination authority | P0, W6 | review |
+| W4 | Named OAuth and raw API authority | P0 | review |
+| W5 | Child workflow and bot creation authority | P0 | review |
+| X1 | Qualify every supported context entry | P0, X2, X3 | active |
+| A1 | Finish global attention and baseline source gaps | P0 | active |
+| R1 | Reconcile main, CI and exact release stack | P0 | active |
+| R2 | Installed schema, profile and release packet | P0 | active |
+| R3 | Writer/effect drain and faithful restore rehearsal | R2, R3B | active |
+| I1 | Compose and independently qualify final source | J1, M3, W2, W3, W4, W5, X1, A1, W6, W7, X5 | active |
+| D1 | Gated merge and deploy verified code | I1, R1, R2, C2S | active |
+| D2 | Activate qualified workflows after compatible rollout | D1, R3 | waiting |
+| P1 | Provider and real computer readiness | P0 | external |
+| V1 | Stable deployed all-path and 16 behavior acceptance | D2, P1 | waiting |
+| U1 | Owner confirmation and final handoff | V1 | waiting |
+| W6 | Atomic usage limits for scoped capability grants | P0 | review |
+| W7 | Bind workspace tool effects to original tool calls | W6 | active |
+| X2 | Confirm System Workflow durable terminal and pause receipts | P0 | review |
+| X3 | Refuse zero-row completion in scheduled and direct workflows | P0 | review |
+| X4 | Retain uncertain scheduled workflow attempts before another tick | X3 | review |
+| X5 | Qualify original scheduled approval continuation | X4, W6 | review |
+| C2 | Bind project Git commands to exact workspace | C1 | active |
+| R3B | Stage runtime role before candidate schema extension | R2 | active |
+| C2S | Install and verify project schema before server rollout | R2, R3, C2 | waiting |
+
+### Resume checklist and proof required
+
+| Order / owner | Work remaining | What closes it |
+|---|---|---|
+| R0 — root | Read this current checkpoint, exact refs, preserved failures and manifests; inspect fresh PR/CI/deployment state and owned outstanding commands | Exact candidate/source, current host ownership and evidence availability reconciled; no blind rerun |
+| R1 — integration + prerequisites | Complete effective hold observation and continuous all-writer exclusion, including web, cron, strategies, privileged DB backends and external holders | Operation-bound proof that admissions are denied after convergence, accepted work is reconciled and no relevant writer can restart or retain authority during the window |
+| R2 — integration + independent verifier | Finish operator stop/reconcile and faithful target backup/restore under that hold | Tested normal, failure and unknown paths; exact original identities; protected dump/restore fidelity; no duplicate stop or lost durable receipt; held recovery remains possible |
+| R3 — root + independent reviewer | Compose only required operator/schema/runtime repairs with the immutable release | Fresh composition review, no omitted caller/SQL packet, mandatory exact-candidate gates pass; failed evidence retained |
+| R4 — authorized release owner | Controlled schema verification, normal guarded merge/deploy, compatible rollout and activation | Exact installed packet and serving image/source independently observed, rollback/roll-forward and hold release prerequisites satisfied |
+| R5 — verifier; normal member provides QA access | Signed owner/foreign-owner, revocation, permission, failure, cancel, unknown outcome and recovery acceptance | Real deployed API/browser journeys and durable original receipts; no synthetic session substituted |
+| R6 — separate C1/C2/X4/X5 owners | Complete remaining client context, project transport/schema and broader effectful workflow acceptance | Every supported production entry and required behavior independently live verified, with recovery tested |
+| R7 — root | Reconcile the full 33-node/16-behavior scope and provide user confirmation tests | All required states closed by evidence; public checklist/plan/handoff current; owner testing confirms already independently verified behavior |
+
+```mermaid
+flowchart LR
+  A[Current exact source and evidence] --> B[Effective hold and writer exclusion]
+  B --> C[Accepted work reconciliation and faithful restore]
+  C --> D[Coherent candidate and required gates]
+  D --> E[Controlled schema and deployment]
+  E --> F[Activation]
+  Q[Normal signed QA access] --> G[Independent signed live acceptance]
+  F --> G
+  H[Remaining client and all-path integration] --> I[Full project acceptance]
+  G --> I
+  I --> J[Owner confirmation and final handoff]
+```
+
+The fixture host, production change window and normal QA identity are distinct dependencies. More isolated test passes do not replace any of them. External approval/access requests remain pending until answered; continue only the independent work meanwhile.
+
+
+## Retained operating rules and historical evidence
+
+The snapshots below preserve earlier states and reasons. Any earlier heading saying “current” is current only at its dated checkpoint; the summary and graph above control the next session. Earlier paused/resumed times do not override this final pause.
+
+
+
 Resumed 2026-10-03 UTC. This is a partial release milestone within the existing full SupraOS agent-workflow project. All 33 project nodes, 16 behaviors, and supported execution surfaces remain in scope.
 
 ## Execution improvement agreement — 2026-10-03
@@ -30,6 +146,8 @@ Before submitting a candidate, the implementation owner checks the effective dif
 
 The verification owner qualifies the harness separately: pinned runtime and lock, network/proxy reachability, fresh disk/RAM admission, source transfer/readback hashes, required extensions, owned cleanup and bounded status polling. Stage receipts must distinguish setup failure, assertion failure, readback uncertainty and cleanup/inventory failure. Unknown remote commands retain their original identity and evidence; never blindly resend or delete uncertain active work.
 
+Before transferring any packaged native/browser fixture, compare every inner wrapper expected-file hash with the exact archive member bytes and the staged source, check regular-member names/listing and compiled source-manifest inputs, then independently review any repair. Also verify that each nonroot container UID can traverse/read its exact bind-mounted fixture source paths; keep private schema/config/escrow protected and never repair this with a blanket permission change. Outer archive integrity alone does not establish that the archive contains the intended inner files. Preserve the first failing archive and receipt. This rule follows the preserved cron-focus setup failure acf340b4; v2 closes the packaging mismatch locally but still requires a native run.
+
 After a repeated setup failure, stop blind reruns. Preserve full evidence, identify a falsifiable cause, make the smallest harness repair, independently review and test it locally where possible, then authorize one bounded replay. No larger budgets, removed assertions, skipped cases or relaxed release controls to manufacture green.
 
 The earlier exact6f run retained14 passing assertions but failed its strict inventory guard during serving turnover. After fresh stable admission, an unchanged-source replay now passes14/14 and the whole fixture, including the original guard and cleanup. Receipt c109c01a and independent root review close this evidence blocker; normal guard merged9fac13:25:41. Exact9fac deployment is independently observed13:38/13:39; signed live recovery remains separate. No normal deployment was suspended, guard weakened or new capacity provisioned.
@@ -58,9 +176,9 @@ Track measured candidate-to-deployment and deployment-to-live-acceptance elapsed
 
 The full33-node,16-behavior,12-surface scope and original definition of Finished remain unchanged. No tests, budgets, permissions, authority boundaries or release controls are weakened by this agreement.
 
-## CURRENT EXECUTION CHECKPOINT — 17:53 UTC
+## Historical execution checkpoint — 17:53 UTC
 
-The prior six-hour focus and pause are historical. The owner explicitly resumed root plus three Sol6 lanes for13:04:35–21:04:35 UTC. Root and three lanes finish the existing delivery paths; full33-node/16-behavior/supported-surface scope remains intact. Historical checkpoints below retain their original evidence limits. The step IDs in this current release table and graph are local to this release plan; they are not the canonical33-node IDs in SupraOS-Workflow-Plan.json. In particular, the Competitor Watch C1 row does not close canonical C1 client context isolation, and the W1/W2 rows here do not rename the broader behavior tasks.
+The prior six-hour focus and pause are historical. The owner resumed root plus three Sol6 lanes at13:04:35 UTC, then revised the implementation cutoff to19:43:12 UTC. Root and three lanes finish the existing delivery paths; full33-node/16-behavior/supported-surface scope remains intact. Historical checkpoints below retain their original evidence limits. The step IDs in this current release table and graph are local to this release plan; they are not the canonical33-node IDs in SupraOS-Workflow-Plan.json. In particular, the Competitor Watch CW1 row does not close canonical C1 client context isolation, and the W1/W2 rows here do not rename the broader behavior tasks.
 
 | Step | Dependencies | Owner | Production caller / acceptance | Current state |
 |---|---|---|---|---|
@@ -71,8 +189,8 @@ The prior six-hour focus and pause are historical. The owner explicitly resumed 
 | S5 | S3,S4 | Verifier | Deployed original-run, permission, uncertainty and recovery journeys | Pending; public smoke does not substitute |
 | H1 | None | Root + verifier | Homepage Collective actual canvas continues drawing at320/390/768/1200 | PR6146 dabbdaf9 frozen; final scoped types and independent browser pass |
 | H2 | H1, required CI | Root + verifier | Guarded release then repeat deployed320 failure reproduction | Closed for public canvas: a8cf deployed; independent320 live replay on descendant21ea PASS, continued drawing and no pageerrors |
-| C1 | None | Root + verifier | Existing Competitor Watch cron to durable card receipt | PR6066 7f18 security failed native-test child env types; build7 passed. Narrow reviewed test-only successor a5a91f07fc published; types16/G11 pass, production/assertions unchanged; exact security51/build7PASS; normal guard mergedfc8e11:28:42 |
-| C2 | C1, required CI | Root + verifier | Guarded release and active-worker attribution, natural recovery acceptance | Guarded merge and canonical22d8 deployment complete; public version/unsigned cron401 PASS12:37. Authenticated worker/card recovery pending |
+| CW1 | None | Root + verifier | Existing Competitor Watch cron to durable card receipt | PR6066 7f18 security failed native-test child env types; build7 passed. Narrow reviewed test-only successor a5a91f07fc published; types16/G11 pass, production/assertions unchanged; exact security51/build7PASS; normal guard mergedfc8e11:28:42 |
+| CW2 | CW1, required CI | Root + verifier | Guarded release and active-worker attribution, natural recovery acceptance | Guarded merge and canonical22d8 deployment complete; public version/unsigned cron401 PASS12:37. Authenticated worker/card recovery pending |
 | MP | None; separate demonstrated follow-up | Root + verifier | Actual Memory Promotion POST/page only report confirmed completed workflows; failed/held original identity preserved | Parent4c P3C gate failed raw backend error copy. Narrow published8a42dbc fixed safe guidance, original ID/no-retry unchanged; root+verifier review, route8/types13/plain gate PASS. Prior browser18PASS+2baselineRED retains4c source; exact repaired browser18PASS+2baselineRED390/1440, sentinel/no-retry checks PASS. Exact8a full-unit gate found stale269vs267 count; narrow69bd ratchet+README only published, independent review/focused15/plain267zero-new/G11PASS; exact69bd requiredCI failed unchanged email-chaser immediate button count;53,995 other tests passed. Preserved full logd9183210. Published02df requiredCI failed one unrelated routines async hash readiness test; preserved loge9957dc. Narrow9923 one bounded existing wait reviewed, full31PASS; required security51/build7PASS; actual email ChromiumPASS in exactCI (log2151ebfa). Both private installers exit137 before Chromium, cleanupPASS, failures retained; no further private retry. Fresh mainab52 composition reviewed. Guarded mergeef86349d14:17:37 and exactcanonicaldeployment14:29/14:30 complete; publicversion/unsigned401PASS7b8bb2de; signed acceptance pendingnormalQA |
 | P1 | None; frozen follow-up | Root + verifier | Exact original pause/checkpoint durable readback in engine/logger/trigger | CLOSED qualification: exact6f required51/7, native14/14 and strict wholefixturePASS13:22:51; independent review; normal guarded merge9fac13:25:41 |
 | P2 | P1 and required CI for deployment; normal QA access for signed checks | Root + verifier | Canonical deploy then signed pause/original recovery | Exact9fac deployment independently confirmed13:38/13:39, healthy web/running cron/publicversion. Normal QA access blocks signed live recovery |
