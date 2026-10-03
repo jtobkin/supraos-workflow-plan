@@ -2,14 +2,14 @@
 
 Resumed 2026-10-03 UTC. This is a partial release milestone within the existing full SupraOS agent-workflow project. All 33 project nodes, 16 behaviors, and supported execution surfaces remain in scope.
 
-## CURRENT EXECUTION CHECKPOINT — 07:16 UTC
+## CURRENT EXECUTION CHECKPOINT — 07:48 UTC
 
 Active six-hour focus ends10:49:35 UTC. Root and three lanes finish the existing delivery paths; full33-node/16-behavior/supported-surface scope remains intact. Historical checkpoints below retain their original evidence limits.
 
 | Step | Dependencies | Owner | Production caller / acceptance | Current state |
 |---|---|---|---|---|
 | S1 | None | Root + verifier | PR6124 triggerSystemWorkflow consumers; immutable source/composition review | Frozen4db478; scoped source/native/browser evidence retained |
-| S2 | None | Prerequisites | Normal box-ci required security and build gates on4db478 | Both queued since01:27; observed normal FIFO rank7/8 of26 at07:12, progressing |
+| S2 | None | Prerequisites | Normal box-ci required security and build gates on4db478 | Both queued since01:27; observed normal FIFO rank3/4 of22 at07:38, progressing |
 | S3 | None | Verifier | Normal QA owner and foreign-owner access; installed446 compatibility | Schema compatible; normal invitation unresolved |
 | S4 | S1,S2 | Root | Unchanged guarded merge and canonical deployment | Pending required gates |
 | S5 | S3,S4 | Verifier | Deployed original-run, permission, uncertainty and recovery journeys | Pending; public smoke does not substitute |
@@ -20,7 +20,9 @@ Active six-hour focus ends10:49:35 UTC. Root and three lanes finish the existing
 | W1 | None | Integration + verifier | Operation-bound claim/manual SQL and five admission callers | SQL333 gate, b87 handoff binding and a0d all19 touch controls pass in isolated direct PG; e937 receiver transport and final captured proof pending |
 | W2 | None | Integration + verifier | Rerun paused-created response must not auto-execute | Paused rerun and Handoffs repairs mounted390/1440 pass; actual project-filter PostgREST proof passes; source identity SQLb87 native replay passes; actual receiver transport pending |
 | W3 | None | Prerequisites + verifier | External preinstall hold, old-handler/direct-writer drain and faithful restore | Private proxy double30 passes; actual old-image isolated rehearsal and production controls unqualified |
-| W4 | W1,W2,W3 | All lanes | Final coherent SQL/runtime/caller candidate, companions and recovery qualification | Not frozen for release yet |
+| WP | Frozen e937 SQL available | Root + verifier | Exact VERIFY and safe rollback with retained history | Published companion c9944b4; reduced PG17 positive1/negative32 pass; full captured schema pending |
+| WM | Frozen f6 manual successor available | Integration + verifier | Signed manual terminal POST, original retrospective, actual Memory Flow owner reader | Focused56/types934 and independent source review pass; native PostgREST setup and Linux browser pending |
+| W4 | W1,W2,W3,WP,WM | All lanes | Final coherent SQL/runtime/caller candidate, companions and recovery qualification | Not frozen for release yet |
 | W5 | W4, required CI | Root + verifier | Controlled install/deploy/activation and authenticated live recovery | No production SQL installed |
 | L1 | None | Root + verifier | submitEventAnchor reason3 through configured core_multi | PR6148 native23/86 and token audit pass; package VM compatibility/authorized upgrade/live proof pending; receiver held |
 
@@ -33,11 +35,13 @@ flowchart LR
  W1[Native operation gate] --> W4[Coherent W7 qualification]
  W2[Mounted paused-run repair] --> W4
  W3[Preinstall hold and old-worker drain] --> W4
+ WP[Full captured schema and rollback] --> W4
+ WM[Manual original receipt and reader] --> W4
  W4 --> W5[Controlled install and live checks]
  L1[Contract compatibility and upgrade] --> W5
 ```
 
-Shortest usable workflow release remains S1/S2 → S4 → S5, with S3 access joining at acceptance. CI evidence and normal access block that release; unrelated W7 schema work does not. W7 blockers are final combined/captured schema qualification, Handoffs and retrospective real PostgREST receiver/recovery proof, remaining manual/aggregate destinations, final schema companions, old-image operational qualification and contract compatibility. Owner and proof are explicit above. No task count is presented as a code-completion or effort percentage.
+Shortest usable workflow release remains S1/S2 → S4 → S5, with S3 access joining at acceptance. CI evidence and normal access block that release; unrelated W7 schema work does not. W7 blockers are final combined/captured schema qualification, Handoffs and retrospective real PostgREST receiver/recovery proof, remaining manual/aggregate destinations, final full-captured companion qualification, old-image operational qualification and contract compatibility. Owner and proof are explicit above. No task count is presented as a code-completion or effort percentage.
 
 ## Frozen capability
 
