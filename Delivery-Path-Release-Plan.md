@@ -2,7 +2,7 @@
 
 Resumed 2026-10-03 UTC. This is a partial release milestone within the existing full SupraOS agent-workflow project. All 33 project nodes, 16 behaviors, and supported execution surfaces remain in scope.
 
-## CURRENT EXECUTION CHECKPOINT — 09:01 UTC
+## CURRENT EXECUTION CHECKPOINT — 10:02 UTC
 
 Active six-hour focus ends10:49:35 UTC. Root and three lanes finish the existing delivery paths; full33-node/16-behavior/supported-surface scope remains intact. Historical checkpoints below retain their original evidence limits.
 
@@ -22,8 +22,8 @@ Active six-hour focus ends10:49:35 UTC. Root and three lanes finish the existing
 | P2 | P1, required CI, normal QA access | Root + verifier | Guarded merge/deploy then signed pause/original recovery | Pending; copied historical14PASS is not final6f native proof |
 | W1 | None | Integration + verifier | Operation-bound claim/manual SQL and five admission callers | e937 actual receiver transport/ACK recovery passes; c736 touch20 project-summary source/native passes; final coherent qualification pending |
 | W2 | None | Integration + verifier | Rerun paused-created response must not auto-execute | Paused rerun and Handoffs repairs mounted390/1440 pass; actual project-filter PostgREST proof passes; source identity SQLb87 native replay and actual e937 receiver transport pass |
-| W3 | None | Prerequisites + verifier | External preinstall hold, old-handler/direct-writer drain and faithful restore | Private proxy double30 passes; actual old-image isolated rehearsal and production controls unqualified |
-| WP | Frozen e937 SQL available | Root + verifier | Exact VERIFY and safe rollback with retained history | Historical c9944/e937 reduced1+32 and full Sep29 captured schema pass. Current c736 companion0bc852, doc childabb067 published; reduced1+34 and full Sep29 dated-schema replay PASS; actual fullcapture receiver/outbox running |
+| W3 | None | Prerequisites + verifier | External preinstall hold, old-handler/direct-writer drain and faithful restore | Real file-provider helper82b source/review passes; exact actual-helper/Traefik fixture queued after receiver. Actual old-image isolated rehearsal and production controls unqualified |
+| WP | Frozen e937 SQL available | Root + verifier | Exact VERIFY and safe rollback with retained history | Historical c9944/e937 reduced1+32 and full Sep29 captured schema pass. Current c736 companion0bc852, doc childabb067 published; reduced1+34 and full Sep29 dated-schema replay PASS; actual fullcapture receiver/outbox final bounded rerun after two preserved setup-inconclusive results |
 | WM | Frozen f6 manual successor available | Integration + verifier | Signed manual terminal POST, original retrospective, actual Memory Flow owner reader | Published f6; source/focused56/types934 and actual native transport/ACK recovery pass; signed HTTP/live and Memory Flow browser pending |
 | WB | Frozen f6 source available; native transport proof for acceptance | Integration + verifier | Existing plan_broadcast_global intent → original-run global project-summary memory, automated/manual callers and cron recovery | Published frozen4ae; prior b634 expected native RED and repaired native PASS, source review and actual-caller30 pass. Full captured companion and actual reader pending; other destinations remain pending |
 | W4 | W1,W2,W3,WP,WM,WB | All lanes | Final coherent SQL/runtime/caller candidate, companions and recovery qualification | Not frozen for release yet |
