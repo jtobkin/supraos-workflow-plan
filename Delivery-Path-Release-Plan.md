@@ -14,19 +14,19 @@ Active six-hour focus ends10:49:35 UTC. Root and three lanes finish the existing
 | S4 | S1,S2 | Root | Unchanged guarded merge and canonical deployment | Closed: normal guard merged4a6; exact web/cron91ae deployment and public version verified08:19 |
 | S5 | S3,S4 | Verifier | Deployed original-run, permission, uncertainty and recovery journeys | Pending; public smoke does not substitute |
 | H1 | None | Root + verifier | Homepage Collective actual canvas continues drawing at320/390/768/1200 | PR6146 dabbdaf9 frozen; final scoped types and independent browser pass |
-| H2 | H1, required CI | Root + verifier | Guarded release then repeat deployed320 failure reproduction | Merged a8cf through normal guard08:44; canonical build in progress08:55; deployed320 replay pending |
+| H2 | H1, required CI | Root + verifier | Guarded release then repeat deployed320 failure reproduction | Closed for public canvas: a8cf deployed; independent320 live replay on descendant21ea PASS, continued drawing and no pageerrors |
 | C1 | None | Root + verifier | Existing Competitor Watch cron to durable card receipt | PR6066 successor7f18e0 published; seven runtime/test blobs unchanged; independent review/G11 pass; CI pending |
 | C2 | C1, required CI | Root + verifier | Guarded release and active-worker attribution, natural recovery acceptance | Pending |
-| MP | None; separate demonstrated follow-up | Root + verifier | Actual Memory Promotion POST/page only report confirmed completed workflows; failed/held original identity preserved | Baseline RED/repaired8PASS/types13/source reviewPASS; actual page browser pending, local source not published |
+| MP | None; separate demonstrated follow-up | Root + verifier | Actual Memory Promotion POST/page only report confirmed completed workflows; failed/held original identity preserved | Frozen/published PR6149 at4cce838; baseline RED/repaired8PASS/types13/source reviewPASS; actual mounted browser and exact required CI pending |
 | W1 | None | Integration + verifier | Operation-bound claim/manual SQL and five admission callers | e937 actual receiver transport/ACK recovery passes; c736 touch20 project-summary source/native passes; final coherent qualification pending |
 | W2 | None | Integration + verifier | Rerun paused-created response must not auto-execute | Paused rerun and Handoffs repairs mounted390/1440 pass; actual project-filter PostgREST proof passes; source identity SQLb87 native replay and actual e937 receiver transport pass |
 | W3 | None | Prerequisites + verifier | External preinstall hold, old-handler/direct-writer drain and faithful restore | Private proxy double30 passes; actual old-image isolated rehearsal and production controls unqualified |
-| WP | Frozen e937 SQL available | Root + verifier | Exact VERIFY and safe rollback with retained history | Historical c9944/e937 reduced1+32 and full Sep29 captured schema pass. Current c736 companion0bc852 published; reduced1+34 PASS; dated replay running |
+| WP | Frozen e937 SQL available | Root + verifier | Exact VERIFY and safe rollback with retained history | Historical c9944/e937 reduced1+32 and full Sep29 captured schema pass. Current c736 companion0bc852, doc childabb067 published; reduced1+34 and full Sep29 dated-schema replay PASS; actual fullcapture receiver/outbox running |
 | WM | Frozen f6 manual successor available | Integration + verifier | Signed manual terminal POST, original retrospective, actual Memory Flow owner reader | Published f6; source/focused56/types934 and actual native transport/ACK recovery pass; signed HTTP/live and Memory Flow browser pending |
 | WB | Frozen f6 source available; native transport proof for acceptance | Integration + verifier | Existing plan_broadcast_global intent → original-run global project-summary memory, automated/manual callers and cron recovery | Published frozen4ae; prior b634 expected native RED and repaired native PASS, source review and actual-caller30 pass. Full captured companion and actual reader pending; other destinations remain pending |
 | W4 | W1,W2,W3,WP,WM,WB | All lanes | Final coherent SQL/runtime/caller candidate, companions and recovery qualification | Not frozen for release yet |
 | W5 | W4, required CI | Root + verifier | Controlled install/deploy/activation and authenticated live recovery | No production SQL installed |
-| L1 | None | Root + verifier | submitEventAnchor reason3 through configured core_multi | PR6148 native23/86 and token audit pass; package VM compatibility/authorized upgrade/live proof pending; receiver held |
+| L1 | None | Root + verifier | submitEventAnchor reason3 through configured core_multi | PR6148 required CI and native23/86 pass; source/artifacts merged e948 and deployed; public bytes check pending. Actual package VM compatibility/authorized upgrade/live proof pending; receiver held |
 
 ```mermaid
 flowchart LR
@@ -44,7 +44,7 @@ flowchart LR
  L1[Contract compatibility and upgrade] --> W5
 ```
 
-Shortest usable workflow release remains S1/S2 → S4 → S5, with S3 access joining at acceptance. Required CI and guarded merge are closed. Independent deployed browser evidence and normal authenticated access now block full milestone acceptance; unrelated W7 schema work does not. W7 blockers are final coherent/c736 captured qualification, actual Memory Flow browser, remaining destinations, old-image barrier and production operator qualification, and contract compatibility. Owner and proof are explicit above. No task count is presented as a code-completion or effort percentage.
+Shortest usable workflow release remains S1/S2 → S4 → S5, with S3 access joining at acceptance. Required CI and guarded merge are closed. Public browser load and canvas regressions pass; normal authenticated access and actual signed journeys block full milestone acceptance; unrelated W7 schema work does not. W7 blockers are final coherent/c736 captured qualification, actual Memory Flow browser, remaining destinations, old-image barrier and production operator qualification, and contract compatibility. Owner and proof are explicit above. No task count is presented as a code-completion or effort percentage.
 
 ## Historical frozen-candidate preparation (superseded by current checkpoint)
 
