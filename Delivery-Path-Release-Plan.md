@@ -32,6 +32,8 @@ Round 1 runs R1/R2/R3 concurrently with no shared writable source. Round 2 is R4
 
 ## Current blockers by type
 
+- Code: on the frozen candidate, held handoff throws after the specialist indicator starts, leaving the actual Chat consumer running with generic Stream error and no original reference. Independent executor/consumer tests and Linux Chromium at390/1440 reproduce it. The narrow repair must stop replacement work and preserve held status plus original identity through the actual hook, meeting/huddle and history projections. Root review caught new-status coercion to completed in those adapters; they must be qualified before publishing the successor.
+
 - Evidence/infrastructure: exact-head required CI failed with ENOSPC and four earlier test-suite failures requiring separate diagnosis. Fresh verifier observation reports 81 GiB available; preserve failed logs and rerun the same candidate through normal CI. Owner: prerequisites lane. Proof: both required contexts success, not scoped-test counts.
 - Evidence: CLOSED: fresh installed migration446 compatibility passed through the existing authorized app-container connection, BEGIN READ ONLY and ROLLBACK. Columns, RLS, service grants and the unique original-run idempotency index are present. No rows inspected or writes performed. Owner: independent verifier.
 - Access: dedicated QA wallet previously hit the normal invite-only gate. Claude CLI was checked and is signed out. A concrete normal invitation request has been sent to the owner; no self-sponsorship or auth bypass. Owner: verifier/root, then existing authorized member if needed. Proof: normal admitted signed session and owner/foreign-owner checks.
@@ -42,8 +44,8 @@ PR6143 disk-admission protection remains independent; installation is not a newl
 
 ## Progress states and checkpoint questions
 
-Implemented: yes, bounded candidate. Integrated: existing production callers under review. Tested: prior exact native/browser evidence exists; required CI failed from disk exhaustion and must pass. Independently reviewed: renewed caller review passed with inherited limitations explicitly recorded. Merged: no. Deployed: no. Verified live: no.
+Implemented: yes, bounded candidate. Integrated: existing production callers under review. Tested: prior exact native/browser evidence exists; required CI failed from disk exhaustion and must pass. Independently reviewed: RED established in the actual delegation executor, stream consumer and mounted SpecialistPill at 390/1440. A narrow successor is being repaired and audited through Chat state, meeting/huddle and hydrated-history consumers. Merged: no. Deployed: no. Verified live: no.
 
-The usable capability moving closer is safe retention of uncertain System Workflow originals. Capacity availability has recovered and installed schema compatibility is proven; required qualification is not yet closed. Next blockers are exact CI (prerequisites lane) and authenticated live access/evidence (verifier). All three lanes finish this same path; no additional feature stream is opened.
+The usable capability moving closer is safe retention and truthful display of uncertain System Workflow originals. The original candidate remains frozen while an isolated successor repairs the demonstrated caller gap; qualification of the original is not cancelled. Capacity availability has recovered and installed schema compatibility is proven; required qualification is not yet closed. Next blockers are the demonstrated delegation caller/display repair (integration plus independent verification), exact CI (prerequisites lane), and authenticated live access/evidence (verifier). All three lanes finish this same path; no additional feature stream is opened.
 
 Full completion remains all supported execution paths and all 16 behaviors deployed, activated where required, independently verified live, with tested recovery. Owner tests come after independent verification, never in place of it.
