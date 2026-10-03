@@ -245,3 +245,14 @@ Exact b734 owner execute handler6/6 distinguishes definite predispatch failure f
 Next same-path code work is on separate branch feat/w7-assignment-receipt-20261003. Integration owns target-task assignment execution-log receipt, producer split/server snapshot, immediate/cron wiring and atlas. Verification owns original target/name/type/agent, replay/concurrency and denied-owner proof. Root audits the separate assignment Tier2 chain dependency: hashchain, configured consensus queue/L1 anchor require independent receipts; ordinary error-swallowing wrappers cannot establish completion. Assignment has no legacy activity stamp; completion does.
 
 Fresh read-only deployment audit shows live start-supraos SHA9310ffaf differs both from reviewed candidate f604d83d and the patch's expected original35bcecca. Existing live order replaces web before a10s cron stop, so W7 continuous admission/drain remains unqualified. Prerequisites owns fresh private preimage, reviewed hash-bound patch and isolated tests; live scripts/crontab/containers remain untouched. Source fixtures must never overwrite host scripts. A named locked release window, actual admission/reconciliation/drain and verified restoration remain required before activation.
+
+### Assignment successor and release prerequisites checkpoint
+
+- Independent actual-settler evidence reproduced old parent-task metadata in target assignment effects. Integration now separates assignment execution log from pending Tier2 chain receipt.
+- Native assignment tests reproduced alternate-key duplicate started rows; first canonical-key fix then exposed SQL operator precedence failure. Both failures are preserved. Frozen SQL `364cb70932d71a55ac0748f68040d23a9da5594deef495d991569d996198a3b5` is undergoing independent replay; do not mark tested yet.
+- Root reproduced duplicate consensus enqueue and fresh-BFT individual-anchor misrouting. Narrow fresh-mode guard has three scoped passing tests; queue idempotency and original chain destinations remain pending.
+- Host patch source rebase `a3835f6005` passed independent composition review and 45 fake-command cases. It is not installed; operation-bound admission, drain, faithful restore and runtime proof remain required.
+- Exact PR6124 gates are still pending in the normal CI queue. No merge or deployment claimed. Public handoff/checklist commit `dde0c693040b572c975ff697d5e252389cda2bcf` passed anonymous Chromium at 390 and 1440 pixels.
+
+- Subsequent independent native result: SQL364cb709 passed focused5/5 and full85/85 on private PG17.11/PostgREST14.18. Log `verification/w7-assignment-364-native85.log` SHA256 `1ab874537c4d3637eb14f74bbbbe04d62c30bb17b9ba24a1940e5ec47f5a54f3`. Reassignment/stale-drift/caller verification is still running; this supersedes the pending initial native replay above, not live acceptance.
+- Root fresh-mode guard committed `57ef3d4c24`, three focused tests and changed-file types16 pass; independent review pending.
