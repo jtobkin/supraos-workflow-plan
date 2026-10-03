@@ -17,7 +17,7 @@ Active six-hour focus ends10:49:35 UTC. Root and three lanes finish the existing
 | H2 | H1, required CI | Root + verifier | Guarded release then repeat deployed320 failure reproduction | Pending |
 | C1 | None | Root + verifier | Existing Competitor Watch cron to durable card receipt | PR6066 successor7f18e0 published; seven runtime/test blobs unchanged; independent review/G11 pass; CI pending |
 | C2 | C1, required CI | Root + verifier | Guarded release and active-worker attribution, natural recovery acceptance | Pending |
-| W1 | None | Integration + verifier | Operation-bound claim/manual SQL and five admission callers | SQL333 native delayed-close repair passes; SQLcc39 allowlist successor native replay pending |
+| W1 | None | Integration + verifier | Operation-bound claim/manual SQL and five admission callers | SQL333 native delayed-close repair passes; SQLcc39 all18 receiver kinds and denial controls pass direct synthetic PG17; final combined/captured proof pending |
 | W2 | None | Integration + verifier | Rerun paused-created response must not auto-execute | Paused rerun repair mounted390/1440 passes; Handoffs mobile clipping RED under narrow repair |
 | W3 | None | Prerequisites + verifier | External preinstall hold, old-handler/direct-writer drain and faithful restore | Private proxy double30 passes; actual old-image isolated rehearsal and production controls unqualified |
 | W4 | W1,W2,W3 | All lanes | Final coherent SQL/runtime/caller candidate, companions and recovery qualification | Not frozen for release yet |
@@ -37,7 +37,7 @@ flowchart LR
  L1[Contract compatibility and upgrade] --> W5
 ```
 
-Shortest usable workflow release remains S1/S2 → S4 → S5, with S3 access joining at acceptance. CI evidence and normal access block that release; unrelated W7 schema work does not. W7 blockers are final18-kind native qualification, Handoffs mobile repair/native consumer proof, remaining manual/aggregate destinations, final schema companions, old-image operational qualification and contract compatibility. Owner and proof are explicit above. No task count is presented as a code-completion or effort percentage.
+Shortest usable workflow release remains S1/S2 → S4 → S5, with S3 access joining at acceptance. CI evidence and normal access block that release; unrelated W7 schema work does not. W7 blockers are final combined/captured schema qualification, Handoffs mobile repair/native consumer proof, remaining manual/aggregate destinations, final schema companions, old-image operational qualification and contract compatibility. Owner and proof are explicit above. No task count is presented as a code-completion or effort percentage.
 
 ## Frozen capability
 
