@@ -289,3 +289,29 @@ Private GitHub handoff attachments Paused-W7-Assignment-Successor.patch and Paus
 - Paused-W7-Assignment-Successor.patch SHA256 `a895e4e584bf20f1a4698a759a47346346909da6f989d07c314e184505f08e10`
 
 - Paused-Consensus-Mode-Guard.patch SHA256 `d2166fef863cde4d933f304fedfde9417501aff7a96e38d0325f94cbebe3326a`
+
+## Six-hour delivery run — 2026-10-03 04:49:35–10:49:35 UTC
+
+Owner requested autonomous end-to-end execution with the existing three lanes. PR6124 stays frozen. Read-only broader-stack review found existing PR6121 and6053 exact-head dual-green, both tested against current main47b. Root normal guard dry-run6121 passed; independent exact-composition browser check remains in progress before merge. Neither is yet merged/deployed by this run.
+
+W7 frozen f450 (assignment042 + reviewed fresh-mode guard) now has native88/88, actual settler1/1, focused4/4 and types916 passing. The next source stage binds chain/queue identities to original assignment and freezes routing at settlement; root helper6ba+06c retains projectless compatibility with13 focused tests, integration owns actual receiver/SQL/cron mounting. Helper alone is not completed capability. L1 current helper can label any resolved send result confirmed; new receiver must require actual original confirmation and hold uncertain outcomes without resend.
+
+Release prerequisites now have exact W7 caller census and operation-bound admission contractbae22. Executable synthetic gate plus faithful restore rehearsal is next; no production data export/host mutation authorized by those fixtures.
+
+
+## 2026-10-03 05:06 UTC — guarded release and recovery progress
+
+PR6121 is merged through the unchanged normal guard at `3c6316f221822ef9c7989efe5ddcb7de06c07885` (04:58:38 UTC). Exact head `dcbacab2afbc69b72e7e6a47a4c2188adfe859fd` passed both required CI jobs against main47b and independent current-main composition tree `629d0514adb522a19a99222f543103d1e02f0a17`: 10 unit cases and real Chromium390/1440. This fixes AgentOrb callbacks surviving unmount. At05:01 the canonical host had fetched3c6316 and was automatically building; existing web remained healthy on47b and cron running on the same image. **Merged, not yet deployed or verified live.** The actual VMSShell avatar double-click journey remains separate from the component fixture. Receipts: `release-6121/merge.log`, `release-6121/deployment-observation-0501.json`, `verification/pr6121-current-main-admission.md`.
+
+Existing mobile Organization Chat PR6053 is unchanged at `a4015eee37f43485e638e875ebe3768c3413fd0b`, with both required CI jobs passing against47b. Independent verification owns fresh post6121 composition and real ChatView mobile/desktop checks before root guarded merge. This is an existing release candidate, not a new feature lane. PR6124 remains frozen and its queue qualification is not restarted for unrelated main changes.
+
+W7 f450 caller aggregate now passes27/27 across the actual automated settler, owner manual POST and cron sweep: original-token immediate delivery, replay without a second cycle/delivery, and exact touch-CAS prerequisite. Service boundaries are mocked; native SQL694 separately passes88/88. These qualify the intermediate checkpoint only. The evolving chain successor captures routing server-side under config row lock, uses original deterministic chain/queue identities, and requires retained immutable-row readback. Missing config holds explicitly, and saved disabled anchoring is separately reported skipped, never as an L1 delivery.
+
+The new individual-L1 blocker is code/contract compatibility plus missing deployed evidence: TypeScript sends reason3, but both checked-in Move heartbeat contracts accept only0/1/2. The prior helper also reported any resolved transaction call as confirmed. No transaction was submitted during this investigation. Deployed module read attempts returned403 from both workstation proxy and Linux; that does not prove deployed bytecode matches source. Integration must hold the original L1 intent before sending until supported contract identity/capability is verified. No user-editable boolean can establish contract capability, and no fallback reason may silently change original semantics. Root owns this dependency investigation; source RED is `integration/w7-assignment-l1-reason3-contract-red.log`.
+
+A synthetic PostgreSQL17 two-cluster admission/restore rehearsal passed transaction-lock waiting, new-admission pause, original-receipt readability, denied direct service INSERT and exact selected roles/membership/grantor/ACL/RLS/data catalog comparison after restore. Root review found two receipt labels overstated what the fixture exercised: archive digest difference is detection, not an invoked restore refusal; counting an unknown row is detection, not an invoked drain refusal. Prerequisites owns executable checked-restore/operator refusal cases next; the verifier owns independent review. Production gate mounting, direct writer exclusion, real handler reconciliation, faithful production backup and schema-first cutover remain open. No production schema was changed.
+
+
+### Admission bootstrap ordering constraint
+
+The W7 gate cannot protect the migration that creates it; existing live workers do not consult it. Pre-backup/schema safety therefore depends on independently qualified host/proxy admission closure plus full old web/cron/accepted-handler/direct-writer drainage. The new DB gate is post-schema/new-worker protection only. Prerequisites owns concrete captured-config/disposable-old-image rehearsal; integration owns gate mounting; verifier owns independent replay. Production installation stays held without that external barrier. No separate unreviewed gate migration or pretend preinstall RPC is introduced.
