@@ -315,3 +315,12 @@ A synthetic PostgreSQL17 two-cluster admission/restore rehearsal passed transact
 ### Admission bootstrap ordering constraint
 
 The W7 gate cannot protect the migration that creates it; existing live workers do not consult it. Pre-backup/schema safety therefore depends on independently qualified host/proxy admission closure plus full old web/cron/accepted-handler/direct-writer drainage. The new DB gate is post-schema/new-worker protection only. Prerequisites owns concrete captured-config/disposable-old-image rehearsal; integration owns gate mounting; verifier owns independent replay. Production installation stays held without that external barrier. No separate unreviewed gate migration or pretend preinstall RPC is introduced.
+
+
+### 2026-10-03 05:36 UTC — current release dependencies
+
+- PR6053 is deployed at exactef0b/image9123; authenticated Organization Chat acceptance is still pending normal QA access. PR6121 public live checks passed; its authenticated avatar journey is still pending.
+- Independent live checks found a separate homepage320 canvas defect. Actual-component RED is preserved; PR6146 freezes exacte81df with a two-radius repair and independent real Chromium draw-loop recovery proof at four widths. Dependency path: required CI → guarded merge → deployment provenance → independent public browser replay. This does not reset frozen PR6124.
+- W7 coherent chain/BFT stage00d98f is published; native8, actual-callers30, mountedMissionControl2sizes pass with documented fixture limits. Its operation-gate successor60404 is under independent native qualification. Gate checks must cover rerun and auto_start before their writes, in addition to cron/project/workspace paths.
+- The real preinstall hold remains a separate prerequisite before gate-creating SQL. Five-path private proxy proof and exactoldimage accepted-handler/drain proof are required; synthetic restore alone cannot satisfy either.
+- Reason3 contract repair has pinned offline native23/86 proof. Compiled package provenance, independent review, proper platform-admin upgrade, deployed module/event proof and L1 receiver activation remain outstanding. No onchain transaction has been sent.
