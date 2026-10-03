@@ -2,7 +2,7 @@
 
 Resumed 2026-10-03 UTC. This is a partial release milestone within the existing full SupraOS agent-workflow project. All 33 project nodes, 16 behaviors, and supported execution surfaces remain in scope.
 
-## CURRENT EXECUTION CHECKPOINT — 11:52 UTC
+## CURRENT EXECUTION CHECKPOINT — 12:38 UTC
 
 Six-hour focus ended10:49:35 UTC; work continues under the active full-project goal. Root and three lanes finish the existing delivery paths; full33-node/16-behavior/supported-surface scope remains intact. Historical checkpoints below retain their original evidence limits. The step IDs in this current release table and graph are local to this release plan; they are not the canonical33-node IDs in SupraOS-Workflow-Plan.json. In particular, the Competitor Watch C1 row does not close canonical C1 client context isolation, and the W1/W2 rows here do not rename the broader behavior tasks.
 
@@ -16,7 +16,7 @@ Six-hour focus ended10:49:35 UTC; work continues under the active full-project g
 | H1 | None | Root + verifier | Homepage Collective actual canvas continues drawing at320/390/768/1200 | PR6146 dabbdaf9 frozen; final scoped types and independent browser pass |
 | H2 | H1, required CI | Root + verifier | Guarded release then repeat deployed320 failure reproduction | Closed for public canvas: a8cf deployed; independent320 live replay on descendant21ea PASS, continued drawing and no pageerrors |
 | C1 | None | Root + verifier | Existing Competitor Watch cron to durable card receipt | PR6066 7f18 security failed native-test child env types; build7 passed. Narrow reviewed test-only successor a5a91f07fc published; types16/G11 pass, production/assertions unchanged; exact security51/build7PASS; normal guard mergedfc8e11:28:42 |
-| C2 | C1, required CI | Root + verifier | Guarded release and active-worker attribution, natural recovery acceptance | Guarded merge complete; canonical deployment and live worker/card recovery pending |
+| C2 | C1, required CI | Root + verifier | Guarded release and active-worker attribution, natural recovery acceptance | Guarded merge and canonical22d8 deployment complete; public version/unsigned cron401 PASS12:37. Authenticated worker/card recovery pending |
 | MP | None; separate demonstrated follow-up | Root + verifier | Actual Memory Promotion POST/page only report confirmed completed workflows; failed/held original identity preserved | Parent4c P3C gate failed raw backend error copy. Narrow published8a42dbc fixed safe guidance, original ID/no-retry unchanged; root+verifier review, route8/types13/plain gate PASS. Prior browser18PASS+2baselineRED retains4c source; exact repaired browser18PASS+2baselineRED390/1440, sentinel/no-retry checks PASS; required CI pending |
 | P1 | None; separate frozen follow-up | Root + verifier | Exact original pause/checkpoint durable readback in engine/logger/trigger | PR6127 frozen6f; scoped25/types21/source reviewPASS; final native pending (Mac user lookup/CI disk); colocated unchanged14-test fixture being reviewed; security51+build7PASS; private native attempt setupfailedNixcopy beforetests, reviewed extraction/cleanup successor transfer failed AWS254 before tests; diagnostic repair under review, no native verdict |
 | P2 | P1, required CI, normal QA access | Root + verifier | Guarded merge/deploy then signed pause/original recovery | Pending; copied historical14PASS is not final6f native proof |
@@ -26,7 +26,8 @@ Six-hour focus ended10:49:35 UTC; work continues under the active full-project g
 | WP | Frozen e937 SQL available | Root + verifier | Exact VERIFY and safe rollback with retained history | Historical c9944/e937 reduced1+32 and full Sep29 captured schema pass. Current c736 companion0bc852, doc childabb067 published; reduced1+34 and full Sep29 dated-schema replay PASS; actual full dated capture receiver/outbox PASS11:31:32:4 memories/4 queued outbox rows, original-run/lost-ACK/refusal scenarios; receipt ed8ac6ee independently reviewed; no production installation |
 | WM | Frozen f6 manual successor available | Integration + verifier | Signed manual terminal POST, original retrospective, actual Memory Flow owner reader | Published f6; source/focused56/types934 and actual native transport/ACK recovery pass; actual GET→mounted Memory Flow browser390/1440 PASS; mocked auth/DB, unstyled, signed HTTP/live remains pending |
 | WB | Frozen f6 source available; native transport proof for acceptance | Integration + verifier | Existing plan_broadcast_global intent → original-run global project-summary memory, automated/manual callers and cron recovery | Published frozen4ae; prior b634 expected native RED and repaired native PASS, source review and actual-caller30 pass. Full captured companion and exact4ae fullcaptured receiver/outbox PASS; earlier setup failures preserved. Scoped actual f6 reader/browser PASS; other destinations remain pending |
-| W4 | W1,W2,W3,WP,WM,WB | All lanes | Final coherent SQL/runtime/caller candidate, companions and recovery qualification | Not frozen for release yet |
+| WJ | Frozen4ae baseline | Integration owns code; prerequisites reviews; verifier tests | Automated/manual/cron journal intent → original-claim journal row → owner GET/Conversations; lost ACK never resends; reviewer destinations explicitly pending | Isolated `feat/w7-plan-broadcast-journal-20261003`; implementation in progress, no tests/release yet |
+| W4 | W1,W2,W3,WP,WM,WB,WJ | All lanes | Final coherent SQL/runtime/caller candidate, companions and recovery qualification | Not frozen for release yet |
 | W5 | W4, required CI | Root + verifier | Controlled install/deploy/activation and authenticated live recovery | No production SQL installed |
 | L1 | None | Root + verifier | submitEventAnchor reason3 through configured core_multi | PR6148 required CI and native23/86 pass; source/artifacts merged e948 and deployed; public version and all five served bytes PASS. Actual package VM compatibility/authorized upgrade/live proof pending; receiver held |
 
@@ -49,6 +50,7 @@ flowchart LR
  WP[Full captured schema and rollback] --> W4
  WM[Manual original receipt and reader] --> W4
  WB[Existing project-summary intent receiver] --> W4
+ WJ[Original-claim journal row and reader] --> W4
  W4 --> W5[Controlled install and live checks]
  L1[Contract compatibility and upgrade] --> W5
 ```
