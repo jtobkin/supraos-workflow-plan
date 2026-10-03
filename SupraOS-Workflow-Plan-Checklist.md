@@ -1,5 +1,16 @@
 # SupraOS Release Plan Checklist
 
+## Resumed delivery checkpoint — 2026-10-03 UTC
+
++Execution is active again. The first partial milestone is frozen PR6124 (`2e7d34c79b77ddbeb4fc74e14681de37c37d096a`): retain original System Workflow outcomes when completion is uncertain. Three lanes now share that delivery path: caller integration, release prerequisites, and independent verification. Full project scope remains unchanged.
+
++Fresh read-only production inspection verified the required existing schema, row security, service grants and original-run uniqueness index. Required CI previously failed with disk exhaustion and four earlier test-suite failures; those failures are preserved and investigated separately. Capacity has recovered and one supported same-head rerun is queued. No new merge or deployment is claimed.
+
++Authenticated live verification still requires a normal invitation for the dedicated QA account. Claude CLI was checked and is signed out; a concrete invitation request has been sent to the owner. No authentication bypass is authorized. Caller review continues, including a possible held-delegation presentation gap; scoped checks alone do not close release acceptance.
+
++See [the current delivery path, dependency rounds, owners and acceptance checks](Delivery-Path-Release-Plan.md). The paused checkpoint below is historical. This update supersedes its execution status, not its preserved evidence or unfinished scope.
+
++
 Implementation paused at the owner-requested cutoff, **2026-10-02 19:36:59 UTC / 2026-10-03 03:36:59 Hong Kong**. Final documentation checkpoint: 2026-10-02T19:37:18.311500+00:00. The project is not complete. Resume only on a new owner instruction.
 
 | Delivery item | Implemented | Integrated | Tested | Independently audited | Merged | Deployed | Verified live |
