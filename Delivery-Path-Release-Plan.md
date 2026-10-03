@@ -2,16 +2,16 @@
 
 Resumed 2026-10-03 UTC. This is a partial release milestone within the existing full SupraOS agent-workflow project. All 33 project nodes, 16 behaviors, and supported execution surfaces remain in scope.
 
-## CURRENT EXECUTION CHECKPOINT — 07:48 UTC
+## CURRENT EXECUTION CHECKPOINT — 08:07 UTC
 
 Active six-hour focus ends10:49:35 UTC. Root and three lanes finish the existing delivery paths; full33-node/16-behavior/supported-surface scope remains intact. Historical checkpoints below retain their original evidence limits.
 
 | Step | Dependencies | Owner | Production caller / acceptance | Current state |
 |---|---|---|---|---|
 | S1 | None | Root + verifier | PR6124 triggerSystemWorkflow consumers; immutable source/composition review | Frozen4db478; scoped source/native/browser evidence retained |
-| S2 | None | Prerequisites | Normal box-ci required security and build gates on4db478 | Both queued since01:27; observed normal FIFO rank3/4 of22 at07:38, progressing |
+| S2 | None | Prerequisites | Normal box-ci required security and build gates on4db478 | Closed: required security51/build7 pass on compositionaaa8419d/mainc246542b |
 | S3 | None | Verifier | Normal QA owner and foreign-owner access; installed446 compatibility | Schema compatible; normal invitation unresolved |
-| S4 | S1,S2 | Root | Unchanged guarded merge and canonical deployment | Pending required gates |
+| S4 | S1,S2 | Root | Unchanged guarded merge and canonical deployment | Normal guard merged4a6dd133 at08:05:24; canonical deployment pending |
 | S5 | S3,S4 | Verifier | Deployed original-run, permission, uncertainty and recovery journeys | Pending; public smoke does not substitute |
 | H1 | None | Root + verifier | Homepage Collective actual canvas continues drawing at320/390/768/1200 | PR6146 dabbdaf9 frozen; final scoped types and independent browser pass |
 | H2 | H1, required CI | Root + verifier | Guarded release then repeat deployed320 failure reproduction | Pending |
@@ -22,7 +22,8 @@ Active six-hour focus ends10:49:35 UTC. Root and three lanes finish the existing
 | W3 | None | Prerequisites + verifier | External preinstall hold, old-handler/direct-writer drain and faithful restore | Private proxy double30 passes; actual old-image isolated rehearsal and production controls unqualified |
 | WP | Frozen e937 SQL available | Root + verifier | Exact VERIFY and safe rollback with retained history | Published companion c9944b4; reduced PG17 positive1/negative32 pass; full captured schema pending |
 | WM | Frozen f6 manual successor available | Integration + verifier | Signed manual terminal POST, original retrospective, actual Memory Flow owner reader | Focused56/types934 and independent source review pass; native PostgREST setup and Linux browser pending |
-| W4 | W1,W2,W3,WP,WM | All lanes | Final coherent SQL/runtime/caller candidate, companions and recovery qualification | Not frozen for release yet |
+| WB | Frozen f6 source available; native transport proof for acceptance | Integration + verifier | Existing plan_broadcast_global intent → original-run global project-summary memory, automated/manual callers and cron recovery | Separate successor implementation; frozen e937/f6 unchanged; other broadcast destinations remain pending |
+| W4 | W1,W2,W3,WP,WM,WB | All lanes | Final coherent SQL/runtime/caller candidate, companions and recovery qualification | Not frozen for release yet |
 | W5 | W4, required CI | Root + verifier | Controlled install/deploy/activation and authenticated live recovery | No production SQL installed |
 | L1 | None | Root + verifier | submitEventAnchor reason3 through configured core_multi | PR6148 native23/86 and token audit pass; package VM compatibility/authorized upgrade/live proof pending; receiver held |
 
@@ -37,11 +38,12 @@ flowchart LR
  W3[Preinstall hold and old-worker drain] --> W4
  WP[Full captured schema and rollback] --> W4
  WM[Manual original receipt and reader] --> W4
+ WB[Existing project-summary intent receiver] --> W4
  W4 --> W5[Controlled install and live checks]
  L1[Contract compatibility and upgrade] --> W5
 ```
 
-Shortest usable workflow release remains S1/S2 → S4 → S5, with S3 access joining at acceptance. CI evidence and normal access block that release; unrelated W7 schema work does not. W7 blockers are final combined/captured schema qualification, Handoffs and retrospective real PostgREST receiver/recovery proof, remaining manual/aggregate destinations, final full-captured companion qualification, old-image operational qualification and contract compatibility. Owner and proof are explicit above. No task count is presented as a code-completion or effort percentage.
+Shortest usable workflow release remains S1/S2 → S4 → S5, with S3 access joining at acceptance. Required CI and guarded merge are closed. Canonical deployment and normal authenticated access now block full milestone acceptance; unrelated W7 schema work does not. W7 blockers are final combined/captured schema qualification, Handoffs and retrospective real PostgREST receiver/recovery proof, remaining manual/aggregate destinations, final full-captured companion qualification, old-image operational qualification and contract compatibility. Owner and proof are explicit above. No task count is presented as a code-completion or effort percentage.
 
 ## Frozen capability
 
@@ -93,7 +95,7 @@ Full completion remains all supported execution paths and all 16 behaviors deplo
 
 ## Prepared next steps and fresh-machine evidence
 
-Current source is PR6124 head4db478; local isolated author worktree is `/Users/joshuatobkin/qa-lanes/release-integration-6124-catalog-20261003`. Earlier runtime composition lives in `release-integration-6124-current-main-join-20261003`. Evidence root is `/Users/joshuatobkin/qa-evidence/resume-delivery-20261003`. On a new computer, clone `jtobkin/suprafx-platform`, fetch the PR head, use repository Node22 and AGENTS/CONTEXT instructions, and run normal release controls; local machine paths are evidence locations, not portable prerequisites.
+Current source is the published PR6124 head4db4788a2a410d826f3df280033c681973f99cdd. The previously named local catalog worktree is no longer present; `qa-lanes/release-integration-6124-joined-tree-20261003` is only a source snapshot without Git metadata, not a registered worktree. Fetch the exact published PR commit for continuation. No snapshot or foreign lane was deleted during this checkpoint. Evidence root is `/Users/joshuatobkin/qa-evidence/resume-delivery-20261003`. On a new computer, clone `jtobkin/suprafx-platform`, fetch the PR head, use repository Node22 and AGENTS/CONTEXT instructions, and run normal release controls; local machine paths are evidence locations, not portable prerequisites.
 
 Deployment inspection confirms the installed main poll, not the proposed SHA-pinned host patch. Verify actual web and cron image IDs/stamps after guarded merge; there is no qualified one-command image rollback. Revert through reviewed main remains the documented rollback path. Live acceptance preparation includes a normally signed, budgeted voice-router positive request, original durable run detail/UI and cross-owner denial. Deterministic cancellation/ACK-loss faults remain image-bound disposable tests, never customer fault injection. Normal QA session access is unresolved: the owner reports a valid Claude login, while this process has abnormal account/Keychain lookup and no supported messaging route.
 
