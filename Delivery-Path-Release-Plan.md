@@ -2,7 +2,7 @@
 
 Resumed 2026-10-03 UTC. This is a partial release milestone within the existing full SupraOS agent-workflow project. All 33 project nodes, 16 behaviors, and supported execution surfaces remain in scope.
 
-## CURRENT EXECUTION CHECKPOINT — 08:07 UTC
+## CURRENT EXECUTION CHECKPOINT — 09:01 UTC
 
 Active six-hour focus ends10:49:35 UTC. Root and three lanes finish the existing delivery paths; full33-node/16-behavior/supported-surface scope remains intact. Historical checkpoints below retain their original evidence limits.
 
@@ -11,18 +11,19 @@ Active six-hour focus ends10:49:35 UTC. Root and three lanes finish the existing
 | S1 | None | Root + verifier | PR6124 triggerSystemWorkflow consumers; immutable source/composition review | Frozen4db478; scoped source/native/browser evidence retained |
 | S2 | None | Prerequisites | Normal box-ci required security and build gates on4db478 | Closed: required security51/build7 pass on compositionaaa8419d/mainc246542b |
 | S3 | None | Verifier | Normal QA owner and foreign-owner access; installed446 compatibility | Schema compatible; normal invitation unresolved |
-| S4 | S1,S2 | Root | Unchanged guarded merge and canonical deployment | Normal guard merged4a6dd133 at08:05:24; canonical deployment pending |
+| S4 | S1,S2 | Root | Unchanged guarded merge and canonical deployment | Closed: normal guard merged4a6; exact web/cron91ae deployment and public version verified08:19 |
 | S5 | S3,S4 | Verifier | Deployed original-run, permission, uncertainty and recovery journeys | Pending; public smoke does not substitute |
 | H1 | None | Root + verifier | Homepage Collective actual canvas continues drawing at320/390/768/1200 | PR6146 dabbdaf9 frozen; final scoped types and independent browser pass |
-| H2 | H1, required CI | Root + verifier | Guarded release then repeat deployed320 failure reproduction | Pending |
+| H2 | H1, required CI | Root + verifier | Guarded release then repeat deployed320 failure reproduction | Merged a8cf through normal guard08:44; canonical build in progress08:55; deployed320 replay pending |
 | C1 | None | Root + verifier | Existing Competitor Watch cron to durable card receipt | PR6066 successor7f18e0 published; seven runtime/test blobs unchanged; independent review/G11 pass; CI pending |
 | C2 | C1, required CI | Root + verifier | Guarded release and active-worker attribution, natural recovery acceptance | Pending |
-| W1 | None | Integration + verifier | Operation-bound claim/manual SQL and five admission callers | SQL333 gate, b87 handoff binding and a0d all19 touch controls pass in isolated direct PG; e937 receiver transport and final captured proof pending |
-| W2 | None | Integration + verifier | Rerun paused-created response must not auto-execute | Paused rerun and Handoffs repairs mounted390/1440 pass; actual project-filter PostgREST proof passes; source identity SQLb87 native replay passes; actual receiver transport pending |
+| MP | None; separate demonstrated follow-up | Root + verifier | Actual Memory Promotion POST/page only report confirmed completed workflows; failed/held original identity preserved | Baseline RED/repaired8PASS/types13/source reviewPASS; actual page browser pending, local source not published |
+| W1 | None | Integration + verifier | Operation-bound claim/manual SQL and five admission callers | e937 actual receiver transport/ACK recovery passes; c736 touch20 project-summary source/native passes; final coherent qualification pending |
+| W2 | None | Integration + verifier | Rerun paused-created response must not auto-execute | Paused rerun and Handoffs repairs mounted390/1440 pass; actual project-filter PostgREST proof passes; source identity SQLb87 native replay and actual e937 receiver transport pass |
 | W3 | None | Prerequisites + verifier | External preinstall hold, old-handler/direct-writer drain and faithful restore | Private proxy double30 passes; actual old-image isolated rehearsal and production controls unqualified |
-| WP | Frozen e937 SQL available | Root + verifier | Exact VERIFY and safe rollback with retained history | Published companion c9944b4; reduced PG17 positive1/negative32 pass; full captured schema pending |
-| WM | Frozen f6 manual successor available | Integration + verifier | Signed manual terminal POST, original retrospective, actual Memory Flow owner reader | Focused56/types934 and independent source review pass; native PostgREST setup and Linux browser pending |
-| WB | Frozen f6 source available; native transport proof for acceptance | Integration + verifier | Existing plan_broadcast_global intent → original-run global project-summary memory, automated/manual callers and cron recovery | Separate successor implementation; frozen e937/f6 unchanged; other broadcast destinations remain pending |
+| WP | Frozen e937 SQL available | Root + verifier | Exact VERIFY and safe rollback with retained history | Historical c9944/e937 reduced1+32 and full Sep29 captured schema pass. Current c736 companion0bc852 published; reduced1+34 PASS; dated replay running |
+| WM | Frozen f6 manual successor available | Integration + verifier | Signed manual terminal POST, original retrospective, actual Memory Flow owner reader | Published f6; source/focused56/types934 and actual native transport/ACK recovery pass; signed HTTP/live and Memory Flow browser pending |
+| WB | Frozen f6 source available; native transport proof for acceptance | Integration + verifier | Existing plan_broadcast_global intent → original-run global project-summary memory, automated/manual callers and cron recovery | Published frozen4ae; prior b634 expected native RED and repaired native PASS, source review and actual-caller30 pass. Full captured companion and actual reader pending; other destinations remain pending |
 | W4 | W1,W2,W3,WP,WM,WB | All lanes | Final coherent SQL/runtime/caller candidate, companions and recovery qualification | Not frozen for release yet |
 | W5 | W4, required CI | Root + verifier | Controlled install/deploy/activation and authenticated live recovery | No production SQL installed |
 | L1 | None | Root + verifier | submitEventAnchor reason3 through configured core_multi | PR6148 native23/86 and token audit pass; package VM compatibility/authorized upgrade/live proof pending; receiver held |
@@ -43,9 +44,9 @@ flowchart LR
  L1[Contract compatibility and upgrade] --> W5
 ```
 
-Shortest usable workflow release remains S1/S2 → S4 → S5, with S3 access joining at acceptance. Required CI and guarded merge are closed. Canonical deployment and normal authenticated access now block full milestone acceptance; unrelated W7 schema work does not. W7 blockers are final combined/captured schema qualification, Handoffs and retrospective real PostgREST receiver/recovery proof, remaining manual/aggregate destinations, final full-captured companion qualification, old-image operational qualification and contract compatibility. Owner and proof are explicit above. No task count is presented as a code-completion or effort percentage.
+Shortest usable workflow release remains S1/S2 → S4 → S5, with S3 access joining at acceptance. Required CI and guarded merge are closed. Independent deployed browser evidence and normal authenticated access now block full milestone acceptance; unrelated W7 schema work does not. W7 blockers are final coherent/c736 captured qualification, actual Memory Flow browser, remaining destinations, old-image barrier and production operator qualification, and contract compatibility. Owner and proof are explicit above. No task count is presented as a code-completion or effort percentage.
 
-## Frozen capability
+## Historical frozen-candidate preparation (superseded by current checkpoint)
 
 PR6124, current frozen commit `4db4788a2a410d826f3df280033c681973f99cdd` (original candidate `2e7d34c79b77ddbeb4fc74e14681de37c37d096a`): retain the original System Workflow when terminal persistence or a trigger response is uncertain; require durable completion evidence and avoid replacement execution. Existing voice, memory-promotion, Telegram, collaboration, coordinator-loop and checkpoint callers are the integration targets. No new SQL is introduced; fresh read-only installed migration446 compatibility has passed.
 
