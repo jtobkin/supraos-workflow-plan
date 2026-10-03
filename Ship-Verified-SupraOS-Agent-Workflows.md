@@ -2,6 +2,8 @@
 
 ## Resumed delivery checkpoint — 2026-10-03 UTC
 
+Public navigation: [Checklist](https://github.com/jtobkin/supraos-workflow-plan/blob/main/SupraOS-Workflow-Plan-Checklist.md) · [Dependency plan](https://github.com/jtobkin/supraos-workflow-plan/blob/main/Delivery-Path-Release-Plan.md) · [Detailed handoff](https://github.com/jtobkin/supraos-workflow-plan/blob/main/Ship-Verified-SupraOS-Agent-Workflows.md). These documents are public; application source and private evidence require repository access.
+
 Current evidence: **10:38 UTC**. The owner authorized a six-hour focus run, **04:49:35–10:49:35 UTC**, with root and three Sol6 lanes. Integration owns real callers and deployment hold controls; prerequisites owns full-schema native qualification and release blockers; verification owns independent browser/native/live evidence; root owns composition, normal guarded release and this plan. Full scope remains **33 nodes, 16 behaviors and 12 surfaces**. iMessage is deferred; WhatsApp excluded. These counts are scope, not an effort or completion percentage.
 
 ### Released capabilities and exact evidence
