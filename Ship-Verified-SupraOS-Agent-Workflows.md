@@ -2,200 +2,46 @@
 
 ## Resumed execution — 2026-10-04 UTC
 
-**Current checkpoint: 07:12 UTC.** The authorized eight-hour focus ends at09:27:59 UTC. The owner briefly paused for reflection and then resumed execution with additional Grok delegation. The complete goal remains all33 plan nodes,16 behaviors and12 supported surfaces: private, authorized, contextual, recoverable and truthful agents. W7 is the immediate partial release milestone, not the definition of full completion.
+**Current checkpoint: 07:38 UTC.** The authorized eight-hour focus ends at09:27:59 UTC. The owner briefly paused for reflection and then resumed execution with additional Grok delegation. The complete goal remains all33 plan nodes,16 behaviors and12 supported surfaces: private, authorized, contextual, recoverable and truthful agents. W7 is the immediate partial release milestone, not the definition of full completion.
 
 ### Candidate, evidence and delivery state
 
-PR[6160](https://github.com/jtobkin/suprafx-platform/pull/6160) is frozen at **3c21a1576042bfa3373b69df1e929551db5d48fd**. Runtime and SQL remain byte-identical to ancestor817061098742daec71dbb4198a5fd0d65d738d17. The guarded operator and installer are mounted in the candidate. Three demonstrated blockers received narrow reviewed repairs: receipt source attribution, unsupported commitment after failed readback, and an unhandled PostgreSQL client connection-error event. Installer SHA0032c930 and operator SHA959f8e58 are unchanged by the final permanent-regression commit. No production guard, SQL, permission, budget or no-resend rule was weakened. Auto-merge remains off.
+PR [6160](https://github.com/jtobkin/suprafx-platform/pull/6160) remains frozen at **3c21a1576042bfa3373b69df1e929551db5d48fd**. Its runtime/SQL ancestor is817061098742daec71dbb4198a5fd0d65d738d17. No W7 merge, production installation, deployment or activation is claimed. Required security/build gates were pending at the last exact3c21 observation; ancestor CI is not candidate acceptance. The full33 nodes,16 behaviors and12 surfaces remain in scope.
 
-| Capability | Implemented / integrated | Tested / independently reviewed | Merged / deployed / verified live |
+| Work | Implemented / integrated | Tests / independent review | Release state |
 | --- | --- | --- | --- |
-| Original-identity workflow runtime and owner journal | Manual, automated and cron callers mounted in frozen candidate | Historical817 CI/native evidence; exact3c21 required security/build statuses pending at07:05 | No / no / no for this candidate |
-| Guarded prepare/stop/install/close/replay | Actual host CLI and installer mounted | Baseline20838 native d8c9 PASS; real PostgreSQL COMMIT-loss b937 RED6d3 exposed crash; repair0032 actualpg loopback PASS; permanent suite36/36 and independent source review PASS; repaired native pending | No / no / no |
-| Legacy observation | Mounted operator caller | Captured-schema native c5a466d0 PASS and audited | Private qualification only |
-| Faithful synthetic restore | Strict comparison plus exact source-bound ACL repair | Selected2e2 and broaderab19 native PASS and independently audited | Evidence only; no production restore |
-| Production writer fence, accepted-work reconciliation and target recovery | Guard functions still deliberately refuse; qualified producers remain absent | Dated synthetic evidence cannot satisfy production authority | Unfinished |
-| Authenticated live acceptance | Normal QA invitation and working browser policy needed | Last browser result enterprise_policy_unavailable; no bypass | Unfinished |
+| Frozen guarded installer/operator3c21 | Mounted CLI with source/commit evidence repairs and pg error handling |36 tests and independent review PASS; previous native baseline PASS; COMMIT-loss failure preserved | Unmerged, undeployed, not live-verified |
+| Repaired native qualification | Immutable stage consumed exactly once | Setup-only failure13e6284b: pinned application image absent before any fixture scratch/network/container or product assertion; outer cleanup confirmed | No native verdict; do not retry consumed stage |
+| Bootstrap-close disconnect successor | Separate root branch commit5f1a578c16; all three child phases observe pg errors through shutdown | Baseline real-pg RED in preflight/dispatch/readback;37-test suite, exact G11 and independent Codex rerun PASS; Grok review running | Local successor, not admitted to frozen candidate |
+| Head-review RPC repair | Separate prerequisite commitd2a8877fcff02aa8d7b4985a68d8bc028ddc1ade removes undeclared argument | Actual Supabase serialization reproduces8vs7 mismatch;23 related tests PASS | Actual PostgREST server proof and root integration pending |
+| Legacy PATCH manual action / concurrent plan edits | Actual-route reproduction confirms durable-settlement bypass and stale claim overwrite | Independent counterexamples preserved; shared authenticated manual handler and owner/version CAS implementation underway | In progress; cancellation/recovery acceptance remains explicit |
+| Host probe identity | First-launch same-name adoption reproduced with fake Docker | Narrow original-identity repair in integration lane; real Docker semantics must validate absence assumptions | Not repaired or qualified yet |
+| Broader effect delivery | Several authored task and terminal-plan effects have no durable receiver | Source mapping independently confirms pending intents; existing L1 qualification hold is intentional | Missing integration remains open; no dropping intents to obtain green drain |
+| Production fence / recovery / live acceptance | Existing hold and authority guards still refuse | Owner mechanism unanswered; dated private restore and finite observations do not prove production boundary | Unfinished |
 
-The actual COMMIT-loss test withheld PostgreSQL's backend COMMIT completion after the database committed. Original child exit1/empty output failed its required UNKNOWN JSON assertion. Read-only reconciliation independently proved one original-operation ledger, fresh INSTALLED_VERIFIED/VERIFY and matching schema exports, with no repeat dispatch. The original failed receipt6d3, event, dispatch intent/result, readback and complete exports are preserved. Cleanup first refused before mutation because a saved container ID was incomplete; a revised full-ID cleanup added fsynced one-shot SSM intent/unknown receipts, passed five recovery cases and two independent reviews. Terminal cleanup416fa5ff passed, removed only the four owned containers/network/scratch, and preserved the exact19 unrelated running-container inventory. No production container was stopped.
+Current serving image was independently read as92069ad4/build1d29ec09, Node22.23.3 and pg8.20.0. That is dependency provenance, not qualification of the successor. Previous imageab5b disappeared before the native fixture could start. No production container was stopped. Original COMMIT-loss failure6d3 and successful original-operation readback remain preserved; earlier owner-checked cleanup416fa removed only owned resources and retained the19 unrelated containers.
 
 ### Parallel delivery path and ownership
 
-1. **Codex integration:** prepare one separate exact3c21 native operation, qualify repaired PostgreSQL COMMIT-loss handling, foreign-ledger refusal, fresh same-operation readback and gate closure/replay. Then mount the reviewed hold-loss and schema-export fault acceptance cases in that actual CLI path. Preserve every prior failure and original operation identity.
-2. **Codex prerequisites:** independently review immutable package/admission/recovery evidence; complete production mechanism work only after the supported owner fence and maintenance-lifeline contract is established. A point-in-time census or static hold file is insufficient.
-3. **Codex verification:** exact-source gates, independent native receipt audits and actual-path negative acceptance. The permanent regression is committed,36 tests pass; it uses the checkout's real pg.Client and bounded loopback fault, not a PostgreSQL COMMIT substitute.
-4. **Grok trailing work:** four read-only workers are confirmed reading source: installer/recovery audit, SQL/admission/restore audit, actual caller/acceptance mapping, and regression/negative-test review. Four further jobs are queued: evidence/dependency reconciliation, host stop/escrow/lock audit, durable effect recovery audit, and journal-review budget/truthfulness audit. Each returns exact references and actionable findings; root reproduces findings before candidate changes. The connector caps Grok at4 concurrent jobs and read-only permissions. Its stale1.0.4 CLI was rejected before any audit work; the official1.0.46 installation now runs. Failed starts are not audits.
-5. **Root:** orchestration, source/receipt review, candidate composition, one Docker-mutating native fixture slot, documented ownership and evidence publication. Only demonstrated blockers change the candidate. Read-only reviews and source preparation remain parallel.
-6. **Release/live:** once qualified production authority, current-target recovery, exact required gates and mounted-path evidence all pass, perform authorized guarded merge/install/deploy/activation; independently verify authenticated manual, automated, background/System Workflow, cron and journal behavior, permissions, failures and recovery. Owner confirmation tests come afterward.
+- **Integration Codex:** repair demonstrated host-probe identity defects; independently review operator changes; prepare one current-image, exact-source successor native package. It may run only after source review and fresh admission. Preserve every failed attempt and original identity; no resend after uncertainty.
+- **Prerequisites Codex:** head-review named-argument correction, actual PostgREST proof preparation, and safe unknown-review recovery design. A still-running original provider must not be mistaken for abandoned work. Budget reservation and no-resend remain mandatory.
+- **Verification Codex:** owner/version CAS and a shared existing durable manual-action implementation for both authenticated routes. Never rewrite a signed request or fabricate a second authentication. Keep cancellation and background recovery reachable and truthful.
+- **Root:** exact-source composition, independent reviews, dependency tracking and publication. One Docker-mutating native slot prevents host contention. Frozen qualification is not cancelled for unrelated source changes; proven blockers have separate successors.
+- **Grok:** four active read-only slots, continuously supplied with distinct useful work. Seven initial audits completed. Current jobs cover review budget/truthfulness, close-child repair review, existing receiver integration design, and cron race/cancellation design. Findings are hypotheses until independently validated. The umask permission-widening claim was disproved with actual source under three umasks; no unnecessary repair was made. Grok cannot mutate code through this connector.
 
-The longest unresolved path remains **supported platform authority → continuously protected accepted-work reconciliation/current-target recovery → guarded install/deploy → authenticated live verification**. The existing owner request is unanswered. More audit capacity does not grant that authority or turn private tests into live acceptance.
+The release chain remains: demonstrated blocker repairs and native proof → supported continuously effective writer fence plus accepted-work accounting and current-target recovery → final candidate gates → guarded merge/install/deploy/activation → independent authenticated live checks. The owner fence request remains unanswered; normal QA access and browser policy are also unresolved. Private passes do not satisfy those external requirements. No owner confirmation tests are requested before independent live verification.
 
 ### Fresh-computer locations and access
 
 - Source: private `jtobkin/suprafx-platform`; PR branch `fix/w7-reviewer-release-20261003` and composition branch `fix/w7-qualified-operator-composition-20261004`, both exact3c21. Read AGENTS.md, CONTEXT.md, build protocol, atlas and delegation playbook before work. Use isolated lanes; never reset the dirty shared checkout.
 - Host operator: `scripts/qa/w7-operation-gate.py`; installer: `scripts/qa/w7-bootstrap-install.js`; permanent tests: `scripts/qa/test-w7-operation-gate.py`, `test-w7-bootstrap-install-real-pg.cjs`, `test-w7-proxy-hold.py`; hold observer: `w7-proxy-hold.py`. Contract: `docs/agent-run/w7-operation-bound-release-admission.md`.
 - Runtime: `lib/vms/workflows/`, `app/api/workspace/plan/execute/route.ts`, `app/api/cron/mc-coordinator/route.ts`; detailed journal/Conversations paths remain in the historical handoff below. SQL: `supabase/migrations/20261003120000_mc_task_claim_settlement{,_VERIFY,_ROLLBACK}.sql`. Forward7af383e3/VERIFY4d45188d are unchanged; not installed in production.
-- Local canonical plan: `/Users/joshuatobkin/qa-evidence/supraos-execution-plan-20261001/plan.json`; root evidence: `qa-evidence/resume-delivery-20261004/`; lane sources/receipts: `qa-evidence/resume-delivery-20261003/{integration,prerequisites,verification}/`. Current root code lane: `qa-lanes/w7-qualified-operator-composition-20261004`. All unmerged lanes remain preserved.
-- Grok frozen read-only snapshot, per-file hashes and eight-job dispatch plan: `qa-evidence/resume-delivery-20261004/grok-release-audits/`. Native RED/recovery/cleanup evidence: `integration/bootstrap-commit-ack-private/receipts/`. These newest local records await a separate portable evidence publication; do not claim a fresh computer already has them.
+- Local canonical plan: `/Users/joshuatobkin/qa-evidence/supraos-execution-plan-20261001/plan.json`; root evidence: `qa-evidence/resume-delivery-20261004/`; lane sources/receipts: `qa-evidence/resume-delivery-20261003/{integration,prerequisites,verification}/`. Frozen root lane: `qa-lanes/w7-qualified-operator-composition-20261004`; separate repair lane: `qa-lanes/w7-bootstrap-close-disconnect-20261004`; prerequisite lane: `qa-lanes/w7-review-rpc-prerequisites-20261004`. All unmerged lanes remain preserved.
+- Grok frozen read-only snapshot, per-file hashes and eight-job dispatch plan: `qa-evidence/resume-delivery-20261004/grok-release-audits/`. Native RED/recovery/cleanup evidence: `integration/bootstrap-commit-ack-private/receipts/`. The original failure/readback/cleanup packet is now portable in private commit1591670bcbe18654f6e81fe5826e3e4b6ae5daf7 at docs/agent-run/evidence/pgwire-recovery-repair-20261004/:40 exact text records, G11 and remote byte verification PASS. New audit results, setup-only failure and successor proofs remain local until separately published.
 - Portable private evidence branch: `docs/paused-workflow-handoff-20261002`. Commit8226c0be contains32 complete text evidence/source records at `docs/agent-run/evidence/composed-workflow-qualification-20261004/`. Commita47bdd9b008559c99b08fc6a4132a3584347e475 contains three exact archived fixture inputs plus manifest at `docs/agent-run/evidence/exact-private-fixture-bundles-20261004/`, expanded-source scanned and remote byte-verified. Commit-ACK archive6587 is the failed6d3 source, not PASS. The restore archive8c25 was not published because its metadata triggered the scanner; no exception/bypass. Earlier commitsbd973991,616e9ff1,b5154072,f1b8c94f preserve preceding evidence with declared limits.
 - Public canonical documents: [handoff](https://github.com/jtobkin/supraos-workflow-plan/blob/main/Ship-Verified-SupraOS-Agent-Workflows.md), [checklist](https://github.com/jtobkin/supraos-workflow-plan/blob/main/SupraOS-Workflow-Plan-Checklist.md), [dependency plan](https://github.com/jtobkin/supraos-workflow-plan/blob/main/Delivery-Path-Release-Plan.md). Private source/evidence requires repository access; public documents require no sign-in. Current publication is independently byte-checked after upload; browser rendering remains a separate unavailable gate.
 
 ---
-
-## Earlier 05:15 checkpoint — superseded by current state above
-
-**Current checkpoint: 05:15 UTC.** The eight-hour focus ends at09:27:59 UTC. Full scope remains33 nodes,16 behaviors and12 surfaces. The immediate partial milestone is the frozen W7 workspace completion release through manual, automated and cron callers, with durable outcomes and original-identity recovery.
-
-### What changed and what is blocked
-
-The strict dated synthetic restore passed: receipt `2e2ea492`, runner `c598ced9`, archive `8c25ca50`. It reproduced the original two ACL-field mismatch, checked unchanged direct grants including PG17 MAINTAIN, replayed only two exact forward REVOKEs, then required strict catalog/role/seven-selected-row equality and original receipt-first recovery. Root and independent audit checked complete log hashes, terminal successful commands and owned cleanup. This closes that synthetic failure; it does not qualify all production data or recovery.
-
-The protected installer is mounted in the actual operator CLI and has exact SQL, transaction/VERIFY, operation-marked ledger, no-resend recovery and fresh readback logic. Tests exposed and repaired target-routing ambiguity using actual pg.Client parameters. However, root review caught a further integration blocker: oracle exports were placed in container tmpfs and extracted only after stop, when tmpfs disappears. The source-tested candidate ff283b8a/02308790 is preserved; a narrow private persistent-export repair and actual terminal-container verification are required. Hard production hold/backup/drain guards still refuse installation.
-
-The actual legacy preinstall fixture was staged but its pinned app image was deleted by an unrelated deployment. A read-only check proved the current image `ab5b30f96105718b033811018149d4dfb2fad1ab3a1dc35a33a2b19b6e0afede`, linux/amd64, with pg available. A separate image-only successor is being reviewed. Immutable runtime817 qualification is not restarted because unrelated main advanced.
-
-### Delivery states
-
-| Work | Implemented / integrated | Tested / independently reviewed | Merged | Deployed | Verified live |
-| --- | --- | --- | --- | --- | --- |
-| Frozen817 / PR6160 workspace runtime | Mounted manual/automated/cron callers | Required CI and scoped native checks PASS; full controls incomplete | No | No | No |
-| Actual stop and uncertain replay | Mounted84c CLI | Native3b9 PASS and audited | No | No | No; private synthetic hold/gate |
-| Strict selected synthetic restore | Exact-source harness | Native2e2 PASS, strict assertions retained, audited cleanup | Evidence only | No production restore | No |
-| Broader synthetic restore | All declared rows, columns, sequences and large objects, caller mounted | ae69 source review/local checks PASS; native pending | Evidence only | No | No |
-| Legacy prepare/stop/close | bcb/b5 committed and pushed | Local/source checks PASS; actual preinstall native needs current-image successor | No | No | No |
-| Protected install and schema exports | Mounted but terminal-export repair pending |33 operator/15 actual-parser checks pass on preserved candidate; actual lifecycle still unqualified | No | No | No |
-| Production release and full project | Partial | Authority, continuous writer fence, accepted-handler accounting, faithful whole-target recovery and signed live acceptance remain open | No final release | No | No |
-
-### Next dependency steps and owners
-
-1. **Prerequisites lane:** package and qualify reviewed broader synthetic restore coverage, preserving strict ACL/catalog/row checks. Whole-target production backup/recovery remains a distinct gate.
-2. **Implementation lane:** repair the terminal oracle export handoff, freeze and independently review it, then compose actual legacy prepare→original stop→exact install/VERIFY→close→fresh readback in an isolated real database/container fixture. No fabricated production receipt or authority.
-3. **Independent verification lane:** qualify the reviewed image-only legacy fixture, review the composed install/recovery chain and preserve uncertain-original evidence. Source-only assertions do not establish container behavior.
-4. **Root/operator:** obtain supported platform writer exclusion/recovery authority and resolve accepted-handler accounting; then compose exact release source, run required gates and perform guarded merge/install/deploy/activation. External requests remain unanswered, not granted.
-5. **Independent live verification:** authenticated real browser/Playwright journeys and recovery after deployment. QA invitation and browser policy remain unresolved; last navigation was denied `enterprise_policy_unavailable`, with no bypass.
-
-One private Docker-mutating fixture owns the host slot at a time. Source, staging and reviewed read-only work continue in parallel. No extra workstream supersedes this delivery path, and no percentage is inferred from counts.
-
-### Code, records and fresh-computer access
-
-Runtime: `jtobkin/suprafx-platform`, PR6160, branch `fix/w7-reviewer-release-20261003`, exact `817061098742daec71dbb4198a5fd0d65d738d17`. Main working directory is unrelated/dirty and must not be reset. Current root lane: `/Users/joshuatobkin/qa-lanes/w7-release-blockers-root-20261003`.
-
-Operator committed sources: `feat/w7-legacy-preinstall-observation-20261004` at bcb927e and `feat/w7-operation-bootstrap-close-20261004` at `b5a81b2b3433fc5137f5845dc1a8d1fa1d5aa89d`. Installer work is uncommitted in `/Users/joshuatobkin/qa-lanes/w7-bootstrap-install-producer-20261004`; preserve it before switching computers. Production caller `scripts/qa/w7-operation-gate.py`, companion `scripts/qa/w7-bootstrap-install.js`, regression `scripts/qa/test-w7-operation-gate.py`, documentation `docs/agent-run/w7-operation-bound-release-admission.md`. Runtime and SQL locations remain documented below.
-
-Canonical local plan: `/Users/joshuatobkin/qa-evidence/supraos-execution-plan-20261001/plan.json`. Current evidence: `qa-evidence/resume-delivery-20261004/`; lane sources/receipts: `qa-evidence/resume-delivery-20261003/{integration,prerequisites,verification}/`. New2e2 receipt is under `prerequisites/restore-diagnostic-acl-replay/receipts/memory-restore-acl-replay-1c53c1706ec65386/`. These new files are local until separately archived; do not imply a fresh computer can access local-only evidence.
-
-Portable private evidence commits616e9ff1, b5154072 and f1b8c94f in `jtobkin/suprafx-platform` remain byte-verified and secret-scanned; path groups are listed below. Public plan repository `jtobkin/supraos-workflow-plan`, main, contains this handoff, `SupraOS-Workflow-Plan-Checklist.md` and `Delivery-Path-Release-Plan.md`. Private repo access is required for source/evidence; public documents need no sign-in. Clone/fetch exact recorded commits on a fresh machine, read repository instructions and use isolated lanes. Never infer deployed acceptance from preserved local/source test results.
-
----
-
-## Earlier 04:33 checkpoint — superseded by current state above
-
-**Current checkpoint: 04:33 UTC.** Owner-authorized focus runs 01:27:59–09:27:59 UTC. The state below supersedes earlier entries; full scope remains33 nodes,16 behaviors and12 surfaces. The current milestone is the coherent W7 workspace-plan completion release through manual, automated and cron callers, with durable outcomes and original-identity recovery. This is a partial milestone, not full project completion.
-
-### Current evidence and delivery states
-
-| Work | Implemented / integrated | Tested / independently reviewed | Merged | Deployed | Verified live |
-| --- | --- | --- | --- | --- | --- |
-| Runtime817 / PR6160 | Named workspace callers mounted | Required CI and scoped native/browser checks pass; release controls still incomplete | No | No | No |
-| Current84c original-stop recovery | Actual derived CLI exercised | Native3b9b3326 PASS: exactly two disposable original stops, simulated committed cron ACK loss, saved UNKNOWN replay/no resend, owned cleanup; root audited | No | No | No; synthetic gate/private hold |
-| Legacy observation bcb927e | Mounted read-only CLI, committed/pushed |23 tests and independent source review pass; captured-schema native prepared, not run | No | No | No |
-| Legacy stop and bootstrap-close b5a81b2 | Mounted successor, committed clean; exact install receipt producer still missing |29 tests and independent review pass after current-hold repair; native pending | No | No | No |
-| Maintenance role capability | Read-only target probe | Native45614b44 PASS: service_role selected, transaction rolled back, role restored, connection ended; root audited | Evidence tool | No product change | Not mutation/exclusion authority |
-| Strict restore | Exact diagnostic complete; source-bound replay prepared | RED209c1fea is exactly two ACL representation fields; replay native not started | Evidence harness | No production operation | No |
-| Whole production cutover | Incomplete | Continuous writer exclusion, accepted-handler accounting, faithful whole-target recovery and access remain open | No final coherent release | No | No |
-
-**Restore diagnosis:** all seven selected row sets, roles and every other compared catalog class match. The two W7 admission tables have explicit owner-only source ACLs versus NULL/default ACL representation after restore. This does not by itself prove privilege loss or equivalence. Reviewed runnerc598 requires the exact original RED, equal direct rights including PG17 MAINTAIN, replay of only two uniquely pinned forward REVOKEs, and then unchanged full catalog/row/role equality and original receipt recovery. Whole-target production recovery remains separate.
-
-The ACL replay archive is staged and hash-sealed. Admission receipt4f909 refused before native because two managed deployment/start processes were active. A bounded follow-up c2e32 at04:30 still found deployment active. No fixture launched; staged bytes are retained with expiry06:27:34 UTC. No automatic retry, process kill or weakened admission.
-
-**Review repairs:** root found that the legacy fixture transport could discard logs after a nonSuccess SSM native invocation. Successorfb7 retains them and passes Failed/TimedOut/Cancelled recovery tests. Root and independent verification also found missing current-hold checks around bootstrap-close. Committed successor `b5a81b2b3433fc5137f5845dc1a8d1fa1d5aa89d` checks the unchanged hard hold guard before work, immediately before dispatch after preflight, and before CLOSED. Its tests prove an expired hold prevents dispatch. Failed e530 evidence remains preserved. No production stop/install/close has occurred.
-
-### Immediate dependency path and owners
-
-1. Prerequisites: observe an actual deployment-complete state change, re-admit the host and qualify the sealed strict ACL replay once. Then address whole-target recovery gaps; a selected-table fixture pass is insufficient.
-2. Integration: mount the real exact forward/VERIFY installation-receipt producer behind the same operation, escrow, stop journals, locks and current-hold controls. Complete original-stop → protected install/VERIFY → one close dispatch → independent fresh readback. Do not fabricate an install receipt or leave a consumer without its caller.
-3. Verification: qualify actual legacy CLI behavior on the dated captured schema and then the composed stop/install/close chain. Preserve terminal failures and uncertain command identities; no blind resend.
-4. Root/operator: resolve supported platform writer fencing, recovery access and accepted-handler accounting, then compose the exact candidate, run final required gates, merge/install/deploy/activate with controls intact.
-5. Verification: independently exercise deployed authenticated journeys and recovery. Normal QA invitation and browser-policy availability remain unresolved; last browser attempt denied `enterprise_policy_unavailable`, with no bypass.
-
-Only Docker/container/network-mutating native fixtures own the exclusive host slot. Immutable source staging, independent review and reviewed read-only observations can overlap. Full scope and all original acceptance criteria remain unchanged. Next release blockers are faithful recovery, continuous writer/accepted-handler exclusion, the protected install/close chain, and authenticated live access. Platform authority requests remain pending; no approval is inferred.
-
-### Portable source, evidence and current access
-
-Runtime source remains frozen at `817061098742daec71dbb4198a5fd0d65d738d17` in `jtobkin/suprafx-platform`, PR6160. Old817 CI does not qualify later operator changes. The guarded bootstrap successor is clean and committed at b5a81b2 on local branch `feat/w7-operation-bootstrap-close-20261004`; push has not yet been verified at this checkpoint. Its code is `scripts/qa/w7-operation-gate.py`, tests `scripts/qa/test-w7-operation-gate.py`, and associated operator documentation. Its local locked lane is `/Users/joshuatobkin/qa-lanes/w7-operation-bootstrap-close-20261004`.
-
-Portable cutover evidence is saved privately at commit `616e9ff12d3e440764a6ca96d50c5514ce74267e`, path `docs/agent-run/evidence/operator-cutover-evidence-20261004/`:31 files byte-verified; directory and exact-commit secret scans pass. It includes actual role/stop sources, receipts, preserved failure context and root reviews. Earlier portable evidence commits b5154072 and f1b8c94f below remain valid within their scope.
-
-Current canonical JSON is `/Users/joshuatobkin/qa-evidence/supraos-execution-plan-20261001/plan.json`; its aliases refer to817/PR6160 and the12-node current dependency path. All33 full-scope nodes remain. New root evidence is `qa-evidence/resume-delivery-20261004/`; lane fixtures remain under `qa-evidence/resume-delivery-20261003/{integration,prerequisites,verification}/`.
-
-Public checklist, dependency plan and handoff: `jtobkin/supraos-workflow-plan`, branch `main`, files `SupraOS-Workflow-Plan-Checklist.md`, `Delivery-Path-Release-Plan.md`, and `Ship-Verified-SupraOS-Agent-Workflows.md`. Private code/evidence requires repository access. A fresh computer must clone the repositories and fetch exact recorded commits; local paths alone are not portable access. Detailed source layout and setup remain below. Latest bound serving-image observation is113b82d7/build9b2b4cbb, not817; unrelated deployment does not restart immutable817 qualification.
-
----
-
-## Earlier 03:50 checkpoint — superseded by the current state above
-
-Execution resumed by the owner at **01:27:59 UTC**, with an eight-hour focus ending **09:27:59 UTC**. This section supersedes execution state in the retained paused handoff below; its scope, prior receipts and acceptance limits remain binding.
-
-### Current milestone and dependency order
-
-Ship the coherent W7 workspace-plan completion capability through its manual, automated and cron callers, with durable journal/reviewer/memory results and original-identity recovery. Full project scope remains 33 nodes, 16 behaviors and 12 surfaces; no task-count completion percentage is asserted.
-
-1. **Preserve source and re-admit the environment.** Both missing worktrees were removed by the automatic disk-cleanup timer after their commits were pushed, despite remaining unmerged. Exact817 and f121 commits and branch histories survive. Both had clean status at19:28 UTC before the pause. All35 published payloads and40 local-only artifact references were verified; three missing operator files were recovered byte-for-byte from f121. Automatic peer-lane/trash deletion is now disabled; independent source review and shell syntax pass. Restored root and operator worktrees retain the recorded source. Ignored scratch-file loss cannot be ruled out by Git history.
-2. **Cron v4 native qualification passed.** Receipt `f6c5b46ac86b8c008bb6f8b65e6e73638b20ff55d63ccaade169c77afdb9389d` binds frozen817 to two actual GET ticks against the same reserved lost-acknowledgement original. Both remained held, the ledger stayed reserved, and provider attempts stayed at zero. Root independently checked receipt/output/readback hashes, terminal success and owned cleanup. This is synthetic Oct3 captured-schema qualification, not installed or live cron acceptance; v1–v3 failures remain preserved.
-3. **Strict restore is RED on catalog equality.** The corrected real diagnostic completed (3ebf4a3c): all seven selected row sets and roles match, but catalog fingerprints differ. Detailed runner7a1/archive8c25 retains the strict assertion. One detailed transfer ended with three unknown SSM results; all original commands were later reconciled successful and owned scratch cleaned (8ee9ded0), without native execution. A second complete transfer stopped at immediate admission (b3d39776), again before native; cleanup passed, but its cause was not sealed. A reviewed narrow transport repair now records fixed refusal reasons. A two-phase immutable staging successor is being implemented to avoid repeating archive transfer on known refusal. Admission floors, native budgets and fidelity assertions remain unchanged. This selected synthetic fixture is not a faithful whole-production restore.
-4. **Operator integration and recovery proceed in parallel.** Private observer a31e68b2 passed real isolated Traefik/TLS:60 held probes,9 read/version controls and identity/route/lock refusals; root audited source/output hashes and cleanup. Exact GET301/POST308 behavior repaired the prior fixture expectation; failures remain retained. It does not prove continuous production exclusion. Current84c stop lifecycle source now preserves original stop journals and uncertain cleanup pointers; private native qualification is next. The read-only legacy preinstall slice is committed at bcb927e23e2033bd9b9723f4558fab314bddfffe with23 local tests and independent review. It rejects any of frozen817’s5 tables,8 indexes or25 functions when claiming a preinstall phase, binds the database target and uses distinct private escrow. It cannot authorize stopping or draining. Census55a75/correlation51bc3/authority8928 are audited read-only observations, not proof of active provider work or safe historical repair. A new explicit cutover dependency is an independent maintenance connection: the migration initially opens the gate, while today’s close command needs the old web container after it would be stopped. A same-operation close/readback action must be qualified before replacement starts; required service_role capability is not yet proven. Platform Owner/Admin maintenance-access request remains unanswered; no approval is inferred.
-5. **Only after qualification, controlled cutover and independent signed live acceptance.** Exact candidate gates, installed schema, compatible runtime, activation and recovery must each be proven. Normal QA invitation and platform authority remain dependencies. Claude CLI is still signed out on fresh observation. The browser extension is available and lists existing SupraOS tabs, but new navigation was denied because the admin policy could not be verified (`enterprise_policy_unavailable`); no authenticated DOM was accessed or workaround attempted. This browser prerequisite is distinct from the outstanding normal QA invitation.
-
-### Current delivery states
-
-| Work | Implemented / integrated | Tested / audited | Merged | Deployed | Verified live |
-| --- | --- | --- | --- | --- | --- |
-| Frozen W7 runtime817 | Yes, within the named workspace completion scope | Required CI and scoped native/browser cases pass; recovery/release gaps remain | No | No | No |
-| Two-tick cron recovery | Exact817 caller exercised | Native receipt f6c5 independently audited | Part of unmerged817 | No | No; synthetic schema/auth |
-| Operator observer84c | Mounted in actual operator CLI |32 local tests, independent review, G11; private real Traefik observera31e PASS | No | No | No; finite private fixture |
-| Legacy preinstall observation bcb927e | Mounted read-only CLI, distinct target-bound escrow |23 local tests, independent review; native pending | No | No | No |
-| Faithful restore | Strict diagnostic and detailed successor implemented | Catalog-only RED3ebf; detailed native unrun; transport staging repair underway | Evidence-only harness | No production operation | No |
-| Original-work census | Read-only source and transport prepared | Target census/correlation observations and independent receipt audits pass | Evidence-only tool | No product deployment | Not a drain proof |
-| Production release controls | Partial; preinstall exclusion and drain chain incomplete | Authority and faithful target recovery remain open | No coherent final operator release | No | No |
-
-The authoritative current JSON aliases now reference PR6160 exact817; the old6124 release execution and old dependency graph are explicitly historical. The current dependency graph distinguishes catalog diagnosis from successful repair/faithful target recovery, and includes the missing postinstall close. Dependency rounds indicate precedence, not permission to share owned files or native resources.
-
-```mermaid
-flowchart LR
- Q1[Strict catalog diagnosis] --> Q1R[Repair and qualify faithful recovery]
- Q1R --> R3[Continuous writer and original-work release qualification]
- Q2[Private observer passed] --> R3
- Q3[Saved-work observations passed] --> R3
- Q4[Private stop journal recovery] --> R3
- Q5[Legacy preinstall observation] --> R3
- Q6[Maintenance close and independent readback] --> R3
- A1[Supported platform authority and recovery access] --> R3
- R3 --> Release[Required candidate gates and controlled install/deploy]
- Release --> Live[Independent signed live verification]
- A2[Normal QA admission and browser policy] --> Live
-```
-
-The next release is specifically blocked by strict restore fidelity, incomplete production writer/accepted-handler exclusion, the preinstall/maintenance-close operator chain, and signed live access. A1/A2 requests remain pending while independent source and private qualification continue.
-
-### Ownership and current state
-
-- Root: immutable composition, protected worktree recovery, host scheduling, evidence and public documents.
-- Integration: actual operator/hold/recovery callers and their tests/docs in its isolated lane, observer84c and legacy bcb927e; next maintenance role preflight and bound bootstrap-close integration.
-- Prerequisites: fresh readonly host admission, restore diagnostic, access/authority blockers and independent reviews.
-- Verification: actual cron v4 qualification and independent source/browser/live acceptance.
-
-Parallel source/review work and independently reviewed metadata-only snapshots with separate scratch are allowed concurrently. Only Docker/container/network-mutating native fixtures require the exclusive host fixture slot. Unknown command outcomes retain their original identity and are reconciled before another dispatch. No production container stop, schema change, gate bypass or activation is authorized merely by a private fixture pass.
-
-Fresh PR readback confirms6160 remains open/unmerged at817061098742daec71dbb4198a5fd0d65d738d17, without auto-merge. Read-only host observations show25containers and no owned W7 fixture containers/networks. Ordinary unrelated deployments changed the serving image; the latest bound metadata observations used image0adef678 and build45153cbe. These are timestamped observations, not deployed W7 acceptance or current source parity.
-
-Portable observation evidence and exact sources are saved privately at `b5154072d50d1421db31656c0ff678d0a030f409`, path `docs/agent-run/evidence/release-observations-20261004/`;37 files were byte-verified, and directory plus exact-commit secret scans passed. This includes bounded original-work/authority observations and private observer evidence, with scope limits.
-
-Portable resumed cron evidence is saved privately at commit `f1b8c94fab10ba60fcafba6f94b0db02ea7b78f3`, path `docs/agent-run/evidence/qualified-resumed-workflows-20261004/` in `jtobkin/suprafx-platform`. Eight files were byte-verified after upload; directory and exact-commit-range secret scans passed. Raw stdout/readback remain local with recorded hashes: generic-key scanner findings on synthetic token UUID fields prevented their publication, so the unchanged scanner was passed by publishing a clearly labeled derived binding summary instead. Failed scan evidence and raw originals are preserved. This does not claim that the derived summary is the original receipt payload.
-
-Local new-run evidence: `/Users/joshuatobkin/qa-evidence/resume-delivery-20261004/`. Prior fixture/evidence paths remain under `qa-evidence/resume-delivery-20261003/`. Canonical local JSON remains `qa-evidence/supraos-execution-plan-20261001/plan.json`. Read the detailed paused checkpoint below for exact branches, code callers, setup commands and portable private evidence links. The older worktree paths are historical unless their restoration is recorded here.
-
----
-
 <!-- END CURRENT 2026-10-04 CHECKPOINT -->
 
 ## Historical checkpoints — superseded by the current section above
