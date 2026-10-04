@@ -2,6 +2,50 @@
 
 ## Resumed execution — 2026-10-04 UTC
 
+**Current checkpoint: 04:33 UTC.** Owner-authorized focus runs 01:27:59–09:27:59 UTC. The state below supersedes earlier entries; full scope remains33 nodes,16 behaviors and12 surfaces. The current milestone is the coherent W7 workspace-plan completion release through manual, automated and cron callers, with durable outcomes and original-identity recovery. This is a partial milestone, not full project completion.
+
+### Current evidence and delivery states
+
+| Work | Implemented / integrated | Tested / independently reviewed | Merged | Deployed | Verified live |
+| --- | --- | --- | --- | --- | --- |
+| Runtime817 / PR6160 | Named workspace callers mounted | Required CI and scoped native/browser checks pass; release controls still incomplete | No | No | No |
+| Current84c original-stop recovery | Actual derived CLI exercised | Native3b9b3326 PASS: exactly two disposable original stops, simulated committed cron ACK loss, saved UNKNOWN replay/no resend, owned cleanup; root audited | No | No | No; synthetic gate/private hold |
+| Legacy observation bcb927e | Mounted read-only CLI, committed/pushed |23 tests and independent source review pass; captured-schema native prepared, not run | No | No | No |
+| Legacy stop and bootstrap-close b5a81b2 | Mounted successor, committed clean; exact install receipt producer still missing |29 tests and independent review pass after current-hold repair; native pending | No | No | No |
+| Maintenance role capability | Read-only target probe | Native45614b44 PASS: service_role selected, transaction rolled back, role restored, connection ended; root audited | Evidence tool | No product change | Not mutation/exclusion authority |
+| Strict restore | Exact diagnostic complete; source-bound replay prepared | RED209c1fea is exactly two ACL representation fields; replay native not started | Evidence harness | No production operation | No |
+| Whole production cutover | Incomplete | Continuous writer exclusion, accepted-handler accounting, faithful whole-target recovery and access remain open | No final coherent release | No | No |
+
+**Restore diagnosis:** all seven selected row sets, roles and every other compared catalog class match. The two W7 admission tables have explicit owner-only source ACLs versus NULL/default ACL representation after restore. This does not by itself prove privilege loss or equivalence. Reviewed runnerc598 requires the exact original RED, equal direct rights including PG17 MAINTAIN, replay of only two uniquely pinned forward REVOKEs, and then unchanged full catalog/row/role equality and original receipt recovery. Whole-target production recovery remains separate.
+
+The ACL replay archive is staged and hash-sealed. Admission receipt4f909 refused before native because two managed deployment/start processes were active. A bounded follow-up c2e32 at04:30 still found deployment active. No fixture launched; staged bytes are retained with expiry06:27:34 UTC. No automatic retry, process kill or weakened admission.
+
+**Review repairs:** root found that the legacy fixture transport could discard logs after a nonSuccess SSM native invocation. Successorfb7 retains them and passes Failed/TimedOut/Cancelled recovery tests. Root and independent verification also found missing current-hold checks around bootstrap-close. Committed successor `b5a81b2b3433fc5137f5845dc1a8d1fa1d5aa89d` checks the unchanged hard hold guard before work, immediately before dispatch after preflight, and before CLOSED. Its tests prove an expired hold prevents dispatch. Failed e530 evidence remains preserved. No production stop/install/close has occurred.
+
+### Immediate dependency path and owners
+
+1. Prerequisites: observe an actual deployment-complete state change, re-admit the host and qualify the sealed strict ACL replay once. Then address whole-target recovery gaps; a selected-table fixture pass is insufficient.
+2. Integration: mount the real exact forward/VERIFY installation-receipt producer behind the same operation, escrow, stop journals, locks and current-hold controls. Complete original-stop → protected install/VERIFY → one close dispatch → independent fresh readback. Do not fabricate an install receipt or leave a consumer without its caller.
+3. Verification: qualify actual legacy CLI behavior on the dated captured schema and then the composed stop/install/close chain. Preserve terminal failures and uncertain command identities; no blind resend.
+4. Root/operator: resolve supported platform writer fencing, recovery access and accepted-handler accounting, then compose the exact candidate, run final required gates, merge/install/deploy/activate with controls intact.
+5. Verification: independently exercise deployed authenticated journeys and recovery. Normal QA invitation and browser-policy availability remain unresolved; last browser attempt denied `enterprise_policy_unavailable`, with no bypass.
+
+Only Docker/container/network-mutating native fixtures own the exclusive host slot. Immutable source staging, independent review and reviewed read-only observations can overlap. Full scope and all original acceptance criteria remain unchanged. Next release blockers are faithful recovery, continuous writer/accepted-handler exclusion, the protected install/close chain, and authenticated live access. Platform authority requests remain pending; no approval is inferred.
+
+### Portable source, evidence and current access
+
+Runtime source remains frozen at `817061098742daec71dbb4198a5fd0d65d738d17` in `jtobkin/suprafx-platform`, PR6160. Old817 CI does not qualify later operator changes. The guarded bootstrap successor is clean and committed at b5a81b2 on local branch `feat/w7-operation-bootstrap-close-20261004`; push has not yet been verified at this checkpoint. Its code is `scripts/qa/w7-operation-gate.py`, tests `scripts/qa/test-w7-operation-gate.py`, and associated operator documentation. Its local locked lane is `/Users/joshuatobkin/qa-lanes/w7-operation-bootstrap-close-20261004`.
+
+Portable cutover evidence is saved privately at commit `616e9ff12d3e440764a6ca96d50c5514ce74267e`, path `docs/agent-run/evidence/operator-cutover-evidence-20261004/`:31 files byte-verified; directory and exact-commit secret scans pass. It includes actual role/stop sources, receipts, preserved failure context and root reviews. Earlier portable evidence commits b5154072 and f1b8c94f below remain valid within their scope.
+
+Current canonical JSON is `/Users/joshuatobkin/qa-evidence/supraos-execution-plan-20261001/plan.json`; its aliases refer to817/PR6160 and the12-node current dependency path. All33 full-scope nodes remain. New root evidence is `qa-evidence/resume-delivery-20261004/`; lane fixtures remain under `qa-evidence/resume-delivery-20261003/{integration,prerequisites,verification}/`.
+
+Public checklist, dependency plan and handoff: `jtobkin/supraos-workflow-plan`, branch `main`, files `SupraOS-Workflow-Plan-Checklist.md`, `Delivery-Path-Release-Plan.md`, and `Ship-Verified-SupraOS-Agent-Workflows.md`. Private code/evidence requires repository access. A fresh computer must clone the repositories and fetch exact recorded commits; local paths alone are not portable access. Detailed source layout and setup remain below. Latest bound serving-image observation is113b82d7/build9b2b4cbb, not817; unrelated deployment does not restart immutable817 qualification.
+
+---
+
+## Earlier 03:50 checkpoint — superseded by the current state above
+
 Execution resumed by the owner at **01:27:59 UTC**, with an eight-hour focus ending **09:27:59 UTC**. This section supersedes execution state in the retained paused handoff below; its scope, prior receipts and acceptance limits remain binding.
 
 ### Current milestone and dependency order
@@ -65,6 +109,8 @@ Local new-run evidence: `/Users/joshuatobkin/qa-evidence/resume-delivery-2026100
 ---
 
 <!-- END CURRENT 2026-10-04 CHECKPOINT -->
+
+## Historical checkpoints — superseded by the current section above
 
 Implementation is paused at the owner-requested cutoff, recorded 2026-10-03T19:43:25.337791+00:00. The final 90-minute window began at 18:13:12 UTC and ended at 19:43:12 UTC on 2026-10-03. All owned host runs are terminal with verified cleanup; no uncertain remote command remains. Only documentation publication and access verification followed the pause. This is the current checkpoint; dated material below is retained history.
 
