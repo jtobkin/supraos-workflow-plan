@@ -2,6 +2,52 @@
 
 ## Resumed execution — 2026-10-04 UTC
 
+**Current checkpoint: 05:15 UTC.** The eight-hour focus ends at09:27:59 UTC. Full scope remains33 nodes,16 behaviors and12 surfaces. The immediate partial milestone is the frozen W7 workspace completion release through manual, automated and cron callers, with durable outcomes and original-identity recovery.
+
+### What changed and what is blocked
+
+The strict dated synthetic restore passed: receipt `2e2ea492`, runner `c598ced9`, archive `8c25ca50`. It reproduced the original two ACL-field mismatch, checked unchanged direct grants including PG17 MAINTAIN, replayed only two exact forward REVOKEs, then required strict catalog/role/seven-selected-row equality and original receipt-first recovery. Root and independent audit checked complete log hashes, terminal successful commands and owned cleanup. This closes that synthetic failure; it does not qualify all production data or recovery.
+
+The protected installer is mounted in the actual operator CLI and has exact SQL, transaction/VERIFY, operation-marked ledger, no-resend recovery and fresh readback logic. Tests exposed and repaired target-routing ambiguity using actual pg.Client parameters. However, root review caught a further integration blocker: oracle exports were placed in container tmpfs and extracted only after stop, when tmpfs disappears. The source-tested candidate ff283b8a/02308790 is preserved; a narrow private persistent-export repair and actual terminal-container verification are required. Hard production hold/backup/drain guards still refuse installation.
+
+The actual legacy preinstall fixture was staged but its pinned app image was deleted by an unrelated deployment. A read-only check proved the current image `ab5b30f96105718b033811018149d4dfb2fad1ab3a1dc35a33a2b19b6e0afede`, linux/amd64, with pg available. A separate image-only successor is being reviewed. Immutable runtime817 qualification is not restarted because unrelated main advanced.
+
+### Delivery states
+
+| Work | Implemented / integrated | Tested / independently reviewed | Merged | Deployed | Verified live |
+| --- | --- | --- | --- | --- | --- |
+| Frozen817 / PR6160 workspace runtime | Mounted manual/automated/cron callers | Required CI and scoped native checks PASS; full controls incomplete | No | No | No |
+| Actual stop and uncertain replay | Mounted84c CLI | Native3b9 PASS and audited | No | No | No; private synthetic hold/gate |
+| Strict selected synthetic restore | Exact-source harness | Native2e2 PASS, strict assertions retained, audited cleanup | Evidence only | No production restore | No |
+| Broader synthetic restore | All declared rows, columns, sequences and large objects, caller mounted | ae69 source review/local checks PASS; native pending | Evidence only | No | No |
+| Legacy prepare/stop/close | bcb/b5 committed and pushed | Local/source checks PASS; actual preinstall native needs current-image successor | No | No | No |
+| Protected install and schema exports | Mounted but terminal-export repair pending |33 operator/15 actual-parser checks pass on preserved candidate; actual lifecycle still unqualified | No | No | No |
+| Production release and full project | Partial | Authority, continuous writer fence, accepted-handler accounting, faithful whole-target recovery and signed live acceptance remain open | No final release | No | No |
+
+### Next dependency steps and owners
+
+1. **Prerequisites lane:** package and qualify reviewed broader synthetic restore coverage, preserving strict ACL/catalog/row checks. Whole-target production backup/recovery remains a distinct gate.
+2. **Implementation lane:** repair the terminal oracle export handoff, freeze and independently review it, then compose actual legacy prepare→original stop→exact install/VERIFY→close→fresh readback in an isolated real database/container fixture. No fabricated production receipt or authority.
+3. **Independent verification lane:** qualify the reviewed image-only legacy fixture, review the composed install/recovery chain and preserve uncertain-original evidence. Source-only assertions do not establish container behavior.
+4. **Root/operator:** obtain supported platform writer exclusion/recovery authority and resolve accepted-handler accounting; then compose exact release source, run required gates and perform guarded merge/install/deploy/activation. External requests remain unanswered, not granted.
+5. **Independent live verification:** authenticated real browser/Playwright journeys and recovery after deployment. QA invitation and browser policy remain unresolved; last navigation was denied `enterprise_policy_unavailable`, with no bypass.
+
+One private Docker-mutating fixture owns the host slot at a time. Source, staging and reviewed read-only work continue in parallel. No extra workstream supersedes this delivery path, and no percentage is inferred from counts.
+
+### Code, records and fresh-computer access
+
+Runtime: `jtobkin/suprafx-platform`, PR6160, branch `fix/w7-reviewer-release-20261003`, exact `817061098742daec71dbb4198a5fd0d65d738d17`. Main working directory is unrelated/dirty and must not be reset. Current root lane: `/Users/joshuatobkin/qa-lanes/w7-release-blockers-root-20261003`.
+
+Operator committed sources: `feat/w7-legacy-preinstall-observation-20261004` at bcb927e and `feat/w7-operation-bootstrap-close-20261004` at `b5a81b2b3433fc5137f5845dc1a8d1fa1d5aa89d`. Installer work is uncommitted in `/Users/joshuatobkin/qa-lanes/w7-bootstrap-install-producer-20261004`; preserve it before switching computers. Production caller `scripts/qa/w7-operation-gate.py`, companion `scripts/qa/w7-bootstrap-install.js`, regression `scripts/qa/test-w7-operation-gate.py`, documentation `docs/agent-run/w7-operation-bound-release-admission.md`. Runtime and SQL locations remain documented below.
+
+Canonical local plan: `/Users/joshuatobkin/qa-evidence/supraos-execution-plan-20261001/plan.json`. Current evidence: `qa-evidence/resume-delivery-20261004/`; lane sources/receipts: `qa-evidence/resume-delivery-20261003/{integration,prerequisites,verification}/`. New2e2 receipt is under `prerequisites/restore-diagnostic-acl-replay/receipts/memory-restore-acl-replay-1c53c1706ec65386/`. These new files are local until separately archived; do not imply a fresh computer can access local-only evidence.
+
+Portable private evidence commits616e9ff1, b5154072 and f1b8c94f in `jtobkin/suprafx-platform` remain byte-verified and secret-scanned; path groups are listed below. Public plan repository `jtobkin/supraos-workflow-plan`, main, contains this handoff, `SupraOS-Workflow-Plan-Checklist.md` and `Delivery-Path-Release-Plan.md`. Private repo access is required for source/evidence; public documents need no sign-in. Clone/fetch exact recorded commits on a fresh machine, read repository instructions and use isolated lanes. Never infer deployed acceptance from preserved local/source test results.
+
+---
+
+## Earlier 04:33 checkpoint — superseded by current state above
+
 **Current checkpoint: 04:33 UTC.** Owner-authorized focus runs 01:27:59–09:27:59 UTC. The state below supersedes earlier entries; full scope remains33 nodes,16 behaviors and12 surfaces. The current milestone is the coherent W7 workspace-plan completion release through manual, automated and cron callers, with durable outcomes and original-identity recovery. This is a partial milestone, not full project completion.
 
 ### Current evidence and delivery states
