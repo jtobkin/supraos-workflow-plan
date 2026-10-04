@@ -1,6 +1,6 @@
 # SupraOS Release Plan Checklist
 
-## Active delivery checkpoint — 2026-10-04 19:03 UTC
+## Active delivery checkpoint — 2026-10-04 19:32 UTC
 
 This checkpoint supersedes the historical pause/deadline below. Execution resumed at the owner's request. The new five-hour focus ends at **2026-10-04 23:57:35 UTC**; then implementation pauses and this handoff, checklist and dependency plan will be finalized for transfer. The full 33-node scope, 16 behaviors and 12 supported surfaces remain open; W7 is an intermediate release milestone. No percentage is inferred from scoped tests or task counts.
 
@@ -10,10 +10,10 @@ Qualify the existing MC effect receivers and settlement SQL; finish original des
 
 | Work | Implemented / integrated | Tested / reviewed | Merged / deployed / live |
 | --- | --- | --- | --- |
-| Existing MC receiver stack | Saved source `3e27866a5d880eaa32375a857ffa0ca67d0341c1` | Prior critical, plan and integration private REST proofs retained; full settlement SQL remains open | Not a completed W7 release |
-| Agent retrospective memory | Pushed `6951a00f3d020862a3b53c5b3f9b6eb02590ec56`; immediate settlement and cron callers wired | 48 focused tests and 30 changed-file type checks pass; source reviewed; native found an exact PostgreSQL search-path formatting error in VERIFY, then a missing required timestamp in the synthetic fixture. Both failed runs are preserved; narrow repaired successor is running | Unmerged, undeployed, not verified live |
+| Existing MC receiver stack | Saved source `3e27866a5d880eaa32375a857ffa0ca67d0341c1` | Prior critical, plan and integration private REST proofs retained; full five-child captured-schema settlement SQL suite independently passes | Not a completed W7 release |
+| Agent retrospective memory | Pushed `6951a00f3d020862a3b53c5b3f9b6eb02590ec56`; immediate settlement and cron callers wired | 48 focused tests and 30 changed-file type checks pass; source reviewed; captured PostgreSQL v4 passed all14 phases, public/mapped integrity and authority/rollback negatives; independent audit passed. Narrow VERIFY repair `d25f36b1454ff8a82080642944ac5a9c05174f99` is pushed. Actual receiver REST remains pending | Unmerged, undeployed, not verified live |
 | Projectless finalization | Committed `301dfc3ed4edcae1251381a959efbc6a36723d6c`; explicit null project/run with original guards retained | 18-case native PASS, baseline refusal and rollback checks; all20 log pairs independently hash-verified and separate stopped-process check PASS | Unmerged, undeployed, not verified live |
-| Failed-task and coordinator-adjustment REST qualification | Two actual-receiver fixtures on exact3e source | Reviewed originals; narrow v2 reporting-label corrections preserve all assertions; native unrun | Evidence work, not a production release |
+| Failed-task and coordinator-adjustment REST qualification | Two actual-receiver fixtures on exact3e source | Actual receiver source reviewed. Linux native v1 stopped before product execution on an inherited AWS minimum-container check; exact Linux full-inventory v2 successors independently reviewed and staging | Evidence work, not a production release |
 | Project cancellation | Pushed `6a6d82c58c`; actual Stop caller signs the observed plan/run/version and invokes a service-only atomic RPC | 10 route tests, changed types, independent source review and six synthetic mounted Chromium interactions at 390/1440 pass; captured-schema SQL and independent 16-phase receipt audit pass | Unmerged, undeployed, not verified live |
 
 The retrospective receiver binds the original memory namespace and row identity before writing. Mapped-table generation checks prevent a revoked and recreated schema from silently redirecting an original operation. This source work does not yet establish actual PostgREST delivery, lost-acknowledgment recovery or production behavior.
@@ -26,7 +26,7 @@ The corrected selected-SQL positive fixtures 2/4/6 passed initial staging. An in
 
 The shared AWS test environment remains pending ownership reconciliation because the current 19 container identities differ from the earlier observation. No current container is deleted or modified. A bounded read-only search did not recover the original failed suite's native SSM command ID; `853995dc-f133-4132-b1a5-aa502dd04d4f` is only its last readback command. SQL-only Linux qualification does not replace real receiver REST or production acceptance.
 
-Retrospective native run v2 proved PostgreSQL stores the fixed definer setting as `search_path=pg_catalog, public`. The prior VERIFY falsely expected no space. The exact repair still rejects SECURITY INVOKER and a public-only search path for both functions. The next failure was a synthetic claim missing the schema-required `claim_timestamp`; v3 added only that required value, then reached a mapped-memory integrity failure. Code review found the schema-filtered capture omits the global event trigger from source migration361. The v4 fixture restores that exact source prerequisite, strengthens VERIFY to check enabled event/public/mapped attestation triggers, and adds three disabled-trigger negatives. It is running; all earlier failures remain preserved. No complete retrospective SQL acceptance is claimed yet.
+Retrospective native run v2 proved PostgreSQL stores the fixed definer setting as `search_path=pg_catalog, public`. The prior VERIFY falsely expected no space. The exact repair still rejects SECURITY INVOKER and a public-only search path for both functions. The next failure was a synthetic claim missing the schema-required `claim_timestamp`; v3 added only that required value, then reached a mapped-memory integrity failure. Code review found the schema-filtered capture omits the global event trigger from source migration361. The v4 fixture restores that exact source prerequisite, strengthens VERIFY to check enabled event/public/mapped attestation triggers, and adds three disabled-trigger negatives. It passed all14 ordered phases and independent source/output/stop checks. Native receipt: `7a5c7f409931069768ae5431667931d90ee9d8867d7a0328401d8718e71634b2`. All earlier failures remain preserved. This does not establish actual receiver REST or installed production behavior.
 
 The separate projectless native attempt `d9d886807ef252a9` passed: receipt `50feb8ed151f8c860c3433f7fe08ae09562d667ee24c177fb1a2bad6651b33ab`, exact manifest `49d15e65…`, 18 cases, intended baseline failure, positive/refusal/replay checks, idempotence and rollback protection. Independent review verified all20 stdout/stderr pairs and a separate remote status returned no server running. This is a private dated-schema SQL proof, not production behavior.
 
@@ -34,12 +34,14 @@ The REST fixtures check payload values, unsigned fixture identities and a held L
 
 External release dependencies remain: normal QA invitation, supported control over all relevant writers and accepted work, current-target restoration proof, and Stripe Link configuration. None is treated as approved or complete. PR6160 remains open at `c3e23f9434780edde5aecf631ae0a6a356e18513`; its earlier passing gates do not qualify newer source. Latest observed production version is `21e10a310a6a4933ad24f7e86caad18765a177d6`; ancestry includes the earlier dashboard/workspace privacy fixes, but version observation is not new authenticated behavioral verification.
 
+A terminal-event integration draft now connects immediate settlement, cron recovery and the actual browser stream, with21 focused tests and45 changed-file type checks passing. Its SQL and browser qualification remain pending. A read-only audit found that planner-generated department assignments are not explicit broadcast-recipient authority; recipient integration remains open rather than inferred.
+
 ### Parallel ownership and next tasks
 
-1. **Prerequisites lane:** preserve the full immutable SQL PASS; preserve any RED and independently review narrow repairs; assess a lawful owned Linux path for the two prepared actual-receiver REST packets while shared AWS ownership remains pending.
+1. **Prerequisites lane:** preserve the full immutable SQL PASS and reviewed cleanup receipt; finish the two actual receiver REST packets on the separately approved Linux host. The AWS-specific container-count guard was replaced by independently reviewed exact full inventory equality, without changing product tests, roles or resource floors.
 2. **Integration lane:** preserve pushed retrospective and signed cancellation source; preserve independently qualified cancellation and its source; next integrate terminal events with actual HTTP/cron callers, original persisted finalization and tested recovery. Other destinations remain open.
 3. **Independent verification lane:** review exact packets, audit every native phase and cleanup, and independently exercise mounted browser behavior. Synthetic browser interaction is not authenticated live acceptance.
-4. **Root:** finish retrospective SQL qualification and its narrow verifier repair, retain qualified projectless source, compose the completed source and keep this plan current. Grok read-only fixture audits and destination tracing supplement the four Codex roles; incomplete audit runs never count as PASS.
+4. **Root:** retrospective SQL and VERIFY repair are qualified and pushed. Integration snapshot `b954d3c8ff` on `feat/w7-composed-delivery-20261005` joins cancellation, retrospective/VERIFY and projectless repairs;27 focused tests pass together, with byte-identical product changes. It is not a final release candidate. Finish actual retrospective REST, remaining delivery dependencies and combined qualification; keep this plan current. Grok read-only fixture audits and destination tracing supplement the four Codex roles; incomplete audit runs never count as PASS.
 
 ```mermaid
 flowchart LR
@@ -65,14 +67,13 @@ Public plan repository: `jtobkin/supraos-workflow-plan`; the three linked docume
 - Retrospective branch: `feat/w7-plan-retro-agent-effect-20261005`, exact6951 commit above; local matching worktree. Main files: `lib/vms/workflows/mc-plan-retro-agent-effect.ts`, `plan-orchestrator.ts`, `app/api/cron/mc-coordinator/route.ts`, and `supabase/migrations/20261005100000_mc_plan_retro_agent_route*`.
 - Projectless branch/worktree: `feat/w7-projectless-finalization-20261005` / `qa-lanes/w7-projectless-finalization-20261005`. Commit `301dfc3ed4edcae1251381a959efbc6a36723d6c` contains migration `20261004173518_mc_projectless_plan_finalization*`, the18-case fixture and scoped architecture notes; remote branch was independently read back at that exact commit; worktree is clean and retained because unmerged.
 - Cancellation branch/worktree: `feat/w7-project-cancel-atomic-20261005` / matching local lane. Pushed commit `6a6d82c58c` contains the actual cancellation route, mounted Mission Control Stop caller, execution-run helper, ordered `20261005110000_mc_run_cancel_atomic*` SQL packet and tests. Native direct SQL and synthetic mounted browser interaction are independently verified; authenticated live behavior and actual deployed route remain pending.
-- Retrospective VERIFY repair lane: `fix/w7-retro-verify-path-20261005`, based on `6951a00f`; the exact-format verifier repair plus attestation-prerequisite guards are uncommitted until native qualification finishes. Do not assume it is contained in the pushed retrospective commit.
+- Retrospective VERIFY repair lane: `fix/w7-retro-verify-path-20261005`, based on `6951a00f`; pushed exact `d25f36b1454ff8a82080642944ac5a9c05174f99` contains the exact-format verifier repair plus attestation-prerequisite guards. Captured native qualification independently passes; actual receiver REST remains separate.
 - Current local evidence: `/Users/joshuatobkin/qa-evidence/resume-delivery-20261005/` with `root`, `integration`, `sql`, `verification` and `grok` subdirectories. Current machine-readable plan: `/Users/joshuatobkin/qa-evidence/supraos-execution-plan-20261001/plan.json`. These current local artifacts are not yet all published; older portable evidence locations remain in the detailed history below.
 - Do not edit/reset the shared dirty `suprafx-platform` checkout. Create an owned isolated worktree. Do not delete another agent's lane or any unmerged/dirty/running worktree.
 
 The remaining full checklist below continues to apply, including all-path authority/privacy, System Workflows, providers, installed schema/runtime permissions, activation, recovery and owner confirmation after independent live verification.
 
 ---
-
 
 ## Historical checkpoint (superseded where noted above)
 
