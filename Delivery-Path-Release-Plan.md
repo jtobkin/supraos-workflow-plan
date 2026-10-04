@@ -59,6 +59,46 @@ flowchart LR
   QA[Normal QA access] --> LIVE
 ```
 
+### Current full-scope checklist — all 33 tracked items
+
+These are capability states and remaining acceptance work, not effort percentages. Earlier source-qualified or historical complete labels do not mean full deployment or live acceptance.
+
+| ID / work | Evidence state | Remaining work |
+| --- | --- | --- |
+| **P0 — Scope reconciliation and dependency plan** | Plan and scope reconciled; maintenance continues | Keep current evidence, dependencies and handoff aligned. |
+| **B1 — Freeze trusted internal project execution** | Trusted project execution source qualified | Join real server/client/member authority and deployed acceptance. |
+| **C1 — Finish client context and history isolation** | Claude loopback isolation scoped proof; other client paths open | Qualify native Codex/Grok, configuration/hooks and real authenticated transport. |
+| **M1 — Complete member dashboard and read projections** | Member projection source and mounted browser evidence retained | Join actual producer/readers and installed authenticated behavior. |
+| **W1 — Bound shared DataPackage fallback waits** | Bounded shared DataPackage source qualified | Compose and verify cancellation/cache behavior through deployed callers. |
+| **B2 — Remove remaining private background producer inputs** | Narrow Competitor Watch slice deployed; full producer scope open | Remove remaining private inputs and verify active worker/card recovery. |
+| **M2 — Join member result and internal message readers** | Classified member readers joined in scoped native/browser fixture | Prove current publication, revocation and real shared-chat transport. |
+| **M3 — Qualify owner-only Realtime transport** | Owner-topic/metadata routing implemented; socket matrix scoped | Install ACLs, drain old broadcasters and qualify JWT expiry/revocation. |
+| **J1 — Join server, clients and actual native authority** | Joined server/client native and browser source evidence | Close native client and deployed transport gaps before final join. |
+| **W2 — Notification recipient authority and usable authoring** | Email/recipient authority source in held draft6138 | Schema-first release plus real authorized email and uncertain-send recovery. |
+| **W3 — File operation namespace and destination authority** | Storage namespace and uncertainty source in held draft6132 | Install policy/schema and verify real owner, revocation and recovery boundaries. |
+| **W4 — Named OAuth and raw API authority** | Named/raw API authority source in held draft6129 | Compose exact final source and qualify installed/provider behavior. |
+| **W5 — Child workflow and bot creation authority** | Child/bot creation authority source in held draft6129 | Prove real allowed creation, denied targets and original-child recovery. |
+| **X1 — Qualify every supported context entry** | Entry-point context/privacy map and scoped repairs | Qualify every supported surface, including background and System Workflow runs. |
+| **A1 — Finish global attention and baseline source gaps** | Attention/Room/shelf/mail foundations; global cutover remains off | Close all16 behavior gaps for cadence, suppression, consent and context. |
+| **R1 — Reconcile main, CI and exact release stack** | c3e required CI passed; three3e278 private REST receivers passed; two UI slices shipped | Qualify one complete successor after missing receiver integration. |
+| **R2 — Installed schema, profile and release packet** | Installed profile read and source migration packets prepared | Reconcile current target ledger, source/schema/graph and guarded install packet. |
+| **R3 — Writer/effect drain and faithful restore rehearsal** | Private stop/install/unknown recovery and dated restore proofs | Obtain supported all-writer fence, accepted-work accounting and current-target recovery. |
+| **I1 — Compose and independently qualify final source** | c3e composed; later receiver source remains separate | Finish integration, freeze one successor and pass its final gates. |
+| **D1 — Gated merge and deploy verified code** | UI6179/6181 merged/deployed/public-browser verified | Guarded W7 and wider-stack schema/runtime release after prerequisites. |
+| **D2 — Activate qualified workflows after compatible rollout** | Global/workflow activation not claimed | Activate only compatible qualified schema/runtime with tested recovery. |
+| **P1 — Provider and real computer readiness** | Provider readiness incomplete; Stripe configuration external | Finish normal provider/account/real-computer setup and approved live inputs. |
+| **V1 — Stable deployed all-path and 16 behavior acceptance** | All16 integrated/live acceptance behaviors remain open | Independently verify stable deployed journeys across all12 surfaces. |
+| **U1 — Owner confirmation and final handoff** | Portable handoff maintained; final owner confirmation pending | Provide specific owner tests only after independent applicable verification. |
+| **W6 — Atomic usage limits for scoped capability grants** | Atomic grant reservations source in held draft6129 | Prove installed concurrent use, revocation and original receipt recovery. |
+| **W7 — Original-operation workflow effects** | Full selected SQL suite, projectless and retro direct SQL, safe idle cancellation source qualified; actual receiver REST and terminal delivery progressing | Finish remaining destinations, active cancellation and real L1; qualify combined source, release, activate and verify live. |
+| **X2 — Confirm System Workflow durable terminal and pause receipts** | System Workflow pause and Memory Promotion partial fixes deployed | Qualify real admitted-owner pause/checkpoint/terminal recovery journeys. |
+| **X3 — Refuse zero-row completion in scheduled and direct workflows** | Missing original terminal-row refusal has scoped native evidence | Verify scheduled and direct deployed paths retain truthful outcomes. |
+| **X4 — Retain uncertain scheduled workflow attempts before another tick** | Scheduled original-attempt source preserved in held drafts | Install guarded occurrence schema and prove next-tick no-replay recovery. |
+| **X5 — Qualify original scheduled approval continuation** | Bounded original approval continuation source qualified | Close remaining effectful graphs and real approval/uncertain-outcome acceptance. |
+| **C2 — Bind project Git commands to exact workspace** | Project dispatch6118 and eligible-recipient6141 source qualified | Qualify mounted Realtime/relay, exact workspace commands and schema-first rollout. |
+| **R3B — Stage runtime role before candidate schema extension** | Dormant minimal role source with scoped native ACL proof | Installed target ACL/pooler authority and guarded role rollout remain open. |
+| **C2S — Install and verify project schema before server rollout** | Seven ordered project-schema packets rehearsed privately | Perform guarded installed-target schema rollout with live service-role verification. |
+
 ### Where to resume on another computer
 
 Public plan repository: `jtobkin/supraos-workflow-plan`; the three linked documents remain the entry points. Product repository: private `jtobkin/suprafx-platform`, requiring normal collaborator access. Fetch exact source commits rather than assuming the current main branch contains unmerged work.
