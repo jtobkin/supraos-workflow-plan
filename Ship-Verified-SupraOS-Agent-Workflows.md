@@ -1,6 +1,6 @@
 # Ship Verified SupraOS Agent Workflows
 
-## Active delivery checkpoint — 2026-10-04 21:35 UTC
+## Active delivery checkpoint — 2026-10-04 21:30 UTC
 
 This checkpoint supersedes the historical pause/deadline below. Execution resumed at the owner's request. The new five-hour focus ends at **2026-10-04 23:57:35 UTC**; then implementation pauses and this handoff, checklist and dependency plan will be finalized for transfer. The full 33-node scope, 16 behaviors and 12 supported surfaces remain open; W7 is an intermediate release milestone. No percentage is inferred from scoped tests or task counts.
 
@@ -42,7 +42,7 @@ Both missing receiver REST qualifications now pass on the exact preserved3e prod
 The current retrospective REST v2 source freeze is `90d0c89fac678e47fc201c8be85e9d15c23926b5185c9257a9cfe2693c89e66d`, based on pushed source229fb15c. It preserves all ten prior memory cases and adds actual projectless parent finalization plus committed-parent lost-acknowledgment replay. The native attempt returned RED before its memory lost-acknowledgment assertion: mapped schema readback denied `service_role`. Original result `19b8ee86d03617efb151dbb95dcb839861915a2a8fc48b584c9862f1d8f4c1b7` is preserved. Exact owned scratch cleanup passed (`923d86e9…`), with unchanged full Docker inventory. This is a proven REST-path ACL gap; direct PostgreSQL success does not close it.
 
 
-### New work and dependency ownership at 21:35 UTC
+### New work and dependency ownership at 21:30 UTC
 
 - **Combined source:** pushed clean `feat/w7-estimation-retro-notification-composed-20261005` at **e9689db0a52fe690edfe5bb40b85b926affc138c**, local matching `qa-lanes/` folder. It combines estimator604ab, retrospective reader105c+2c3, and notification8fd64 atop04695b6ada.106 focused tests and66 changed-file type checks pass; independent production-seam review and secrets scan pass. Initial composition test-registration failure is preserved. This is a partial integrated candidate, not a completed W7 release.
 - **Retrospective readback:** pushed repair `2c3e4e996aafbab198c688fa2569dacf481e9b98` adds original-bound readback to both receiver and integrity gateway, without broad mapped-schema SELECT grants.34 focused tests and changed types pass. Actual parent→memory REST v4 now passes all10 cases on private PostgreSQL/PostgREST: mapped direct SELECT is denied, original receiver/gateway reads succeed, original generation and revocation/replay/ACK-loss cases pass. Result **7c2dd776**, canonical native result397314de; independent audit and exact owned-scratch absence pass. Earlier REST RED19b8 remains preserved. This closes a demonstrated receiver ACL gap, not production installation or authentication.
