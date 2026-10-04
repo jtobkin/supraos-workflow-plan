@@ -2,6 +2,54 @@
 
 ## Resumed execution — 2026-10-04 UTC
 
+**Current checkpoint: 05:55 UTC.** The authorized eight-hour focus ends at 09:27:59 UTC. The full goal remains private, authorized, contextual, recoverable and truthful agent behavior across all 33 plan nodes, 16 behaviors and 12 supported surfaces. The immediate partial milestone is the existing W7 workflow release; this milestone does not replace the full goal.
+
+### Release candidate and usable capability
+
+PR [6160](https://github.com/jtobkin/suprafx-platform/pull/6160) is frozen at **20838b8805965cb800186c193f5cdbed749210f3**. It combines the existing workspace execution, scheduled continuation and journal runtime with the guarded host installer/recovery operator. Runtime and SQL bytes remain identical to ancestor `817061098742daec71dbb4198a5fd0d65d738d17`; five operator/test files match reviewed precursor `9eff703a7fe9e49af0c3c03c08f7eafa1f99169b`. The operator contract and architecture entry describe the composition. The branch has been pushed and the PR updated. Auto-merge is off.
+
+The exact new head has independent source/parity review, 34 operator tests, 15 proxy tests, 15 actual pg.Client target-routing cases and G11 evidence. Both required CI contexts were still queued at the latest read: `box-ci/security-gates` and `box-ci/production-build`. Earlier green817 CI is historical runtime evidence, not a pass for20838. Unrelated changes do not restart this qualification.
+
+### Progress by delivery state
+
+| Capability or prerequisite | Implemented and integrated | Tested and independently reviewed | Merged / deployed / verified live |
+| --- | --- | --- | --- |
+| Original-identity workflow runtime and owner journal | Manual, automated and cron callers mounted in frozen candidate | Required817 CI and scoped native caller/reader evidence; exact20838 CI pending | No / no / no for this candidate |
+| Guarded preparation, original stop, installer and closure | Actual operator CLI and companion installer mounted; terminal bind-export repair committed | Source review and focused tests pass; composed native run staging | No / no / no |
+| Legacy preinstall observation | Committed operator caller | Native `c5a466d0` PASS: baseline PREPARED, partial table/function UNKNOWN, escrow refusal and owned cleanup; audited | Private qualification only |
+| Faithful synthetic restore mechanics | Strict comparison and source-bound ACL repair mounted in harness | Selected `2e2ea492` and broader `ab19bf32` native PASS; independently audited | Evidence only; no production restore |
+| Production writer fence, accepted-handler accounting and target recovery | Production guard functions deliberately refuse; mechanism and producers remain missing | Private proofs do not establish authority or continuous production control | Unfinished |
+| Authenticated deployed acceptance | Requires normal QA access and working browser policy | Last browser attempt denied `enterprise_policy_unavailable`; no bypass | Unfinished |
+
+The broader restore check now covers declared schema/ownership/ACL/RLS, live columns, heap rows, sequences and large-object state, alongside original receipt continuity. It preserves the original two-field ACL failure, applies only the exact source-bound REVOKEs and requires strict final equality. This is dated October 3 captured schema with synthetic rows; it does **not** qualify current production data, every managed-platform object or whole-target recovery.
+
+### Current dependency path and parallel ownership
+
+1. **Implementation lane:** finish the frozen private preparation → original stop → exact forward/VERIFY → install readback → gate closure → replay chain. Package runner `9888699c`, dispatcher `8d5616e3`, archive `4d058a9d`, manifest `e9848d4a` passed two independent source reviews and is staging. No native pass claimed yet. The planned loss is a host acknowledgment after saved terminal dispatch; PostgreSQL COMMIT acknowledgment loss remains a separate gap.
+2. **Prerequisites lane:** define and review the minimum supported owner procedure for continuous writer exclusion, a tested maintenance connection, old accepted-work reconciliation and faithful current-target recovery. In parallel, design meaningful native COMMIT-loss and foreign-ledger checks against the same frozen installer. No production control is inferred from existing credentials.
+3. **Independent verification lane:** track exact20838 required CI, audit the composed native receipt and review hold-lapse/oracle-negative coverage. Do not change source or cancel qualification because main advances.
+4. **Root:** keep one Docker-mutating private run in the host slot, compose/review only demonstrated blocker fixes, maintain this plan and archive evidence. Once actual authority, recovery and all required candidate gates pass, perform the authorized guarded merge/install/deploy/activation.
+5. **Live acceptance:** independently exercise authenticated manual, automated, cron and journal journeys, permissions, failures and recovery on the deployed release. User confirmation follows this verification gate.
+
+The longest unresolved path is supported platform authority → continuously protected existing-work reconciliation and current-target recovery → guarded install/deploy → independent signed live acceptance. The concrete owner request remains unanswered. A static receipt, private hold marker, point-in-time connection census or successful synthetic restore cannot close it. The existing operator's two production guards still refuse; no production install or activation has occurred.
+
+### Where to find code and evidence on a fresh computer
+
+- Private code repository: `jtobkin/suprafx-platform`; fetch PR6160 branch `fix/w7-reviewer-release-20261003` and verify exact20838. Root composition branch `fix/w7-qualified-operator-composition-20261004` has the same commit. Precursor installer branch `feat/w7-bootstrap-install-producer-20261004` is committed and pushed at9eff703. These source changes are no longer local-only.
+- Operator entry point: `scripts/qa/w7-operation-gate.py`; installer: `scripts/qa/w7-bootstrap-install.js`; tests: `scripts/qa/test-w7-operation-gate.py`, `test-w7-proxy-hold.py`; hold observer: `w7-proxy-hold.py`; contract: `docs/agent-run/w7-operation-bound-release-admission.md`.
+- Runtime: `lib/vms/workflows/`, including `plan-orchestrator` and `mc-*-effect` modules; actual callers `app/api/workspace/plan/execute/route.ts` and `app/api/cron/mc-coordinator/route.ts`; owner journal route, library and Conversations UI locations remain detailed below.
+- SQL: `supabase/migrations/20261003120000_mc_task_claim_settlement.sql` and its `_VERIFY.sql` / `_ROLLBACK.sql` companions. Forward SHA starts7af383e3; VERIFY starts4d45188d. No installed production verdict.
+- Current machine lanes: `/Users/joshuatobkin/qa-lanes/w7-qualified-operator-composition-20261004`, `w7-release-blockers-root-20261003`, `w7-bootstrap-install-producer-20261004`. Main `/Users/joshuatobkin/suprafx-platform` contains unrelated dirty work; never reset or clean it. Keep unmerged lanes and never remove peer worktrees.
+- Canonical local structured plan: `/Users/joshuatobkin/qa-evidence/supraos-execution-plan-20261001/plan.json`. Root records: `qa-evidence/resume-delivery-20261004/`; lane sources and receipts: `qa-evidence/resume-delivery-20261003/{integration,prerequisites,verification}/`. These local paths do not exist automatically on a new computer.
+- Newly portable selected restore evidence: private commit `bd973991bcb94ef0771f5621059e9aef445954cb`, directory `docs/agent-run/evidence/strict-restore-repair-evidence-20261004/`, 16 byte-verified files. Previous portable evidence commits616e9ff, b5154072 and f1b8c94 remain documented below. The complete compressed fixture archives/raw captures are **not embedded** and require authorized recovery from their recorded local sources. Broaderab19 and legacyc5a receipts are currently local pending the next evidence archive.
+- Public record repository: `jtobkin/supraos-workflow-plan`, branch `main`, files `Ship-Verified-SupraOS-Agent-Workflows.md`, `SupraOS-Workflow-Plan-Checklist.md` and `Delivery-Path-Release-Plan.md`. Anonymous access was last byte-verified for prior publicationaa61242; this update will be verified after upload. Private source/evidence requires repository access.
+
+Finished still means the full agreed supported behavior is deployed, activated, independently verified live and supported by tested recovery. No project percentage is inferred from acceptance counts.
+
+---
+
+## Earlier 05:15 checkpoint — superseded by current state above
+
 **Current checkpoint: 05:15 UTC.** The eight-hour focus ends at09:27:59 UTC. Full scope remains33 nodes,16 behaviors and12 surfaces. The immediate partial milestone is the frozen W7 workspace completion release through manual, automated and cron callers, with durable outcomes and original-identity recovery.
 
 ### What changed and what is blocked
