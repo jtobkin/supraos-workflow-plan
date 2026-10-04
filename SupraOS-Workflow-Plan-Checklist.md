@@ -1,5 +1,76 @@
 # SupraOS Release Plan Checklist
 
+## Active delivery checkpoint — 2026-10-04 18:10 UTC
+
+This checkpoint supersedes the historical pause/deadline below. Execution resumed at the owner's request. The full 33-node scope, 16 behaviors and 12 supported surfaces remain open; W7 is an intermediate release milestone. No percentage is inferred from scoped tests or task counts.
+
+### Current delivery path
+
+Qualify the existing MC effect receivers and settlement SQL; finish original destinations and safe cancellation; compose one complete immutable successor; pass independent review and required gates; install compatible schema/runtime under supported release controls; activate and independently verify authenticated behavior and recovery. iMessage remains deferred and WhatsApp excluded.
+
+| Work | Implemented / integrated | Tested / reviewed | Merged / deployed / live |
+| --- | --- | --- | --- |
+| Existing MC receiver stack | Saved source `3e27866a5d880eaa32375a857ffa0ca67d0341c1` | Prior critical, plan and integration private REST proofs retained; full settlement SQL remains open | Not a completed W7 release |
+| Agent retrospective memory | Pushed `6951a00f3d020862a3b53c5b3f9b6eb02590ec56`; immediate settlement and cron callers wired | 48 focused tests and 30 changed-file type checks pass; source reviewed; direct PG contract prepared, native unrun | Unmerged, undeployed, not verified live |
+| Projectless finalization | Committed `301dfc3ed4edcae1251381a959efbc6a36723d6c`; explicit null project/run with original guards retained | 18-case native PASS, baseline refusal and rollback checks; all20 log pairs independently hash-verified and separate stopped-process check PASS | Unmerged, undeployed, not verified live |
+| Failed-task and coordinator-adjustment REST qualification | Two actual-receiver fixtures on exact3e source | Reviewed originals; narrow v2 reporting-label corrections preserve all assertions; native unrun | Evidence work, not a production release |
+| Project cancellation | Demonstrated unsafe project-route path identified; isolated atomic repair in progress | Regression/native acceptance pending | Unmerged, undeployed, not verified live |
+
+The retrospective receiver binds the original memory namespace and row identity before writing. Mapped-table generation checks prevent a revoked and recreated schema from silently redirecting an original operation. This source work does not yet establish actual PostgREST delivery, lost-acknowledgment recovery or production behavior.
+
+The project cancellation route currently calls `cancelRun`, which separately writes run, plan and project and can report success without checking those write results. Unlike workspace PATCH, it does not protect retained active claims. The integration lane owns an atomic owner/plan/run-bound repair; cancellation must preserve reservations until the original attempt is reconciled. Hindsight remains a separate durable obligation, not an implied consequence of updating run status.
+
+### Qualification state and blockers
+
+The repaired selected-SQL fixtures2/4/6 were staged, but admission command `0bed6e6c-5219-405f-8030-b99e7e0ac4ba` refused because managed deployment/start activity was detected. Native tests were never dispatched. The consumed claim is retained. One independently reviewed metadata-only reconciliation (`081778e1-6203-4268-a6ac-a49f7d1f43d2`, receipt `3eaa45c5…`) confirmed the original stage, source hashes, no native outputs and no owned QA resources. A reviewed fresh stage `a03b17cacab53a69` passed fresh admission `7ee4349f-e4dd-4e50-8500-44de922b6d0d`; its immutable SQL suite is running. The old refusal remains preserved.
+
+The separate projectless native attempt `d9d886807ef252a9` passed: receipt `50feb8ed151f8c860c3433f7fe08ae09562d667ee24c177fb1a2bad6651b33ab`, exact manifest `49d15e65…`, 18 cases, intended baseline failure, positive/refusal/replay checks, idempotence and rollback protection. Independent review verified all20 stdout/stderr pairs and a separate remote status returned no server running. This is a private dated-schema SQL proof, not production behavior.
+
+The REST fixtures check payload values, unsigned fixture identities and a held L1 route without external HTTP. They do not prove JWT authentication, signed-agent/system execution, settlement authorship or working L1 capability. Their wrappers separately check the private PostgREST `service_role` identity. Grok's broader claim that the role was never checked was rejected against those actual wrappers; its reporting-label corrections were accepted.
+
+External release dependencies remain: normal QA invitation, supported control over all relevant writers and accepted work, current-target restoration proof, and Stripe Link configuration. None is treated as approved or complete. PR6160 remains open at `c3e23f9434780edde5aecf631ae0a6a356e18513`; its earlier passing gates do not qualify newer source. Latest observed production version is `21e10a310a6a4933ad24f7e86caad18765a177d6`; ancestry includes the earlier dashboard/workspace privacy fixes, but version observation is not new authenticated behavioral verification.
+
+### Parallel ownership and next tasks
+
+1. **Prerequisites lane:** preserve original SQL refusal; independently review a fresh-copy helper; run the immutable SQL suite after fresh admission; then qualify the two reviewed REST successors.
+2. **Integration lane:** preserve pushed retrospective source; finish the atomic project-cancellation caller, database authority and meaningful regressions; retain unresolved downstream obligations.
+3. **Independent verification lane:** review exact packets and narrow repairs as ready, audit native terminal evidence and cleanup, and reject overbroad acceptance claims.
+4. **Root:** qualify projectless finalization, compose only demonstrated blocker repairs, maintain this dependency plan and coordinate guarded release. Grok read-only audits supplement these four Codex roles. The REST audit completed; two further audits ended without complete verdicts and are not counted as PASS.
+
+```mermaid
+flowchart LR
+  SQL[Immutable settlement SQL] --> JOIN[Complete frozen successor]
+  REST[Actual receiver REST] --> JOIN
+  RETRO[Original agent memory destination] --> JOIN
+  CANCEL[Atomic safe cancellation] --> JOIN
+  PROJECTLESS[Projectless finalization] --> JOIN
+  REMAINING[Remaining destinations and real L1] --> JOIN
+  JOIN --> GATES[Independent review and final gates]
+  CONTROLS[Writer control and current-target recovery] --> RELEASE[Guarded schema and runtime release]
+  GATES --> RELEASE
+  RELEASE --> ACTIVATE[Compatible activation]
+  ACTIVATE --> LIVE[Authenticated live acceptance and recovery]
+  QA[Normal QA access] --> LIVE
+```
+
+### Where to resume on another computer
+
+Public plan repository: `jtobkin/supraos-workflow-plan`; the three linked documents remain the entry points. Product repository: private `jtobkin/suprafx-platform`, requiring normal collaborator access. Fetch exact source commits rather than assuming the current main branch contains unmerged work.
+
+- Base receiver branch: `feat/w7-mc-critical-escalation-effect-20261004`, exact3e commit above; local `qa-lanes/w7-mc-task-failed-effect-20261004`.
+- Retrospective branch: `feat/w7-plan-retro-agent-effect-20261005`, exact6951 commit above; local matching worktree. Main files: `lib/vms/workflows/mc-plan-retro-agent-effect.ts`, `plan-orchestrator.ts`, `app/api/cron/mc-coordinator/route.ts`, and `supabase/migrations/20261005100000_mc_plan_retro_agent_route*`.
+- Projectless branch/worktree: `feat/w7-projectless-finalization-20261005` / `qa-lanes/w7-projectless-finalization-20261005`. Commit `301dfc3ed4edcae1251381a959efbc6a36723d6c` contains migration `20261004173518_mc_projectless_plan_finalization*`, the18-case fixture and scoped architecture notes; remote branch was independently read back at that exact commit; worktree is clean and retained because unmerged.
+- Cancellation branch/worktree: `feat/w7-project-cancel-atomic-20261005` / matching local lane. Implementation is in progress, not yet a portable saved candidate.
+- Current local evidence: `/Users/joshuatobkin/qa-evidence/resume-delivery-20261005/` with `root`, `integration`, `sql`, `verification` and `grok` subdirectories. Current machine-readable plan: `/Users/joshuatobkin/qa-evidence/supraos-execution-plan-20261001/plan.json`. These current local artifacts are not yet all published; older portable evidence locations remain in the detailed history below.
+- Do not edit/reset the shared dirty `suprafx-platform` checkout. Create an owned isolated worktree. Do not delete another agent's lane or any unmerged/dirty/running worktree.
+
+The remaining full checklist below continues to apply, including all-path authority/privacy, System Workflows, providers, installed schema/runtime permissions, activation, recovery and owner confirmation after independent live verification.
+
+---
+
+
+## Historical checkpoint (superseded where noted above)
+
 ## Resumed execution — 2026-10-04 UTC
 
 **Final implementation checkpoint for the 14:30:08–16:30:08 UTC focus window. Implementation and native qualification stopped by 16:03 UTC; the remaining window is reserved for publishing and independently checking this handoff. Work pauses no later than 16:30:08 UTC.** This current section supersedes historical checkpoints below. No implementation or completion percentage is inferred from test counts. The full project remains open.
