@@ -1,4 +1,36 @@
 # Ship Verified SupraOS Agent Workflows
+
+## Resumed execution — 2026-10-04 UTC
+
+Execution resumed by the owner at **01:27:59 UTC**, with an eight-hour focus ending **09:27:59 UTC**. This section supersedes execution state in the retained paused handoff below; its scope, prior receipts and acceptance limits remain binding.
+
+### Current milestone and dependency order
+
+Ship the coherent W7 workspace-plan completion capability through its manual, automated and cron callers, with durable journal/reviewer/memory results and original-identity recovery. Full project scope remains 33 nodes, 16 behaviors and 12 surfaces; no task-count completion percentage is asserted.
+
+1. **Preserve source and re-admit the environment.** Both missing worktrees were removed by the automatic disk-cleanup timer after their commits were pushed, despite remaining unmerged. Exact817 and f121 commits and branch histories survive. Both had clean status at19:28 UTC before the pause. All35 published payloads and40 local-only artifact references were verified; three missing operator files were recovered byte-for-byte from f121. Automatic peer-lane/trash deletion is now disabled; independent source review and shell syntax pass. Restored root and operator worktrees retain the recorded source. Ignored scratch-file loss cannot be ruled out by Git history.
+2. **Run cron v4 through the real two-tick caller.** Exact runtime/package pins and1292 compiled inputs pass local verification. The dispatcher uses a new exact817 verifier-owned checkout and explicit HEAD guard; original dispatcher7b49 is retained and successor7f057 independently reviewed. One bounded native run is now in progress under the verifier’s exclusive host ownership; acceptance remains unproven until its terminal receipt and cleanup are independently reviewed.
+3. **Run the strict restore diagnostic after host handoff.** Preserve failure30ced9fa. Diagnostic3c32/2e93 is source reviewed and local-tested, but nativeUNRUN. Identify differing components before any repair; exact row/catalog/ACL/role fidelity and original-receipt recovery remain required.
+4. **Complete actual production hold/recovery controls in parallel.** f121 still refuses stop-originals because effective external hold is unqualified. The current gate-before-migration requirement creates a preinstall ordering problem: old writers must be excluded before installing the migration that creates that gate. Integration owns a mounted read-only ingress observer and explicit preinstall/postinstall phase design; a probe receipt alone cannot authorize a stop or prove continuous all-writer exclusion.
+5. **Only after qualification, controlled cutover and independent signed live acceptance.** Exact candidate gates, installed schema, compatible runtime, activation and recovery must each be proven. Normal QA invitation and platform authority remain dependencies. Claude CLI is still signed out on fresh observation; no authentication bypass is permitted.
+
+### Ownership and current state
+
+- Root: immutable composition, protected worktree recovery, host scheduling, evidence and public documents.
+- Integration: actual operator/hold/recovery callers and their tests/docs in its isolated f121 lane.
+- Prerequisites: fresh readonly host admission, restore diagnostic, access/authority blockers and independent reviews.
+- Verification: actual cron v4 qualification and independent source/browser/live acceptance.
+
+Parallel source/review work is allowed; only one owned native fixture may use the host at a time. Unknown command outcomes retain their original identity and are reconciled before another dispatch. No production container stop, schema change, gate bypass or activation is authorized merely by a private fixture pass.
+
+Fresh PR readback confirms6160 remains open/unmerged at817061098742daec71dbb4198a5fd0d65d738d17, without auto-merge. Fresh readonly host observation shows25containers, no owned W7 fixture containers/networks, ample memory/disk and observed serving image7e80809d/build8b6b. That observation is not deployed W7 acceptance.
+
+Local new-run evidence: `/Users/joshuatobkin/qa-evidence/resume-delivery-20261004/`. Prior fixture/evidence paths remain under `qa-evidence/resume-delivery-20261003/`. Canonical local JSON remains `qa-evidence/supraos-execution-plan-20261001/plan.json`. Read the detailed paused checkpoint below for exact branches, code callers, setup commands and portable private evidence links. The older worktree paths are historical unless their restoration is recorded here.
+
+---
+
+<!-- END CURRENT 2026-10-04 CHECKPOINT -->
+
 ## Resumed delivery checkpoint — 2026-10-03 UTC
 
 Implementation is paused at the owner-requested cutoff, recorded 2026-10-03T19:43:25.337791+00:00. The final 90-minute window began at 18:13:12 UTC and ended at 19:43:12 UTC on 2026-10-03. All owned host runs are terminal with verified cleanup; no uncertain remote command remains. Only documentation publication and access verification followed the pause. This is the current checkpoint; dated material below is retained history.
