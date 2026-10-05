@@ -1,0 +1,59 @@
+{
+  "source": "ad2ee680464217fd1b00883bf7ea9fc917ed3140",
+  "tree": "d646dcd04525189171ee67fc83098667cac6d290",
+  "clean": true,
+  "files": {
+    "lib/vms/workflows/execution-plan.ts": {
+      "bytes": 22886,
+      "sha256": "6c8e1300ec2d270782c223a2b76ceb9f3755060da9d329442b96e56491351de3"
+    },
+    "lib/vms/workflows/mc-manual-transition.ts": {
+      "bytes": 3915,
+      "sha256": "d73ada6715aac1c4ff46070cad90a2d179ad05417c40f865e1adc1f0605f2f32"
+    },
+    "lib/vms/workflows/mc-owner-manual-action.ts": {
+      "bytes": 15860,
+      "sha256": "b9d89087c3b91dac44b312c6cce264880e1df8b54b04e0396cb710326b0f6969"
+    },
+    "lib/vms/workflows/plan-orchestrator.ts": {
+      "bytes": 191357,
+      "sha256": "4d0bd2a358def252237c09f0e76bc044c18688621b3e420f944083edd7797ef3"
+    },
+    "app/api/cron/mc-coordinator/route.ts": {
+      "bytes": 50709,
+      "sha256": "cff35a8c6c20b04640ddac683c85d857a27bb22bd9896f17401e0835fc213566"
+    },
+    "supabase/migrations/20261003120000_mc_task_claim_settlement.sql": {
+      "bytes": 139874,
+      "sha256": "7af383e32c6f80cbc4d292d28851705f012231f5cf3b754a20e04ff45ff3c7dd"
+    },
+    "supabase/migrations/20261004150000_mc_critical_escalation_recovery.sql": {
+      "bytes": 44289,
+      "sha256": "8342502b4a362748b09bb66cbeaeaa333902e6daaed2363a5c4c51330c1c0ad3"
+    },
+    "supabase/migrations/20261004173518_mc_projectless_plan_finalization.sql": {
+      "bytes": 7343,
+      "sha256": "11beac7697128d827ce15e51ca12612dbf484264a8e4c9c25f2d6ed65e0474c5"
+    },
+    "supabase/migrations/20261005110000_mc_run_cancel_atomic.sql": {
+      "bytes": 8520,
+      "sha256": "72b5c6b6545b0e43e8ee7796f07731933784757c168dbf15d45f7617b1af658b"
+    },
+    "supabase/migrations/20261005120000_mc_plan_terminal_event_receipt.sql": {
+      "bytes": 18379,
+      "sha256": "a4a04559befc18a9922628adbb8b13f6befbbf6d7eed74213ceb4ba7549608a1"
+    },
+    "supabase/migrations/20261005130000_mc_plan_estimation_reconcile.sql": {
+      "bytes": 11431,
+      "sha256": "df4ef233e4e25d5d0c88ad398ac5ae4eabdab90497bd84508c7d25bf78c0db0a"
+    },
+    "supabase/migrations/20261005140000_mc_plan_notification_recovery.sql": {
+      "bytes": 17101,
+      "sha256": "4e6e6d141e350ffdf09acc89c052c71924be492fcc51096d1929b874beeef0a3"
+    },
+    "supabase/migrations/20261005220000_mc_task_claim_admission_guard.sql": {
+      "bytes": 4812,
+      "sha256": "45a5f8249779e4df1bfd5750a466af879337de5d8730cf48006fe0c8330c237b"
+    }
+  }
+}

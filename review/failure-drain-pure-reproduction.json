@@ -1,0 +1,72 @@
+{
+  "source": "ad2ee680464217fd1b00883bf7ea9fc917ed3140",
+  "scope": "actual pure transition with injected inert dependencies; no DB/provider execution",
+  "cases": [
+    {
+      "inputSiblingStatus": "pending",
+      "planStatus": "failed",
+      "finalized": true,
+      "predicate": true,
+      "allTasksTerminal": false,
+      "sibling": {
+        "id": "sibling",
+        "name": "sibling",
+        "type": "build",
+        "status": "pending",
+        "retries": 0,
+        "estimatedMinutes": 1
+      },
+      "newAssignmentCalls": 0
+    },
+    {
+      "inputSiblingStatus": "assigned",
+      "planStatus": "failed",
+      "finalized": true,
+      "predicate": true,
+      "allTasksTerminal": false,
+      "sibling": {
+        "id": "sibling",
+        "name": "sibling",
+        "type": "build",
+        "status": "assigned",
+        "retries": 0,
+        "estimatedMinutes": 1
+      },
+      "newAssignmentCalls": 0
+    },
+    {
+      "inputSiblingStatus": "running",
+      "planStatus": "failed",
+      "finalized": true,
+      "predicate": true,
+      "allTasksTerminal": false,
+      "sibling": {
+        "id": "sibling",
+        "name": "sibling",
+        "type": "build",
+        "status": "running",
+        "retries": 0,
+        "estimatedMinutes": 1
+      },
+      "newAssignmentCalls": 0
+    },
+    {
+      "inputSiblingStatus": "blocked",
+      "planStatus": "failed",
+      "finalized": true,
+      "predicate": true,
+      "allTasksTerminal": false,
+      "sibling": {
+        "id": "sibling",
+        "name": "sibling",
+        "type": "build",
+        "status": "blocked",
+        "retries": 0,
+        "estimatedMinutes": 1,
+        "outcomeUnknown": true,
+        "mc_outcome_claim_token": "original-unknown"
+      },
+      "newAssignmentCalls": 0
+    }
+  ]
+}
