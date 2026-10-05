@@ -31,6 +31,8 @@ Delivery strategy revision: **{d['updatedAt']}**. Canonical record SHA-256: `{di
 
 **Scope:** all 33 tasks, 16 behavior families and 12 supported surfaces remain required. W7 is an intermediate milestone. iMessage is deferred; WhatsApp is excluded.
 
+**Current delivery checkpoint:** {d.get('activeCheckpoint', 'See current task contracts below.')}
+
 **Current candidate record:** `{d['candidateSummary']['commit']}`, tree `{d['candidateSummary']['tree']}`. Security: {d['candidateSummary']['requiredSecurity']}; build: {d['candidateSummary']['requiredBuild']}; macOS Native Land: {d['candidateSummary']['nativeLand']}. Merged: {d['candidateSummary']['merged']}; deployed: {d['candidateSummary']['deployed']}; activated: {d['candidateSummary']['activated']}; verified live: {d['candidateSummary']['verifiedLive']}. Scope: {d['candidateSummary']['scope']}. Observed: {d['candidateSummary']['observedAt']}. Update this canonical candidate record after changes; never infer status from historical receipts.
 
 **Dated recovery baseline:** strict E3 was RED with 6,540 blockers at the prior closeout. These observations are not permission to skip fresh release checks.

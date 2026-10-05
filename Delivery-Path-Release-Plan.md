@@ -2,11 +2,13 @@
 
 [Handoff](Ship-Verified-SupraOS-Agent-Workflows.md) · [Checklist](SupraOS-Workflow-Plan-Checklist.md) · [Dependency plan](Delivery-Path-Release-Plan.md) · [Evidence index](Evidence-Index.md) · [Canonical record](workflow-plan.json) · [Repository instructions](AGENTS.md)
 
-Delivery strategy revision: **2026-10-05T00:53:37.755392+00:00**. Canonical record SHA-256: `437343b4070e88ac2d35cb0f3d78cd922100b51983b9338f221e8305b2a65e18`.
+Delivery strategy revision: **2026-10-05T01:20:34.889212+00:00**. Canonical record SHA-256: `b1e6aff578d06151e88e474c47256921cbd135141a8fda547c8ad546f8337dba`.
 
-**Execution state:** Owner authorized an eight-hour implementation run after this documentation rewrite is published and verified. Product edits have not resumed yet; start/deadline will be recorded at activation of the run..
+**Execution state:** Eight-hour execution active from 2026-10-05T01:01:15Z through 2026-10-05T09:01:15Z after documentation publication and independent anonymous-browser verification. Three lanes own failure drain, release prerequisites, and independent verification; root owns integration. W7 remains unmerged and undeployed..
 
 **Scope:** all 33 tasks, 16 behavior families and 12 supported surfaces remain required. W7 is an intermediate milestone. iMessage is deferred; WhatsApp is excluded.
+
+**Current delivery checkpoint:** 2026-10-05 active run: failure-drain regressions reproduced and focused source tests passing in an unqualified working successor. Independent source review continues. A source-identified multi-request rerun race is being repaired (executed concurrency reproduction pending) as part of the drain boundary; root owns its browser request binding. Fresh independently reviewed read-only production catalog observations confirm the selected W7 functions/tables/migrations and runtime role absent, and required existing relations present; this is metadata evidence, not installation or live capability. Runtime binding integration reuses the saved62b77 implementation on a separate prerequisite branch. Current qualified baseline remains ad2; no W7 merge/deployment/activation.
 
 **Current candidate record:** `ad2ee680464217fd1b00883bf7ea9fc917ed3140`, tree `d646dcd04525189171ee67fc83098667cac6d290`. Security: PASS 51 steps; build: PASS 7 steps; macOS Native Land: Not run. Merged: False; deployed: False; activated: False; verified live: False. Scope: Qualified partial W7 checkpoint; full scope open. Observed: 2026-10-04T23:50:26Z. Update this canonical candidate record after changes; never infer status from historical receipts.
 
@@ -228,7 +230,22 @@ The existing manifests and private packet are the starting point. Consolidation 
   "interpretation": "Unknown until recorded; gate PASS does not imply deployment",
   "lastQualifiedCandidate": "ad2ee680464217fd1b00883bf7ea9fc917ed3140",
   "lastGateObservation": "2026-10-04T23:50:26Z",
-  "implementationPausedAt": "2026-10-04T23:48:00Z"
+  "implementationPausedAt": "2026-10-04T23:48:00Z",
+  "activeRun": {
+    "startedAt": "2026-10-05T01:01:15Z",
+    "plannedEndAt": "2026-10-05T09:01:15Z",
+    "state": "active",
+    "baselineCandidate": "ad2ee680464217fd1b00883bf7ea9fc917ed3140",
+    "documentationCommit": "77d7faaa1a98638feaf123e0dc80d6d77d625b06",
+    "lanes": {
+      "implementation": "catalog_blocker",
+      "releasePrerequisites": "native_closeout",
+      "independentVerification": "closeout_audit",
+      "integrationAndRecords": "root"
+    },
+    "nextMilestone": "Truthful failure drain through actual callers without premature terminal effects; partial W7 only."
+  },
+  "lastDependencyClosed": "Fresh selected installed-target metadata and identity observations independently verified (two explicitly separate read-only snapshots); no release control waived."
 }
 ```
 

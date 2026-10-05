@@ -2,11 +2,13 @@
 
 [Handoff](Ship-Verified-SupraOS-Agent-Workflows.md) · [Checklist](SupraOS-Workflow-Plan-Checklist.md) · [Dependency plan](Delivery-Path-Release-Plan.md) · [Evidence index](Evidence-Index.md) · [Canonical record](workflow-plan.json) · [Repository instructions](AGENTS.md)
 
-Delivery strategy revision: **2026-10-05T00:53:37.755392+00:00**. Canonical record SHA-256: `437343b4070e88ac2d35cb0f3d78cd922100b51983b9338f221e8305b2a65e18`.
+Delivery strategy revision: **2026-10-05T01:20:34.889212+00:00**. Canonical record SHA-256: `b1e6aff578d06151e88e474c47256921cbd135141a8fda547c8ad546f8337dba`.
 
-**Execution state:** Owner authorized an eight-hour implementation run after this documentation rewrite is published and verified. Product edits have not resumed yet; start/deadline will be recorded at activation of the run..
+**Execution state:** Eight-hour execution active from 2026-10-05T01:01:15Z through 2026-10-05T09:01:15Z after documentation publication and independent anonymous-browser verification. Three lanes own failure drain, release prerequisites, and independent verification; root owns integration. W7 remains unmerged and undeployed..
 
 **Scope:** all 33 tasks, 16 behavior families and 12 supported surfaces remain required. W7 is an intermediate milestone. iMessage is deferred; WhatsApp is excluded.
+
+**Current delivery checkpoint:** 2026-10-05 active run: failure-drain regressions reproduced and focused source tests passing in an unqualified working successor. Independent source review continues. A source-identified multi-request rerun race is being repaired (executed concurrency reproduction pending) as part of the drain boundary; root owns its browser request binding. Fresh independently reviewed read-only production catalog observations confirm the selected W7 functions/tables/migrations and runtime role absent, and required existing relations present; this is metadata evidence, not installation or live capability. Runtime binding integration reuses the saved62b77 implementation on a separate prerequisite branch. Current qualified baseline remains ad2; no W7 merge/deployment/activation.
 
 **Current candidate record:** `ad2ee680464217fd1b00883bf7ea9fc917ed3140`, tree `d646dcd04525189171ee67fc83098667cac6d290`. Security: PASS 51 steps; build: PASS 7 steps; macOS Native Land: Not run. Merged: False; deployed: False; activated: False; verified live: False. Scope: Qualified partial W7 checkpoint; full scope open. Observed: 2026-10-04T23:50:26Z. Update this canonical candidate record after changes; never infer status from historical receipts.
 
@@ -64,8 +66,8 @@ These rules must remain in every future handoff, checklist and plan. Update thei
 | **X1 — Qualify every supported context entry** | Entry-point context/privacy map and scoped repairs | Qualify every supported surface, including background and System Workflow runs. |
 | **A1 — Finish global attention and baseline source gaps** | Attention/Room/shelf/mail foundations; global cutover remains off | Close all16 behavior gaps for cadence, suppression, consent and context. |
 | **R1 — Reconcile main, CI and exact release stack** | ad2ee680 partial successor pushed in draft6190, scoped52/types14/review PASS; required CI PASS on exact ad2: 51 security steps and 7 build steps; macOS Native Land not run; prior1c0 CI RED preserved; earlier privacy slices shipped | Qualify one complete successor after missing receiver integration. |
-| **R2 — Installed schema, profile and release packet** | Installed profile read and source migration packets prepared | Reconcile current target ledger, source/schema/graph and guarded install packet. |
-| **R3 — Writer/effect drain and faithful restore rehearsal** | Private stop/install/unknown recovery and dated restore proofs | Obtain supported all-writer fence, accepted-work accounting and current-target recovery. |
+| **R2 — Installed schema, profile and release packet** | Installed profile read and source migration packets prepared | Reconcile current target ledger, source/schema/graph and guarded install packet. Fresh2026-10-05 selected read-only census independently verified:36 MC functions,8 MC tables,15 migration entries absent. Separate additive snapshot proves11 referenced preexisting relations present including vms_execution_runs. Ordered guarded installation remains pending. |
+| **R3 — Writer/effect drain and faithful restore rehearsal** | Private stop/install/unknown recovery and dated restore proofs | Obtain supported all-writer fence, accepted-work accounting and current-target recovery. Code gap confirmed:existing operator still refuses because accepted-work/all-writer/backup evidence producers are not mounted. Fresh metadata observes privileged/managed sessions without exclusion authority. A concrete administrator/ticket clarification was requested; no grant assumed. |
 | **I1 — Compose and independently qualify final source** | ad2ee680 integrates reviewed guard/manual/Telegram repairs on1c0;52 scoped tests/types14/review PASS; exact successor required CI PASS on exact ad2: 51 security steps and 7 build steps; macOS Native Land not run; unchanged UI has scoped Linux privacy proof; full final source open | Finish integration, freeze one successor and pass its final gates. |
 | **D1 — Gated merge and deploy verified code** | UI6179/6181 merged/deployed/public-browser verified | Guarded W7 and wider-stack schema/runtime release after prerequisites. |
 | **D2 — Activate qualified workflows after compatible rollout** | Global/workflow activation not claimed | Activate only compatible qualified schema/runtime with tested recovery. |
@@ -73,13 +75,13 @@ These rules must remain in every future handoff, checklist and plan. Update thei
 | **V1 — Stable deployed all-path and 16 behavior acceptance** | All16 integrated/live acceptance behaviors remain open | Independently verify stable deployed journeys across all12 surfaces. |
 | **U1 — Owner confirmation and final handoff** | Portable handoff maintained; final owner confirmation pending | Provide specific owner tests only after independent applicable verification. |
 | **W6 — Atomic usage limits for scoped capability grants** | Atomic grant reservations source in held draft6129 | Prove installed concurrent use, revocation and original receipt recovery. |
-| **W7 — Original-operation workflow effects** | Full selected SQL suite, projectless and retro direct SQL, safe idle cancellation source qualified; failed-task and adjustment actual REST independently qualified; retrospective actual REST and terminal/estimation native proofs pass; notification direct SQL16cases passes; actual estimation/notification and exact1c0 retrospective REST independently pass; combined final qualification remains open | Finish remaining destinations, active cancellation and real L1; qualify combined source, release, activate and verify live. |
+| **W7 — Original-operation workflow effects** | Full selected SQL suite, projectless and retro direct SQL, safe idle cancellation source qualified; failed-task and adjustment actual REST independently qualified; retrospective actual REST and terminal/estimation native proofs pass; notification direct SQL16cases passes; actual estimation/notification and exact1c0 retrospective REST independently pass; combined final qualification remains open | Finish remaining destinations, active cancellation and real L1; qualify combined source, release, activate and verify live. Active run: finish SQL-authoritative failure drain and actual automated/manual/recovery callers; qualify birth provenance versus legacy holds; close the source-identified rerun partial-write race; executed concurrency reproduction is pending with an atomic, original-action-bound operation and mounted browser caller. Working source tests are not native/release evidence. |
 | **X2 — Confirm System Workflow durable terminal and pause receipts** | System Workflow pause and Memory Promotion partial fixes deployed | Qualify real admitted-owner pause/checkpoint/terminal recovery journeys. |
 | **X3 — Refuse zero-row completion in scheduled and direct workflows** | Missing original terminal-row refusal has scoped native evidence | Verify scheduled and direct deployed paths retain truthful outcomes. |
 | **X4 — Retain uncertain scheduled workflow attempts before another tick** | Scheduled original-attempt source preserved in held drafts | Install guarded occurrence schema and prove next-tick no-replay recovery. |
 | **X5 — Qualify original scheduled approval continuation** | Bounded original approval continuation source qualified | Close remaining effectful graphs and real approval/uncertain-outcome acceptance. |
 | **C2 — Bind project Git commands to exact workspace** | Project dispatch6118 and eligible-recipient6141 source qualified | Qualify mounted Realtime/relay, exact workspace commands and schema-first rollout. |
-| **R3B — Stage runtime role before candidate schema extension** | Dormant minimal role source with scoped native ACL proof | Installed target ACL/pooler authority and guarded role rollout remain open. |
+| **R3B — Stage runtime role before candidate schema extension** | Dormant minimal role source with scoped native ACL proof | Installed target ACL/pooler authority and guarded role rollout remain open. Fresh census:runtime role absent; selected B0 prerequisites/body hashes compatible, but7/11 source pins drifted and prior runtime identity helper/caller hooks are absent at ad2. Reconcile saved62b77 implementation with current provisioning/bridge behavior before exact-source qualification; do not install the old packet unchanged. |
 | **C2S — Install and verify project schema before server rollout** | Seven ordered project-schema packets rehearsed privately | Perform guarded installed-target schema rollout with live service-role verification. |
 
 ## Detailed task contracts and preserved evidence
@@ -100,14 +102,14 @@ Historical baseline implementation/evidence is retained verbatim in `workflow-pl
 
 | Stage | Current evidence boundary |
 | --- | --- |
-| implemented | Documentation task; product stage not applicable. Baseline84f9 publication/browser proof retained; new rewrite publication pending. |
-| integrated | Documentation task; product stage not applicable. Baseline84f9 publication/browser proof retained; new rewrite publication pending. |
-| tested | Documentation task; product stage not applicable. Baseline84f9 publication/browser proof retained; new rewrite publication pending. |
-| independentlyReviewed | Documentation task; product stage not applicable. Baseline84f9 publication/browser proof retained; new rewrite publication pending. |
-| merged | Documentation task; product stage not applicable. Baseline84f9 publication/browser proof retained; new rewrite publication pending. |
-| deployed | Documentation task; product stage not applicable. Baseline84f9 publication/browser proof retained; new rewrite publication pending. |
-| activated | Documentation task; product stage not applicable. Baseline84f9 publication/browser proof retained; new rewrite publication pending. |
-| verifiedLive | Documentation task; product stage not applicable. Baseline84f9 publication/browser proof retained; new rewrite publication pending. |
+| implemented | Documentation-only: canonical rewrite published77d7faaa; independent fidelity and anonymous browser PASS. Product stage not applicable. New active-run revision awaits its publication verification. |
+| integrated | Documentation-only: canonical rewrite published77d7faaa; independent fidelity and anonymous browser PASS. Product stage not applicable. New active-run revision awaits its publication verification. |
+| tested | Documentation-only: canonical rewrite published77d7faaa; independent fidelity and anonymous browser PASS. Product stage not applicable. New active-run revision awaits its publication verification. |
+| independentlyReviewed | Documentation-only: canonical rewrite published77d7faaa; independent fidelity and anonymous browser PASS. Product stage not applicable. New active-run revision awaits its publication verification. |
+| merged | Documentation-only: canonical rewrite published77d7faaa; independent fidelity and anonymous browser PASS. Product stage not applicable. New active-run revision awaits its publication verification. |
+| deployed | Documentation-only: canonical rewrite published77d7faaa; independent fidelity and anonymous browser PASS. Product stage not applicable. New active-run revision awaits its publication verification. |
+| activated | Documentation-only: canonical rewrite published77d7faaa; independent fidelity and anonymous browser PASS. Product stage not applicable. New active-run revision awaits its publication verification. |
+| verifiedLive | Documentation-only: canonical rewrite published77d7faaa; independent fidelity and anonymous browser PASS. Product stage not applicable. New active-run revision awaits its publication verification. |
 
 ### B1 — Freeze trusted internal project execution
 
@@ -458,7 +460,7 @@ Historical baseline implementation/evidence is retained verbatim in `workflow-pl
 
 **Saved work:** Installed profile read and source migration packets prepared
 
-**Remaining:** Reconcile current target ledger, source/schema/graph and guarded install packet.
+**Remaining:** Reconcile current target ledger, source/schema/graph and guarded install packet. Fresh2026-10-05 selected read-only census independently verified:36 MC functions,8 MC tables,15 migration entries absent. Separate additive snapshot proves11 referenced preexisting relations present including vms_execution_runs. Ordered guarded installation remains pending.
 
 **Acceptance:** Read actual installed profile/ledger and dependencies; never replay installed migrations; reconcile source/schema/graph hashes and safe forward/rollback/reapply packet before activation.
 
@@ -481,7 +483,7 @@ Historical baseline implementation/evidence is retained verbatim in `workflow-pl
 
 **Saved work:** Private stop/install/unknown recovery and dated restore proofs
 
-**Remaining:** Obtain supported all-writer fence, accepted-work accounting and current-target recovery.
+**Remaining:** Obtain supported all-writer fence, accepted-work accounting and current-target recovery. Code gap confirmed:existing operator still refuses because accepted-work/all-writer/backup evidence producers are not mounted. Fresh metadata observes privileged/managed sessions without exclusion authority. A concrete administrator/ticket clarification was requested; no grant assumed.
 
 **Acceptance:** Continuous REST+directPG admission closure, in-flight/unknown effect accounting and mixed-client/broadcaster drain; authorized production-copy role/grant-faithful restore/rehearsal. Never manufacture acceptance with production effects.
 
@@ -665,7 +667,7 @@ Historical baseline implementation/evidence is retained verbatim in `workflow-pl
 
 **Saved work:** Full selected SQL suite, projectless and retro direct SQL, safe idle cancellation source qualified; failed-task and adjustment actual REST independently qualified; retrospective actual REST and terminal/estimation native proofs pass; notification direct SQL16cases passes; actual estimation/notification and exact1c0 retrospective REST independently pass; combined final qualification remains open
 
-**Remaining:** Finish remaining destinations, active cancellation and real L1; qualify combined source, release, activate and verify live.
+**Remaining:** Finish remaining destinations, active cancellation and real L1; qualify combined source, release, activate and verify live. Active run: finish SQL-authoritative failure drain and actual automated/manual/recovery callers; qualify birth provenance versus legacy holds; close the source-identified rerun partial-write race; executed concurrency reproduction is pending with an atomic, original-action-bound operation and mounted browser caller. Working source tests are not native/release evidence.
 
 **Acceptance:** Thread server ToolContext identity, reserve before effect, preserve original run and unknown outcome, reject missing/forged identity, prove cap/no replay via actual transport. Bind actual task settlement to the original saved execution claim atomically; reject superseded results before effects and recover post-commit delivery without duplication. Prove usable original-child lookup/recovery and keep unsupported callers explicit.
 
@@ -803,7 +805,7 @@ Historical baseline implementation/evidence is retained verbatim in `workflow-pl
 
 **Saved work:** Dormant minimal role source with scoped native ACL proof
 
-**Remaining:** Installed target ACL/pooler authority and guarded role rollout remain open.
+**Remaining:** Installed target ACL/pooler authority and guarded role rollout remain open. Fresh census:runtime role absent; selected B0 prerequisites/body hashes compatible, but7/11 source pins drifted and prior runtime identity helper/caller hooks are absent at ad2. Reconcile saved62b77 implementation with current provisioning/bridge behavior before exact-source qualification; do not install the old packet unchanged.
 
 **Acceptance:** Exact named phase/catalog fingerprints, old/future owner clones, wrong-phase/partial schema/drift refusal, NOLOGIN and no active sessions, rollback from each phase. Still only OWNER_DB_URL scope, not REST/effects/global closure.
 
