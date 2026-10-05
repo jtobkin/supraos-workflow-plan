@@ -2,15 +2,15 @@
 
 [Handoff](Ship-Verified-SupraOS-Agent-Workflows.md) · [Checklist](SupraOS-Workflow-Plan-Checklist.md) · [Dependency plan](Delivery-Path-Release-Plan.md) · [Evidence index](Evidence-Index.md) · [Canonical record](workflow-plan.json) · [Repository instructions](AGENTS.md)
 
-Delivery strategy revision: **2026-10-05T02:21:46Z**. Canonical record SHA-256: `427250ab9ca186581bda0883099eada51b2cf50af5dca02fa3b260938a1113aa`.
+Delivery strategy revision: **2026-10-05T04:39:50Z**. Canonical record SHA-256: `e02d020257aa9cc42d4a340e6d9ba79d30092ac0f215631a224cb7de9345c8a6`.
 
-**Execution state:** PAUSED by explicit user request at approximately 2026-10-05T02:04:00Z. Product implementation and new qualification stopped; only already-running test collection, source/evidence preservation and this documentation publication continued. The planned eight-hour run ended early after approximately 63 minutes. No automatic resumption.
+**Execution state:** RESUMED 2026-10-05T02:30Z by owner instruction (Claude root + three Claude Opus lanes; Codex connector unavailable). One composed candidate is FROZEN and in PR #6196 awaiting required box-ci checks. Production schema installation (24 packets) and the merge are blocked for this agent session by the permission system (classified as production deploy) and are handed to the owner with exact commands. No W7 merge, deployment, activation or authenticated live acceptance has occurred.
 
 **Scope:** all 33 tasks, 16 behavior families and 12 supported surfaces remain required. W7 is an intermediate milestone. iMessage is deferred; WhatsApp is excluded.
 
-**Current delivery checkpoint:** Three independent successors are committed and remotely preserved: drain/server/SQL 48751b50252cb66555d0b427a47930d1bc68adb9; mounted rerun client 2dc7e3809278e071b9183cdbe53062d88e297b7d; runtime identity binding 82b010441ad1a82e66368585f7ddd68d5cfc9103. They are NOT a combined release candidate. Drain native qualification has not run. Runtime has 19 bounded private native cases PASS; client has independently inspected mounted Linux browser evidence. Exact combined native/browser/required CI, installation, activation and authenticated live acceptance remain open. No W7 merge/deployment occurred
+**Current delivery checkpoint:** Composed candidate `3214f4849e3bb0517b60ee17821826918ee11147` on branch `claude/w7-drain-rerun-compose-20261005` (PR [#6196](https://github.com/jtobkin/suprafx-platform/pull/6196)) = ad2ee680 + 48751b50 + 2dc7e380 + 82b01044 + main 877f3d08, plus: explicit fixture provenance, four fixture defects fixed, manifest-bound caller bundle, three caller repairs found by independent verification (projects-route birth provenance, coordinator false-abandoned log, execute terminal-authority check), and two migration version collisions renumbered (20261002101000, 20261004121000). Independent evidence at the exact candidate on cc-box: native contract 26/26, ordered 24/24 packet install + VERIFY as non-superuser postgres, browser 46/46 (Playwright/Chrome 152); unit 896 pass / 0 fail. Production holds none of the 24 packets; no feature flag gates the behaviour, so the packets must be applied and verified on production before merge. Trailing audit at the frozen sha in progress
 
-**Current candidate record:** `ad2ee680464217fd1b00883bf7ea9fc917ed3140`, tree `d646dcd04525189171ee67fc83098667cac6d290`. Security: PASS 51 steps; build: PASS 7 steps; macOS Native Land: Not run. Merged: False; deployed: False; activated: False; verified live: False. Scope: LAST QUALIFIED BASELINE ONLY, predating the three paused successors; partial W7, full scope open. Its CI results do not qualify 48751b50, 2dc7e380 or 82b01044. Observed: 2026-10-04T23:50:26Z. Update this canonical candidate record after changes; never infer status from historical receipts.
+**Current candidate record:** `3214f4849e3bb0517b60ee17821826918ee11147`, tree `(see git)`. Security: box-ci/security-gates pending (queued 04:40Z); build: box-ci/production-build pending; macOS Native Land: Not run (not part of box-ci). Merged: False; deployed: False; activated: False; verified live: False. Scope: Frozen composed W7 failure-drain/rerun candidate (partial W7; full scope open). Supersedes ad2ee680 as the candidate; ad2's CI does not qualify it. Observed: 2026-10-05T04:39:50Z. Update this canonical candidate record after changes; never infer status from historical receipts.
 
 **Dated recovery baseline:** strict E3 was RED with 6,540 blockers at the prior closeout. These observations are not permission to skip fresh release checks.
 
@@ -349,7 +349,7 @@ The existing manifests and private packet are the starting point. Consolidation 
   "candidateFreezeToDeployment": null,
   "deploymentToIndependentLiveAcceptance": null,
   "interpretation": "Unknown until recorded; gate PASS does not imply deployment",
-  "lastQualifiedCandidate": "ad2ee680464217fd1b00883bf7ea9fc917ed3140",
+  "lastQualifiedCandidate": "ad2ee680464217fd1b00883bf7ea9fc917ed3140 (last with required CI PASS); 3214f4849e3bb0517b60ee17821826918ee11147 frozen 2026-10-05T04:39:50Z, CI pending",
   "lastGateObservation": "2026-10-04T23:50:26Z",
   "implementationPausedAt": "2026-10-05T02:04:00Z (approximate minute)",
   "activeRun": {
@@ -370,7 +370,16 @@ The existing manifests and private packet are the starting point. Consolidation 
     "actualImplementationElapsed": "Approximately 63 minutes; planned eight hours superseded by explicit pause",
     "closeout": "Documentation, evidence preservation and publication only"
   },
-  "lastDependencyClosed": "Exact source branches and bounded independent evidence preserved; runtime identity helper/bridge integration has private native proof and rerun client recovery has scoped browser proof. No deployment dependency is claimed closed by those tests."
+  "lastDependencyClosed": "Exact source branches and bounded independent evidence preserved; runtime identity helper/bridge integration has private native proof and rerun client recovery has scoped browser proof. No deployment dependency is claimed closed by those tests.",
+  "candidateFrozenAt": "2026-10-05T04:39:50Z",
+  "resumedAt": "2026-10-05T02:30:00Z",
+  "waits": {
+    "implementationLane": "~93 min",
+    "verificationLane": "~61 min",
+    "prerequisitesLane": "~44 min",
+    "rootComposition": "~40 min (two merges of a fast-moving main, two collisions)",
+    "permissionBlocks": "restored-copy rehearsal on AWS host; production apply; merge \u2014 handed to owner"
+  }
 }
 ```
 
