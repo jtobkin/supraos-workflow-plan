@@ -1,0 +1,52 @@
+{
+  "kind": "independent-pause-document-fidelity-review",
+  "at": "2026-10-05T02:22:55.270362+00:00",
+  "status": "PASS_FINAL_CONTENT_PENDING_PUBLICATION_AND_BROWSER",
+  "inputHashes": {
+    "review/pre-pause-canonical.json": "b1e6aff578d06151e88e474c47256921cbd135141a8fda547c8ad546f8337dba",
+    "workflow-plan.json": "427250ab9ca186581bda0883099eada51b2cf50af5dca02fa3b260938a1113aa",
+    "scripts/render_plan.py": "3b75b70455ef0675ea1f06fad807af0b186bd90b6c7e33347b2fca544f391b44",
+    "Ship-Verified-SupraOS-Agent-Workflows.md": "c69d537f2703f951b2038459a47e70742cd3e48fac7fcc82573a70581fd0e26b",
+    "SupraOS-Workflow-Plan-Checklist.md": "2b3ff70c888e891a4e4d2e43ed31c09318951428efcd7d01c22cec69346798ea",
+    "Delivery-Path-Release-Plan.md": "ee800469957c676878d3083a4aa95ac0f8ca1a80d4c5ec9c05b62bdbd701f0e8",
+    "Evidence-Index.md": "ad7ba2a85842c582fd18f67db8dfc750fb711f54e7b4d451c54463b61777f4ac"
+  },
+  "invariants": {
+    "tasks": 33,
+    "baselineRecordsAcceptanceOriginalDependenciesOwners": "exactly unchanged",
+    "sourceReferences": "31 exact; W7 and R3B append successor references with original text retained",
+    "scope": "16 behavior families and 12 supported surfaces unchanged",
+    "permanentPrinciples": 13,
+    "historicalStepsSlicesReuseInventory": "unchanged",
+    "rendererCheck": "PASS",
+    "baselineMachinePlan": {
+      "sha256": "433cecdff532b7633325df405e90f7c44fd56b8ff04503ef33879da8623b17c3",
+      "all33BaselineRecordsExact": true
+    }
+  },
+  "review": [
+    "Exact three saved branches/commits separately identified; ad2 qualified baseline does not qualify successors.",
+    "Pause and explicit future resume boundary; no automatic restart.",
+    "Drain final native unexecuted; bundle/runner unfinished; final source review and combined gates open.",
+    "Browser counts tied to different source revisions, not summed into exact candidate result.",
+    "Runtime private native proof does not imply hosted role/ACL/pooler activation.",
+    "Selected target metadata keeps separate snapshots and observed scope.",
+    "Fresh clone and exact commit worktree instructions preserve source; no archived launcher execution or migration glob.",
+    "Code reuse map and first five tasks retain existing harness and original acceptance contracts.",
+    "Runtime eleven-file code map confirmed with exact commit listing."
+  ],
+  "blockingFindings": [],
+  "pending": [
+    "Private remote publication/readback receipt from archive lane",
+    "Anonymous published exact-commit browser and screenshot review"
+  ],
+  "productActions": "none",
+  "privateRecoveryReview": {
+    "commit": "74fd979aa5c0237076ca3547eb5acb8366a26d73",
+    "manifestSha256": "4c9281938bd4ad3877d80febd84594241af71a7a6cfb7e253cd488cf10d92419",
+    "files": 406,
+    "objects": 319,
+    "commands": "Explicit branch fetch, exact commit archive, plain extraction into new directory, reconstruct relative to script location; optional new absolute output; no archived launchers",
+    "remoteState": "Publication/readback separately reviewed by archive lane; not inferred here"
+  }
+}
