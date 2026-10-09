@@ -1,6 +1,6 @@
 # SupraOS workflow delivery
 
-The implementation session is paused at the owner-requested cutoff, 2026-10-02 19:36:59 UTC (2026-10-03 03:36:59 Hong Kong). The project remains unfinished.
+The owner resumed implementation on 2026-10-09 at 01:55:45 UTC, for up to five hours or completion. The project remains unfinished. See the dated checkpoint in the canonical record and generated handoff for qualified, deployed, activated and live-verified status; earlier pause records remain historical.
 
 - [Detailed handoff and fresh-computer setup](Ship-Verified-SupraOS-Agent-Workflows.md)
 - [Release plan and task checklist](SupraOS-Workflow-Plan-Checklist.md)
