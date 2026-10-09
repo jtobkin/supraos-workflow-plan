@@ -1,6 +1,6 @@
 # SupraOS workflow delivery
 
-The owner resumed implementation on 2026-10-09 at 01:55:45 UTC, for up to five hours or completion. The project remains unfinished. See the dated checkpoint in the canonical record and generated handoff for qualified, deployed, activated and live-verified status; earlier pause records remain historical.
+The owner renewed implementation on 2026-10-09 at 07:15:44 UTC, until 12:15:44 UTC or verified completion. The project remains unfinished. See the dated checkpoint in the canonical record and generated handoff for qualified, deployed, activated and live-verified status; earlier pause records remain historical.
 
 - [Detailed handoff and fresh-computer setup](Ship-Verified-SupraOS-Agent-Workflows.md)
 - [Release plan and task checklist](SupraOS-Workflow-Plan-Checklist.md)
